@@ -8,7 +8,6 @@ title = "Model all state in an application"
 +++
 
 
-
 A model (the M in MVC) holds the state, logic and rules of an application, it should exist independently of the backend or front-end framework. You could replace React with Vue, or replace the DOM with an iPhone UI and the logic of the application would be untouched.
 
 A model is the store of data with methods for performing CRUD updates and other transformations to that data.
