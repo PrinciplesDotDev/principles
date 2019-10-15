@@ -8,11 +8,11 @@ title = "Model all state in an application"
 +++
 
 
-A model (the M in MVC) holds the state, logic and rules of an application, it should exist independently of the backend or front-end framework. You could replace React with Vue, or replace the DOM with an iPhone UI and the logic of the application would be untouched.
+A model (the M in MVC) holds the state, logic and rules of an application, it should ideally exist independently of the backend or front-end framework. You could replace a web app with an iOS app and the logic of the modelling layer would be the same.
 
 A model is the store of data with methods for performing CRUD updates and other transformations to that data.
 
-Everything should be modeled, there should be no state that exists within an application that goes un-modelled. Modelling requires thought to design and a basic understanding of the domain the application is designed for.
+Modelling requires thought to design and a basic understanding of the domain the application is designed for.
 
 When data is modelled it represents the state of the application. You can inspect, query and interrogate it. When you view the model, you know what state your application is in.
 
