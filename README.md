@@ -1,4 +1,5 @@
 # Principles :clipboard:
+
 The repository outlines a list of principles used in software development to help guide developers and build great teams.
 
 ## Principle format
@@ -12,6 +13,11 @@ Principles are divided into a few parts
 * Definitions of terms: Words with overloaded or unclear meanings need to be explained (e.g. a unit test, define what unit means, or what a model is in MVC).
 * Resources: Contributing towards the text or further reading
 
+
+## Format of a Principle
+
+How to format your own principles can be found [here](https://pdd.dev/principle-specification/)
+
 ## Contributing
 
-This is work in progress. But if you're really passionate about principles and see the value in documenting them for the future. Either open an issue or get in touch.
+This is work in progress. But if you're really passionate about principles and see the value in documenting them for the future. You can open an issue or get in touch.
