@@ -18,15 +18,15 @@ Computed (or Derived) properties are properties that don't store values in memor
 ### Example
 
 ```js
-  class User {
-    constructor(firstName, lastName) {
-      this.firstName = firstName;
-      this.lastName = lastName;
-    }
-    get fullName() {
-        return `${this.firstname} ${this.lastName}`;
-    }
+class User {
+  constructor(firstName, lastName) {
+    this.firstName = firstName;
+    this.lastName = lastName;
   }
+  get fullName() {
+      return `${this.firstname} ${this.lastName}`;
+  }
+}
 ```
 
 ## Exceptions
@@ -41,4 +41,6 @@ Computed (or Derived) properties are properties that don't store values in memor
 
 ## Contributors:
 
-<a class="contributor" alt="Adam Craven" href="https://github.com/adamcraven"><img src="https://github.com/adamcraven.png?size=80" width="40"></a>
+<a class="contributor" alt="Adam Craven" href="https://github.com/adamcraven">
+  <img src="https://github.com/adamcraven.png?size=80" width="40">
+</a>
