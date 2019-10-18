@@ -8,11 +8,13 @@ title = "Compute properties when possible"
 
 Computed (or Derived) properties are properties that return values only when they are accessed by reading other properties or functions.
 
-Computed properties are easy to reason about. The relationships between properties are explicit and the ‘recipe’ for creating the property can be seen in the code where its method exists.
+## Why 
 
-There is a reduced amount of properties to set, so no bugs are created as a consequence of forgetting to do that and it's easy to unit test a computed property throughly.
+* Computed properties are easy to reason about. The relationships between properties are explicit and the ‘recipe’ for creating the property can be seen in the code where its method exists.
+* There are less properties to set, so no bugs are created as a consequence of forgetting to do that.
+* Finally, it is easy to unit test a computed property throughly and provide high levels of confidence in the code.
 
-A common example of a computed property is below:
+### Example
 
 ```
   class User {
@@ -26,11 +28,14 @@ A common example of a computed property is below:
   }
 ```
 
+## Exceptions
 
-Computed properties can also be used in many different contexts, such as an ETL process:
+* Except in cases where performance is extremely critical, as runtime accessing of values is slightly slower
+
+## Resources:
+
+* Swift implementation of computed properties: https://docs.swift.org/swift-book/LanguageGuide/Properties.html#ID259
+* VueJS explanation https://vuejs.org/v2/guide/computed.html
 
 
-Raw data files => Computed properties => Output
 
-
-Exceptions: If read performance is critical, computed values will slow down the output.
