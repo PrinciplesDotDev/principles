@@ -10,6 +10,8 @@ summary = "When software behaves unexpectedly, it should be easy to understand w
 
 When software behaves unexpectedly, it should be easy to understand what is causing the problem.
 
+
+
 One of the largest unaccounted for time sinks in engineering is figuring out unexpected problems. Bad debugging tools, poor error messages and bad logs increase the time taken to resolve an issue.
 
 If an engineers environment is not setup in a way that can be used to easily pin down a problem, it takes longer than necessary to figure out the problem. Each time another issue occurs the inefficiency is compounded. Therefore, it is a productive use of time to ensure engineers environments are easy to debug.
