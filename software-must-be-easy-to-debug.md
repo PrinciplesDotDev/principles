@@ -10,6 +10,12 @@ summary = "When software behaves unexpectedly, it should be easy to understand w
 
 When software behaves unexpectedly, it should be easy to understand what is causing the problem.
 
+## Why
+
+* Problems can be understood without the need for issues.
+* Time is reduced in fixing a problem.
+* A program can be understood much better when tools are available for debugging.
+
 
 
 One of the largest unaccounted for time sinks in engineering is figuring out unexpected problems. Bad debugging tools, poor error messages and bad logs increase the time taken to resolve an issue.
@@ -18,7 +24,9 @@ If an engineers environment is not setup in a way that can be used to easily pin
 
 This principle applies to every environment from a local machine to production. The easier it is to debug, the more productive a team can be.
 
-Examples of specific implementations:
+## Examples
+
+Specific implementations:
 
 * Stacks traces
     * Should: Be Accurate and detailed
