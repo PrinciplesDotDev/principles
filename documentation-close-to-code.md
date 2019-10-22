@@ -8,7 +8,7 @@ title = "Documentation should be as close as it can be to the code"
 
 Documentation, in all forms, should be as close as it can be to the code.
 
-The further away documentation is from the source of the code, the more *friction* will be created in understanding the code, the slower the teams output will be and the more likely it will go unmaintained.
+The further away documentation is from the source of the code, the more difficult it becomes to understand the code. more *friction* is created in understanding the code, the slower the teams output will be and the more likely it will go unmaintained.
 
 There are many forms of documentation:
 
@@ -22,7 +22,12 @@ There are many forms of documentation:
 
 Note: Whilst good code should be self-documenting, it is not in itself classed as documentation.
 
-**Example**
+### Example
 
 Unit tests should be next to the file that it is testing, not in a directory away from the source code.
 Generated documentation should exist within the applicable logical grouping within a code base (e.g. within a mircoservice, module or app folder that it is most relevant to) and can be exported to an external wiki, rather than an external wiki edited away from the code base.
+
+
+## Contributors 
+
+<a class="contributor" alt="Adam Craven" href="https://github.com/adamcraven"><img src="https://github.com/adamcraven.png?size=80" width="40"></a>
