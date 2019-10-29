@@ -9,12 +9,20 @@ Computed (or Derived) properties are properties that don't store values in memor
 
 ## Why 
 
-
 * Computed properties are easy to reason about. The relationships between properties are explicit and the ‘recipe’ for creating the property can be seen in the code where its method exists.
 * There are less properties to set, so no bugs are created as a consequence of forgetting to do that.
 * Computed properties lend themselves well to unit testing by having pre-defined inputs, which increases confidence in the code.
 
-### Example
+## How 
+
+Convert the following properties to computed properties.
+
+* Properties that rely on two or more external properties to produce an output
+* Properties that when written produce a different output to what the receiving function was given.
+
+If a property is modified by an external function before it is saved. It can be computed on read instead by computing 
+
+#### Example: Property that relies upon two or more external properties
 
 ```js
 class User {
@@ -22,15 +30,43 @@ class User {
     this.firstName = firstName;
     this.lastName = lastName;
   }
-  get fullName() {
+  get fullName() { // Computed property
       return `${this.firstname} ${this.lastName}`;
+  }
+}
+```
+
+#### Example: Property modified by an external function before save
+
+Properties are saved on write:
+```js
+class Product {
+  setWeight(weightInGrams) {
+    this.weightInGrams = weightInGrams;
+    this.weightInKg = convertToKg(weightInGrams);
+    this.weightInPounds = convertToPounds(weightInGrams);
+  }
+}
+```
+
+Properties are created on read:
+```js
+class Product {
+  setWeight(weightInGrams) {
+    this.weightInGrams = weightInGrams;
+  }
+  get weightInKg() {
+    return convertToKg(this.weightInGrams);
+  }
+  get weightInPounds() {
+    return convertToPounds(this.weightInGrams);
   }
 }
 ```
 
 ## Exceptions
 
-* Except in cases where performance is critical. As computed values are slower to access compared to values that are directly stored in memory.
+* **When performance is critical**. Computed properties are slower to access than values directly stored in memory.
 
 ## Resources:
 
