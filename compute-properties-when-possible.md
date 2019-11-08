@@ -17,21 +17,21 @@ Computed (or Derived) properties are properties that don't store values in memor
 
 The following properties can be converted to computed properties:
 
-### Properties that rely on bringing together more than one external properties to produce an output.
+### Properties that rely on bringing together more than one property to return a value.
 
-Properties that rely on more than one external property (`fullName`):
+In this example, the 'fullName' property relies on firstName and lastName to return a value.
 
 ```js
 class User {
   constructor(firstName, lastName) {
     this.firstName = firstName;
     this.lastName = lastName;
-    this.fullName = `${this.firstname} ${this.lastName}`;
+    this.fullName = `${firstName} ${lastName}`;
   }
 }
 ```
 
-Can be computed to produce an output:
+Which should be computed to produce an output:
 
 ```js
 class User {
@@ -47,7 +47,7 @@ class User {
 
 ### Properties that are transformed before they are saved
 
-Properties that are saved on write:
+Properties that are adjusted before they are saved on a write:
 ```js
 class Product {
   setWeight(weightInGrams) {
@@ -58,7 +58,7 @@ class Product {
 }
 ```
 
-Can become properties that are computed on read:
+Should instead become properties that are computed on read:
 
 ```js
 class Product {
