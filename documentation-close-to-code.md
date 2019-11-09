@@ -8,9 +8,31 @@ title = "Documentation should be as close as it can be to the code"
 
 Documentation, in all forms, should be as close as it can be to the code.
 
-The further away documentation is from the source of the code, the more difficult it becomes to understand the code. more *friction* is created in understanding the code, the slower the teams output will be and the more likely it will go unmaintained.
+## Why
 
-There are many forms of documentation:
+The further away documentation is from the source of the code as more *friction* is created in understanding the code, this will also slow down the teams output.
+
+* If the documentation is not readily accessible, it will be used less and the more likely it will go unmaintained.
+
+
+## How
+
+
+To understand how it can be done, we need to look a the different levels of documentation, starting close to the code can getting further away.
+
+### Text Editor
+
+The text editor, through autocomplete and IDE ***live code commenting*** (what is it precisely?), provides the closest documentation by listing APIs methods and. Using an IDE with the ability to do that and also using a language which makes that functionality easier (such as a static language).
+
+### Comments
+
+Commented code, that explains the purpose of the code. It can also be used to enrich generated documentation. If it is correctly formatted it can be used to generate accurate documentation. This is useful between bounded contexts (****tODO: EXPLAIN) or APIs between systems, as the documentation here should be thorough. This prevents the need for a separate file to document the API and the developer can evaluate quickly if the documentation is correct and will be spotted between code reviews.
+
+### Unit tests
+
+Unit tests are concrete examples of how to interact with the code. These examples act as some of the best documentation. They should be right next to the source code.
+
+
 
 * IDEs - Documentation through autocompletion and inbuilt API tools.
 * Comments - Explaining the purpose of the code (by convention, this already exists close to the code)
