@@ -7,14 +7,31 @@ title = "Compute properties when possible"
 
 Computed (or Derived) properties are properties that don't store values in memory, but return values when they are called by reading values from other properties or functions.
 
-## Why
+## Why 
 
 * Computed properties are easy to reason about. The relationships between properties are explicit and the ‘recipe’ for creating the property can be seen in the code where its method exists.
 * There are less properties to set, so no bugs are created as a consequence of forgetting to do that.
 * Computed properties lend themselves well to unit testing by having pre-defined inputs, which increases confidence in the code.
 
-### Example
+## How 
 
+The following properties can be converted to computed properties:
+
+### Properties that rely on bringing together more than one property to return a value.
+
+In this example, the 'fullName' property relies on firstName and lastName to return a value.
+
+```js
+class User {
+  constructor(firstName, lastName) {
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.fullName = `${firstName} ${lastName}`;
+  }
+}
+```
+
+Which should be computed to produce an output:
 
 ```js
 class User {
@@ -22,18 +39,44 @@ class User {
     this.firstName = firstName;
     this.lastName = lastName;
   }
-  get fullName() {
-      return `${this.firstName} ${this.lastName}`;
+  get fullName() { // Computed property
+      return `${this.firstname} ${this.lastName}`;
   }
 }
 ```
 
-fullname is computed by bringing together firstName and lastName. Fullname cannot be updated directly, either firstName or lastName must be updated.
+### Properties that are transformed before they are saved
 
+Properties that are adjusted before they are saved on a write:
+```js
+class Product {
+  setWeight(weightInGrams) {
+    this.weightInGrams = weightInGrams;
+    this.weightInKg = convertToKg(weightInGrams);
+    this.weightInPounds = convertToPounds(weightInGrams);
+  }
+}
+```
+
+Should instead become properties that are computed on read:
+
+```js
+class Product {
+  setWeight(weightInGrams) {
+    this.weightInGrams = weightInGrams;
+  }
+  get weightInKg() {
+    return convertToKg(this.weightInGrams);
+  }
+  get weightInPounds() {
+    return convertToPounds(this.weightInGrams);
+  }
+}
+```
 
 ## Exceptions
 
-* Except in cases where performance is critical. As computed values are slower to access compared to values that are directly stored in memory.
+* **When performance is critical**. Computed properties are slower to access than values directly stored in memory.
 
 ## Resources
 
