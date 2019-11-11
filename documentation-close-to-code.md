@@ -30,7 +30,7 @@ Commented code, that explains the purpose of the code. It can also be used to en
 
 ### Unit tests - Live next to the files being tested.
 
-Unit tests are concrete examples of how to interact with the code. These examples act as some of the best documentation available. They should be right next to the source code. It also provides the additional benefit of giving a quick overview of which files have been tested or not.
+Unit tests are concrete examples of how to interact with the code. These examples act as some of the best documentation available. They should be right next to the source code. It also provides the additional benefit of being able to see which files have tests or don't have tests.
 
 ### Integration tests - Sit within the module or application level.
 
@@ -38,16 +38,16 @@ Integration tests provide information on how the code should from a user perspec
 
 ### General documentation - Be next to an applicable grouping.
 
-General documentation, such as readmes, which are commonly written in markdown format should exist at whichever level is most appropriate. It is common to see readme.md files at the top level of a project, but they can exist at any level, such as within a module within a project. When this is implemented, the top level README.md may have hyperlinks to lower level READMEs, as the lower level readmes will contain more specific documentation.
+General documentation, which is often seen on open source projects as README.md files, which are commonly written in markdown format should exist within the applicable logical grouping within a code base (e.g. a module or app folder that it is most relevant to). It is common to see README.md files at the top level of a project, but they can exist at any level. One side effect is the highest level README.md tends to either reference or link to lower level README.md files which contain more in depth documentation which is closer to the code.
 
 ### External documentation - Should be generated from the project.
 
-External documentation, used for communicating to people external of your team, should exist within the applicable logical grouping within a code base (e.g. within a mircoservice, module or app folder that it is most relevant to) and can be exported to an external wiki, rather than an external wiki edited away from the code base.
+External documentation, used for communicating to people external of your team, should exist within the applicable logical grouping within a code base (e.g. a module or app folder that it is most relevant to) and can be exported to an external wiki, rather than an external wiki edited away from the code base.
 
-### Principles - Should be kept within a project.
 
-A list of princples.
+## Terms
 
+* Define Module:
 
 
 ## Contributors 
