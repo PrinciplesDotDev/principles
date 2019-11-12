@@ -3,22 +3,23 @@
 Categories = ["Code Quality"]
 Description = ""
 Tags = ["documentation"]
-title = "Documentation should be as close as it can be to the code"
+title = "Documentation should be close to the code"
 +++
 
 Documentation, in all forms, should be as close as it can be to the code.
 
 ## Why
 
-* The further away documentation is from the source of the code as more *friction* is created in understanding the code, which will slow down the teams output.
-* Documentation will have a higher chance of being accurate and up to date. As it is readily accessible to read and update 
-
+* It will increase the teams productivity. The further away documentation is from code, the more *friction* is created in understanding the code.
+* Documentation will have a higher chance of being accurate and up to date. As it is readily accessible to read and update.
 
 ## How
 
 The how varies by what type of documentation. But the goal is to bring the documentation as close to the code as it can be whilst maintaining a grouping that makes sense.
 
 To understand how it can be done, we need to look a the many types of documentation, starting close to the code and getting further away.
+
+<!-- This needs to be split off into a separate section, it's apart of the how, indeed. But it also is not succinct -->
 
 ### Editor
 
@@ -45,11 +46,15 @@ The commented code can also be used to generate accurate documentation. This pre
 
 Unit tests are concrete examples of how to interact with the code. These examples act as some of the best documentation available. They should be right next to the source code. It also provides the additional benefit of being able to see which files are already tested.
 
+### Scaffolded components
+
+**Sit next to the component**
+
+Scaffolded components (or widgets), are components which can be loaded separately from the app. They are concrete examples of how to interact with code as it is very easy to see all the dependencies, functionality and how the component works.
+
 ### Integration tests
 
 **Sit within the module or application level**
-
-
 
 Integration tests (http://softwaretestingfundamentals.com/integration-testing/) tests the interaction of more than one module often using a tool such as selenium. Integration tests that relate to a single module, should be grouped with that module if that module can be run as standalone. Integration tests more commonly test the interaction of multiple modules interacting together and should be grouped with the application itself.
 

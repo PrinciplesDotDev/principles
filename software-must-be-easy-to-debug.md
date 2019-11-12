@@ -2,7 +2,7 @@
 +++
 Categories = ["Process"]
 Description = ""
-Tags = ["errors", "debugging", "logs", "environment setup", "language choice"]
+Tags = ["errors", "debugging", "logs", "environment setup", "language choice", "productivity"]
 title = "Software must be easy to debug"
 summary = "When software behaves unexpectedly, it should be easy to understand what is causing the problem."
 +++
@@ -12,9 +12,9 @@ When software behaves unexpectedly, it should be easy to understand what is caus
 
 ## Why
 
-* Problems can be understood without the need for issues.
 * Time is reduced in fixing a problem.
-* A program can be understood much better when tools are available for debugging.
+* A problem that can be understood without difficulty allows the developer to fix it rapidly, which greatly increases developer productivity.
+* *Friction* caused by not understanding a problem leads to frustration for the developer.
 
 
 
