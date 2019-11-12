@@ -11,14 +11,19 @@ Data should be held in one location, duplicates of that data should be by refere
 
 ## Why
 
-* Changes to data are always propogated to the rest of the system.
+* Changes to data are always propagated to the rest of the system.
 * Mutations to the data need only happen in one place.
-* There is no chance of duplicate data, which can either be lost or fail to be updated.
+* Single source of truth means no data will be out of sync or fail to be updated.
+
+### How
+
+Have a central store, or model, that allow updates to occur in a uni-directional way. Which in practice means only allowing writes to data to happen in one location, whether that be a call to a rest API, system call or file, whilst reading the data can happen from anywhere.
 
 
 ## Exceptions
 
-* This principle is unlikely to apply between different team specialisations such as front-end vs backend, teams within an organisation, between different systems caching vs database or large distributed systems.
+**Between teams** This principle is harder to apply between different team specialisations such as front-end vs backend, teams within an organisation, between different systems: caching vs database or large distributed systems.
+
 
 
 ## References

@@ -10,25 +10,21 @@ Documentation, in all forms, should be as close as it can be to the code.
 
 ## Why
 
-The further away documentation is from the source of the code as more *friction* is created in understanding the code, this will also slow down the teams output.
+* The further away documentation is from the source of the code as more *friction* is created in understanding the code, which will slow down the teams output.
+* Documentation will have a higher chance of being accurate and up to date. As it is readily accessible to read and update 
 
-* If the documentation is not readily accessible, it will be used less and the more likely it will go unmaintained.
-
-The documentation will have a higher chance of being accurate and up to date. The documentation will be updated by through the process of it being easily accessible to modify and read and monitored by the team if performing code reviews.
 
 ## How
 
-The how varies by what type of documentation. But the essence is simple, bring the documentation to the most obvious lowest level gro
+The how varies by what type of documentation. But the goal is to bring the documentation as close to the code as it can be whilst maintaining a grouping that makes sense.
 
-
- applicable factor is applicable logical grouping, but it can be summed up by bringing code t
-To understand how it can be done, we need to look a the different levels of documentation, starting close to the code can getting further away.
+To understand how it can be done, we need to look a the many types of documentation, starting close to the code and getting further away.
 
 ### Editor
 
 **Use IDE features**
 
-By using an editor with code completion, parameter info, quick info and member lists. It provides the closest documentation by assisting a developer as they are writing code. Using an IDE with the ability to do that and also using a language which makes that functionality easier (such as a static language).
+By using an editor with code completion, parameter info, quick info and member lists. It provides the closest documentation by assisting a developer during the writing of code. Using an IDE with the ability to do that and also using a language which makes that functionality easier (such as a static language) can both be helpful.
 
 An example of Visual Studio Code's Intellisense: (https://code.visualstudio.com/docs/editor/intellisense)
 
@@ -39,15 +35,15 @@ An example of Visual Studio Code's Intellisense: (https://code.visualstudio.com/
 
 **Explains purpose of the code and can be used for generated documentation** 
 
-Commented code, that explains the purpose of the code, is a natural application of this principle and what developers will tend to do naturally. 
+Commented code, that explains the purpose of the code, is a natural application of this principle and what developers are used to doing.
 
-The commented code can also be used to generate accurate documentation. This prevents the need for a separate file to document the API and as it resides with the code itself will more often get seen, referred to and can kept in date.
+The commented code can also be used to generate accurate documentation. This prevents the need for a separate file to document the API. Because it is next to the code it will more often be seen, referred to, monitored (e.g. a code review) and can kept up to date.
 
 ### Unit tests 
 
-**Live next to the files being tested**
+**Should be next to the files being tested**
 
-Unit tests are concrete examples of how to interact with the code. These examples act as some of the best documentation available. They should be right next to the source code. It also provides the additional benefit of being able to see which files have tests or don't have tests.
+Unit tests are concrete examples of how to interact with the code. These examples act as some of the best documentation available. They should be right next to the source code. It also provides the additional benefit of being able to see which files are already tested.
 
 ### Integration tests
 
@@ -55,23 +51,19 @@ Unit tests are concrete examples of how to interact with the code. These example
 
 
 
-Integration tests provide information on how the code should from a user perspective (e.g. selenium). Integration tests that relate to a single module, should be grouped with that module if that module can be run as a standalone "widget". Integration tests more commonly test the interaction of multiple modules interacting together and should be grouped with the application itself.
+Integration tests (http://softwaretestingfundamentals.com/integration-testing/) tests the interaction of more than one module often using a tool such as selenium. Integration tests that relate to a single module, should be grouped with that module if that module can be run as standalone. Integration tests more commonly test the interaction of multiple modules interacting together and should be grouped with the application itself.
 
 ### General documentation
 
-**Be next to an applicable grouping.**
+**Be within the codebase**
 
-General documentation, which is often seen on open source projects as README.md files, which are commonly written in markdown format should exist within the applicable logical grouping within a code base (e.g. a module or app folder that it is most relevant to). It is common to see README.md files at the top level of a project, but they can exist at any level. One side effect is the highest level README.md tends to either reference or link to lower level README.md files which contain more in depth documentation which is closer to the code.
+General documentation, which are commonly written as README.md files in markdown format, should exist within the applicable logical grouping within a code base (e.g. a module or app folder that it is most relevant to). It is common to see README.md files at the top level of a project, but they can exist at any level. When implemented across a project, one side effect is the highest level README.md tends to either reference or link to lower level README.md files which contain more in depth documentation which is closer to the code.
 
 ### External documentation
 **Should be generated from the project.**
 
 External documentation, used for communicating to people external of your team, should exist within the applicable logical grouping within a code base (e.g. a module or app folder that it is most relevant to) and can be exported to an external wiki, rather than an external wiki edited away from the code base.
 
-
-## Terms
-
-* Define Module:
 
 
 ## Contributors 
