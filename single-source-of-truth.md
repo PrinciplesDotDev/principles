@@ -8,10 +8,31 @@ title = "One single source of truth"
 
 Data should be held in one location, duplicates of that data should be by reference only.
 
-Modifications that happen to data in one place ensure that the change will propogate to rest of the application or system without having to update in multiple places, which can cause state to be lost or duplicate values not to be updated.
 
-Exceptions: This principle is unlikely to apply between different team specilisations such as front-end vs backend, teams within an organisation, or between different systems caching vs database.
+## Why
+
+* Changes to data are always propagated to the rest of the system.
+* Mutations to the data need only happen in one place.
+* Single source of truth means no data will be out of sync or fail to be updated.
+
+### How
+
+Only allow data writes to happen in one location. Whether that be a call to a rest API, system call or file. Whilst allowing reading of data to happen from anywhere.
+
+## Exceptions
+
+**Highly distributed systems** Some systems rely on not being in sync or are designed in which consistency is eventually or never reached.
+<!--**Between teams** This principle is harder to apply between different team specialisations such as front-end vs backend, teams within an organisation, between different systems: caching vs database or large distributed systems.-->
 
 
+
+## References
 Further reading:
 https://en.wikipedia.org/wiki/Single_source_of_truth
+
+
+## Contributors
+
+<a class="contributor" alt="Adam Craven" href="https://github.com/adamcraven">
+  <img src="https://github.com/adamcraven.png?size=80" width="40">
+</a>

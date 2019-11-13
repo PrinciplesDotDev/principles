@@ -78,13 +78,13 @@ class Product {
 
 * **When performance is critical**. Computed properties are slower to access than values directly stored in memory.
 
-## Resources:
+## Resources
 
 * Swift implementation of computed properties: https://docs.swift.org/swift-book/LanguageGuide/Properties.html#ID259
 * VueJS explanation https://vuejs.org/v2/guide/computed.html
 
 
-## Contributors:
+## Contributors
 
 <a class="contributor" alt="Adam Craven" href="https://github.com/adamcraven">
   <img src="https://github.com/adamcraven.png?size=80" width="40">
