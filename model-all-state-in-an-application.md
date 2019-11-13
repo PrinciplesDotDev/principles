@@ -15,8 +15,6 @@ The model is distilled knowledge - It records information and teachings within a
 
 The model is an object - It has properties and methods that can be visualised as an entity, which makes conceptualisation of the program easier.
 
-When everything is modelled
-
 
 ```
 // A basic User model in vanilla JS
