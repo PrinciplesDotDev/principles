@@ -12,7 +12,7 @@ A model (the M in MVC) holds the state, logic and rules of an application, it sh
 
 All state should be modelled because modeling
 
-The model is distilled knowedge - It records information and teachings within an area that is easy to find.
+The model is distilled knowledge - It records information and teachings within an area that is easy to find.
 
 The model is an object - It has properties and methods that can be visualised as an entity, which makes conceptualisation of the program easier.
 

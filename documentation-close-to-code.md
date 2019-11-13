@@ -3,23 +3,27 @@
 Categories = ["Code Quality"]
 Description = ""
 Tags = ["documentation"]
-title = "Documentation should be close to the code"
+title = "Documentation must be close to the code"
 +++
 
-Documentation, in all forms, should be as close as it can be to the code.
+Documentation, in all forms, must be as close as it can be to the code.
 
 ## Why
 
-* It will increase the teams productivity. The further away documentation is from code, the more *friction* is created in understanding the code.
+* Increase the teams productivity. The further away documentation is from code, the more *friction* is created in understanding the code.
 * Documentation will have a higher chance of being accurate and up to date. As it is readily accessible to read and update.
+* Documentation will be relevant through difference versions. As it will be saved in source control and have version  history the documentation will remain relevant to whichever version of the project is checked out.
 
 ## How
 
-The how varies by what type of documentation. But the goal is to bring the documentation as close to the code as it can be whilst maintaining a grouping that makes sense.
+* Keep the documentation with the source code.
+* Use tools to generate external documentation from within the source code.
 
-To understand how it can be done, we need to look a the many types of documentation, starting close to the code and getting further away.
+## Content
 
-<!-- This needs to be split off into a separate section, it's apart of the how, indeed. But it also is not succinct -->
+The goal is to bring the documentation as close to the code as it can be whilst maintaining a grouping that makes sense.
+
+Below are specific examples of how this can be achieved, starting close to the code and getting further away.
 
 ### Editor
 
@@ -38,37 +42,36 @@ An example of Visual Studio Code's Intellisense: (https://code.visualstudio.com/
 
 Commented code, that explains the purpose of the code, is a natural application of this principle and what developers are used to doing.
 
-The commented code can also be used to generate accurate documentation. This prevents the need for a separate file to document the API. Because it is next to the code it will more often be seen, referred to, monitored (e.g. a code review) and can kept up to date.
+The commented code can also be used to generate accurate documentation. This prevents the need for a separate file to document the API. Additionally, because it is next to the code it will more often be seen, referred to, monitored (e.g. a code review) and be more likely to be kept up to date.
 
 ### Unit tests 
 
 **Should be next to the files being tested**
 
-Unit tests are concrete examples of how to interact with the code. These examples act as some of the best documentation available. They should be right next to the source code. It also provides the additional benefit of being able to see which files are already tested.
+Unit tests are concrete examples of how to interact with the code. These examples act as some of the best documentation available. They should be in a file right next to the source code. It also provides the additional benefit of being able to see which files are already tested.
 
-### Scaffolded components
+### Scaffold components
 
 **Sit next to the component**
 
-Scaffolded components (or widgets), are components which can be loaded separately from the app. They are concrete examples of how to interact with code as it is very easy to see all the dependencies, functionality and how the component works.
+Scaffolded components, are components which can be loaded separately from an application. They are concrete examples of how to interact with code. It explicitly shows the dependencies, how the component works and what options are available for configuring the component.
 
 ### Integration tests
 
 **Sit within the module or application level**
 
-Integration tests (http://softwaretestingfundamentals.com/integration-testing/) tests the interaction of more than one module often using a tool such as selenium. Integration tests that relate to a single module, should be grouped with that module if that module can be run as standalone. Integration tests more commonly test the interaction of multiple modules interacting together and should be grouped with the application itself.
+Integration tests (http://softwaretestingfundamentals.com/integration-testing/), test the interaction of more than one module often using a tool such as selenium or cypress. Integration tests that relate to a single module, should exist next to that module if the module can be run standalone. Integration tests more commonly test the interaction of multiple modules interacting together and should be grouped with the application itself.
 
 ### General documentation
 
 **Be within the codebase**
 
-General documentation, which are commonly written as README.md files in markdown format, should exist within the applicable logical grouping within a code base (e.g. a module or app folder that it is most relevant to). It is common to see README.md files at the top level of a project, but they can exist at any level. When implemented across a project, one side effect is the highest level README.md tends to either reference or link to lower level README.md files which contain more in depth documentation which is closer to the code.
+General documentation, should be next to the code. A common implementation are README.md files in markdown format. They  should exist within the applicable logical grouping within a code base (e.g. a module or app folder that it is most relevant to). It is common to see README.md files at the top level of a project, but they can exist at any level. The top level README.md can act as an index which references or links to other README.md files within folders below.
 
 ### External documentation
 **Should be generated from the project.**
 
 External documentation, used for communicating to people external of your team, should exist within the applicable logical grouping within a code base (e.g. a module or app folder that it is most relevant to) and can be exported to an external wiki, rather than an external wiki edited away from the code base.
-
 
 
 ## Contributors 

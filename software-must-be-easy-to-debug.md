@@ -12,11 +12,16 @@ When software behaves unexpectedly, it should be easy to understand what is caus
 
 ## Why
 
-* Time is reduced in fixing a problem.
-* A problem that can be understood without difficulty allows the developer to fix it rapidly, which greatly increases developer productivity.
-* *Friction* caused by not understanding a problem leads to frustration for the developer.
+* Time is reduced in fixing a problem. A problem that can be understood without difficulty allows the developer to fix it rapidly, which greatly increases developer productivity.
+* Frustration is reduced. *Friction* caused by not understanding a problem leads to frustration for the developer.
 
 
+## How
+
+* Ensure code has good metrics around them, such as logging, stack traces and error messages.
+* Ensure the code can be easily debugged.
+
+## Content
 
 One of the largest unaccounted for time sinks in engineering is figuring out unexpected problems. Bad debugging tools, poor error messages and bad logs increase the time taken to resolve an issue.
 
@@ -24,18 +29,18 @@ If an engineers environment is not setup in a way that can be used to easily pin
 
 This principle applies to every environment from a local machine to production. The easier it is to debug, the more productive a team can be.
 
-## Examples
+### Examples
 
-Specific implementations:
+Specific ideas on how to implement this principle: 
 
 * Stacks traces
-    * Should: Be Accurate and detailed
-    * Should: work across asyncronous, parallel and concurrent code.
-    * Shoud: Error reporting of line numbers should be accurate (e.g. when using sourcemaps)
+    * Should: Be accurate and detailed
+    * Should: Work across asyncronous, parallel and concurrent code.
+    * Should: Error reporting of line numbers should be accurate (e.g. when using sourcemaps)
 * Debugger - Easy to use.
     * Should: Be attachable to a live runtime
-    * SHould: Be able to be stepped through
-    * SHould: show realtime states of properties and values.
+    * Should: Be able to be stepped through
+    * Should: show real-time states of properties and values.
 * Errors messages - Be clear and concise
     * Should Not: Be swallowed or hidden
     * Should Not: Be generic or undescriptive
@@ -43,6 +48,5 @@ Specific implementations:
     * Should: All key interactions of a system should be recorded, especially user interactions.
     * Should: Be captured by an external system that is easily searchable.
 
-The examples above may mean some programming languages are less desirable for teams than others, due to not having these features.
+Some programming languages maybe less desirable for use with teams than others, due to not having these features.
 
-Exceptions: Prototype or test code.
