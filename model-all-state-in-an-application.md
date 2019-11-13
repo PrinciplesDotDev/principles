@@ -7,7 +7,6 @@ Tags = ["mvc", "model", "store"]
 title = "Model all state in an application"
 +++
 
-
 A model (the M in MVC) holds the state, logic and rules of an application, it should ideally exist independently of the backend or front-end framework. You could replace a web app with an iOS app and the logic of the modelling layer would be the same.
 
 All state should be modelled because modeling
