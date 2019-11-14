@@ -10,14 +10,14 @@ Documentation, in all forms, must be as close as it can be to the code.
 
 ## Why
 
-* Increase the teams productivity. The further away documentation is from code, the more *friction* is created in understanding the code.
-* Documentation will have a higher chance of being accurate and up to date. As it is readily accessible to read and update.
-* Documentation will be relevant through difference versions. As it will be saved in source control and have version  history the documentation will remain relevant to whichever version of the project is checked out.
+* More productive teams. The further away documentation is from code, the more *friction* is created in understanding the code.
+* Documentation will have a higher chance of being accurate and up to date. As it is readily accessible by developers to read write to.
+* Documentation will be accurate to the version being used. Documentation checked into source control (e.g. git) with the code, will be in sync with the version currently checked out.
 
 ## How
 
 * Keep the documentation with the source code.
-* Use tools to generate external documentation from within the source code.
+* Use tools to generate external documentation from within the project rather than creating external wikis.
 
 ## Content
 
@@ -40,25 +40,26 @@ An example of Visual Studio Code's Intellisense: (https://code.visualstudio.com/
 
 **Explains purpose of the code and can be used for generated documentation** 
 
-Commented code, that explains the purpose of the code, is a natural application of this principle and what developers are used to doing.
+Commented code, that explains the purpose of the code, is a natural application of this principle and what developers will naturally do.
 
-The commented code can also be used to generate accurate documentation. This prevents the need for a separate file to document the API. Additionally, because it is next to the code it will more often be seen, referred to, monitored (e.g. a code review) and be more likely to be kept up to date.
+The commented code can also be used to generate accurate documentation. This prevents the need for a separate file to document the API. Additionally, because it is next to the code it will more often be seen, referred to and monitored (e.g. a code review). Which increases the chance it will be kept up to date.
 
 ### Unit tests 
 
 **Should be next to the files being tested**
 
-Unit tests are concrete examples of how to interact with the code. These examples act as some of the best documentation available. They should be in a file right next to the source code. It also provides the additional benefit of being able to see which files are already tested.
+Unit tests act as examples of how the code being tested can be used. These examples act as some of the best documentation available. The test should be next to the file being tested. It also provides additional benefit of being able to see which files have already got tests.
 
 ### Scaffold components
 
 **Sit next to the component**
 
-Scaffolded components, are components which can be loaded separately from an application. They are concrete examples of how to interact with code. It explicitly shows the dependencies, how the component works and what options are available for configuring the component.
+[//]: # "Explain scaffolded  better"
+Scaffolded components, are components which are loaded separately from an application. They act as examples of how the component can be used. As with unit tests, they act as some of the best documentation available. It explicitly shows the dependencies, how the component works and what options are available for configuring the component.
 
 ### Integration tests
 
-**Sit within the module or application level**
+**Sit within the module or application**
 
 Integration tests (http://softwaretestingfundamentals.com/integration-testing/), test the interaction of more than one module often using a tool such as selenium or cypress. Integration tests that relate to a single module, should exist next to that module if the module can be run standalone. Integration tests more commonly test the interaction of multiple modules interacting together and should be grouped with the application itself.
 
@@ -66,13 +67,16 @@ Integration tests (http://softwaretestingfundamentals.com/integration-testing/),
 
 **Be within the codebase**
 
-General documentation, should be next to the code. A common implementation are README.md files in markdown format. They  should exist within the applicable logical grouping within a code base (e.g. a module or app folder that it is most relevant to). It is common to see README.md files at the top level of a project, but they can exist at any level. The top level README.md can act as an index which references or links to other README.md files within folders below.
+General documentation, should be next to the code. A common implementation is README.md files in markdown format. They  should exist within the applicable logical grouping within a code base (e.g. a module or app folder that it is most relevant to). It is common to see README.md files at the top level of a project, but they can exist at any level. The top level README.md can act as an index which references or links to other README.md files within folders below.
 
 ### External documentation
 **Should be generated from the project.**
 
 External documentation, used for communicating to people external of your team, should exist within the applicable logical grouping within a code base (e.g. a module or app folder that it is most relevant to) and can be exported to an external wiki, rather than an external wiki edited away from the code base.
 
+<!--## Terms
+
+**Scaffolded components** - Components that can be loaded or bootstrapped within the application. They contain all the code required to bootstrap themselves with and are-->
 
 ## Contributors 
 
