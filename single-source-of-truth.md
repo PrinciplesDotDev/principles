@@ -15,13 +15,13 @@ Data should be held in one location, duplicates of that data should be by refere
 * Mutations to the data need only happen in one place.
 * Single source of truth means no data will be out of sync or fail to be updated.
 
-### How
+## How
 
-Only allow data writes to happen in one location. Whether that be a call to a rest API, system call or file. Whilst allowing reading of data to happen from anywhere.
+Only allow data writes to happen in one location. Whether that be a call to a rest API, system call or other write actions. 
 
 ## Exceptions
 
-**Highly distributed systems** Some systems rely on not being in sync or are designed in which consistency is eventually or never reached.
+**Highly distributed systems** Some systems rely on data consistency to be reached eventually or may never need to have accurate data.
 <!--**Between teams** This principle is harder to apply between different team specialisations such as front-end vs backend, teams within an organisation, between different systems: caching vs database or large distributed systems.-->
 
 
