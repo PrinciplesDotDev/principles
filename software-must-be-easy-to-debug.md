@@ -12,9 +12,8 @@ When software behaves unexpectedly, it should be easy to understand what is caus
 
 ## Why
 
-* Time is reduced in fixing a problem. A problem that can be understood without difficulty allows the developer to fix it rapidly, which greatly increases developer productivity.
+* Time is reduced in fixing a problem. A problem that can be understood without difficulty allows the developer to fix it rapidly, which increases developer productivity.
 * Frustration is reduced. *Friction* caused by not understanding a problem leads to frustration for the developer.
-
 
 ## How
 
