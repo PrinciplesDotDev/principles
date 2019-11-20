@@ -3,7 +3,7 @@
 Categories = ["Process"]
 Description = ""
 Tags = ["errors", "debugging", "logs", "environment setup", "language choice", "productivity"]
-title = "Software must be easy to debug"
+title = "Software should be easy to debug"
 summary = "When software behaves unexpectedly, it should be easy to understand what is causing the problem."
 +++
 
@@ -30,7 +30,7 @@ This principle applies to every environment from a local machine to production. 
 
 ### Examples
 
-Specific ideas on how to implement this principle: 
+Specific ideas on how to implement this principle:
 
 * Stacks traces
     * Should: Be accurate and detailed

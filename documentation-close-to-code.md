@@ -3,10 +3,10 @@
 Categories = ["Code Quality"]
 Description = ""
 Tags = ["documentation"]
-title = "Documentation must be close to the code"
+title = "Documentation should be close to the code"
 +++
 
-Documentation, in all forms, must be as close as it can be to the code.
+Documentation, in all forms, should be as close as it can be to the code.
 
 ## Why
 
@@ -38,13 +38,13 @@ An example of Visual Studio Code's Intellisense: (https://code.visualstudio.com/
 
 ### Comments
 
-**Explains purpose of the code and can be used for generated documentation** 
+**Explains purpose of the code and can be used for generated documentation**
 
 Commented code, that explains the purpose of the code, is a natural application of this principle and what developers will naturally do.
 
 The commented code can also be used to generate accurate documentation. This prevents the need for a separate file to document the API. Additionally, because it is next to the code it will more often be seen, referred to and monitored (e.g. a code review). Which increases the chance it will be kept up to date.
 
-### Unit tests 
+### Unit tests
 
 **Should be next to the files being tested**
 
@@ -78,6 +78,6 @@ External documentation, used for communicating to people external of your team, 
 
 **Scaffolded components** - Components that can be loaded or bootstrapped within the application. They contain all the code required to bootstrap themselves with and are-->
 
-## Contributors 
+## Contributors
 
 <a class="contributor" alt="Adam Craven" href="https://github.com/adamcraven"><img src="https://github.com/adamcraven.png?size=80" width="40"></a>
