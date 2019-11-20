@@ -6,6 +6,8 @@ Tags = ["data", "solid","epic:principle"]
 title = "Make the invisible, visible"
 +++
 
+Make anything that isn't understood, understood.
+
 Make hidden behaviors, ideas and principles visible, so they can be understood.
 
 ## Why
