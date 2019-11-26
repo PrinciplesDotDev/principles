@@ -6,40 +6,23 @@ Tags = ["data", "solid","epic:principle"]
 title = "Make the invisible, visible"
 +++
 
-Make the invisible forces in technology that determine much of the programming and able to be understood by providing the tools, methods and teachings to make things visible
+Make the hidden principles, ideas and behaviors which make up a technology organization visible so it can be understood.
 
-Reveal the hidden principles, behaviors which guide a technology organization from the source code to leadership.
-
-
-Make the invisible forces and behaviors underlying technology , visible to others.
-
-
-Make hidden behaviors, ideas and principles visible, so they can be understood.
 
 ## Why
 
-* Organizations can be lead more effectively. It can be led more effectively if the orgazation is understood
-* Improves
+* Organizations will operate more efficiently and effectively.
+* Greater understanding improves communication, organizational speed and reduces complexity.
 
 ## How
 
+* Use Principles and Principle-Driven Development to illuminate the technology organization from the source code to the leadership level.
+* Ask questions that seek to understand and illuminate.
+
+
 ## Content
 
-It is the founding principle of Principle-Driven Development (PDD). The base principle behind every other principle and the purpose of PDD. It is broad in scope and purpose. It has inspired the visual metaphors used in the design language of PDD.
-
-
-
-
-## Exceptions
-
-**Highly distributed systems** Some systems rely on data consistency to be reached eventually or may never need to have accurate data.
-<!--**Between teams** This principle is harder to apply between different team specialisations such as front-end vs backend, teams within an organisation, between different systems: caching vs database or large distributed systems.-->
-
-
-
-## References
-Further reading:
-https://en.wikipedia.org/wiki/Single_source_of_truth
+It is the founding principle of Principle-Driven Development (PDD). The base principle behind every other principle and the purpose of PDD. It is broad in scope and purpose.
 
 
 ## Contributors
