@@ -12,6 +12,7 @@ Computed (or Derived) properties are properties that don't store values in memor
 * Computed properties are easy to reason about. The relationships between properties are explicit and the ‘recipe’ for creating the property can be seen in the code where its method exists.
 * There are less properties to set, so no bugs are created as a consequence of forgetting to do that.
 * Computed properties lend themselves well to unit testing by having pre-defined inputs, which increases confidence in the code.
+* When upstream data changes, dependent downstream computed data will automatically be set into the correct state.
 
 ## How
 
