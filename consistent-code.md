@@ -5,31 +5,27 @@ Tags = [""]
 title = "Use Consistent Coding Conventions, automatically enforced"
 +++
 
-Code should be formatted in a similar way across a team and enforced using tools that allow that
+Code should be formatted the same way across a team and enforced automatically using tools.
 
 ## Why
 
-* It reduces cognitive load - The code is easier to understand, progress is faster.
-* The code is easier to parse
-* It constrains choices to a team level and prevents use of features that aren't well understood by the team.
-* If the code conventions are already decided, it removes conflict from minor decisions such as spacing
-* Code reviews are easier
+* Code is more familiar. Code reviews, visual parsing and code comprehension all become easier.
+* Less thinking required. New developers can adapt to coding standards straight away without knowing them, existing developers don't have to remember them.
+* Learning happens rapidly. Coding conventions automatically enforced will expose the developer repeatedly to the same errors making learning comfortable and rapid.
+* Less mistakes. Code errors are raised straight away. In some cases they are fixed automatically.
+* Constrains choices. When there is less choice available, the team will be able to
+* Reduces conflict.  removes conflict from minor decisions such as spacing
 
 ## How
 
-* Use a linter or formatter
+* Use a static language to prevent errors.
+* Use a linter (eslint, python) or formatter (gofmt).
+* Adopt common conventions (pep8) from your language choice.
+* In languages where a common convention hasn't been decided. Opt for popular third party configurations. There will be a higher chance that this will make third party libraries easier to read and the rules can be reduced to suit the teams preferences. It is significantly harder as a team to decide on possibly unknown individual rules from scratch and build your own standard.
 
+## Content
 
-
-"gofmt
-
-
-##
-	Consistent code - Make code look familiar
-	Reduce cognitive load
-	Ideas
-		Gofmt's style is no one's favorite, yet gofmt is everyone's favorite.
-		Well run projects have clear consistent coding conventions, with automated enforcement.*/
+"Gofmt's style is no one's favorite, yet gofmt is everyone's favorite."
 
 
 ## Contributors
