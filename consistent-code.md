@@ -22,8 +22,13 @@ Code should be formatted the same way across a team and enforced automatically u
 * Use a linter (eslint, python) or formatter (gofmt).
 * Adopt common conventions (pep8) from your language choice.
 * In languages where a common convention hasn't been decided. Opt for popular third party configurations. There will be a higher chance that this will make third party libraries easier to read and the rules can be reduced to suit the teams preferences. It is significantly harder as a team to decide on possibly unknown individual rules from scratch and build your own standard.
+* Ensure errors are raised in the IDE
+* Enable all autofixing functionality such as "fix on save".
 
 ## Content
+
+1. Show autofixing functionlity is eslint.
+
 
 "Gofmt's style is no one's favorite, yet gofmt is everyone's favorite."
 
