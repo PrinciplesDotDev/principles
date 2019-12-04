@@ -7,7 +7,7 @@ title = "Use consistent coding conventions, automatically enforced"
 
 Code should be formatted the same way and enforced automatically using tools.
 
-## Why
+## Why
 
 * Code is read much more often than it is written, the more familiar the conventions the easier code reviews, visual parsing and code comprehension become.
 * Code conventions are learned quickly. Automatic enforcement exposes the developer repeatedly to the same errors making learning comfortable and at their own pace.
@@ -23,7 +23,7 @@ Code should be formatted the same way and enforced automatically using tools.
 * In languages where a common convention hasn't been decided. Opt for popular third party configurations. There will be a higher chance that this will make third party libraries easier to read and the rules can be reduced to suit the teams preferences.
 * Link tools to IDE/Editor for rapid feedback.
 
- 
+
 [//]: # "## Content"
 
 [//]: # "Code is read much more often than it is written. So it should be that care it taken "
