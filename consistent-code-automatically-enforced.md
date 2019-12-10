@@ -9,7 +9,7 @@ Code should be formatted the same way and enforced automatically using tools.
 
 ## Why
 
-* Code is read much more often than it is written, the more familiar the conventions the easier code reviews, visual parsing and code comprehension become.
+* Code is read much more often than it is written. The more familiar the conventions the less time is spent on code reviews, visual parsing and code comprehension.
 * Code conventions are learned quickly. Automatic enforcement exposes the developer repeatedly to the same errors making learning comfortable and at their own pace.
 * Less mistakes. Code errors are raised straight away. In some cases they are fixed automatically.
 * Constrains choices. More focus on engineering problems rather than distracted by inconsistent code or uncommon language features.
