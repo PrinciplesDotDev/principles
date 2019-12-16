@@ -22,7 +22,11 @@ Make the hidden principles, ideas and behaviors which make up a technology organ
 
 ## Content
 
-It is the founding principle of Principle-Driven Development (PDD). The base principle behind every other principle and the purpose of PDD. It is broad in scope and purpose.
+It is the founding principle of Principle-Driven Development (PDD). The base principle behind every other principle and the purpose of PDD. It is broad in scope and purpose. 
+
+To use the an analogy/metaphor.
+
+The basis behind it is 
 
 
 ## Contributors
