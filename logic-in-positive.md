@@ -44,10 +44,15 @@ isBlackOrWhite(black, white) => {
 ```
 
 
-
 ## Exceptions
 
-There are many cases in which writing logic in the positive does not make sense and will make the code more difficult to read.
+There are cases in which writing logic in the positive will make the code more difficult to understand. Especially logic that works by exclusion such as the below:
+
+```js
+// Return items that aren't trees
+['tree','cat','dog'].filter(item => item !== 'tree');
+// prints: ['cat','dog']
+```
 
 ## Contributors
 
