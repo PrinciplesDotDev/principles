@@ -19,6 +19,8 @@ Data should be held in one location, duplicates of that data should be by refere
 
 Only allow data writes to happen in one location. Whether that be a call to a rest API, system call or other write actions.
 
+Don't allow data to be stored anywhere but the single source of truth.
+
 ## Exceptions
 
 **Highly distributed systems** Some systems rely on data consistency to be reached eventually or may never need to have accurate data.
