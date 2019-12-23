@@ -7,17 +7,17 @@ title = "Logic should be in the positive"
 
 Logic should in general be asking the question "Is this true?" instead of "Is this not true?"
 
-# Why
+## Why
 
 * Logic written in the positive can be comprehended more quickly. This is especially true when there are multiple negative statements.
 
 
-# How
+## How
 
 * Write logic that asks: Is this true?
 
 
-# Content 
+## Content 
 
 
 ### Example
