@@ -9,24 +9,15 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    - name: Use Node.js ${{ matrix.node-version }}
+    - name: Using Node.js 12
       uses: actions/setup-node@v1
       with:
         node-version: 12
+        registry-url: https://registry.npmjs.org/
+    - name: npm publish
+      run: |
+        npm version patch
+        npm publish --access public
       env:
         CI: true
-
-  publish-npm:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
-        with:
-          node-version: 12
-          registry-url: https://registry.npmjs.org/
-      - run: npm ci
-      - run: npm version patch
-      - run: npm publish --access public
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
+        NODE_AUTH_TOKEN: ${{secrets.npm_token}}
