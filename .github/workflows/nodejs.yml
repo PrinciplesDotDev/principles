@@ -22,6 +22,7 @@ jobs:
       run: |
         npm version patch
         npm publish --access public
+        git commit -m "Github Action build" -a
       env:
         CI: true
         NODE_AUTH_TOKEN: ${{secrets.npm_token}}
