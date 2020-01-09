@@ -10,7 +10,8 @@ Make the hidden principles, ideas and behaviors which make up a technology organ
 
 ## Why
 
-* Understanding is the cornerstone for progress. The greater the understanding the better the communication, efficiency and effectiveness of a team is.
+* Understanding is what allows an outcome to be reached. The greater the understanding the better the communication, efficiency and effectiveness of a team.
+
 
 ## How
 
