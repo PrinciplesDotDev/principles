@@ -1,0 +1,16 @@
++++
+Categories = ["Process"]
+Description = ""
+Tags = ["infrastructure"]
+title = "Treat things like cattle, not pets"
++++
+
+Build things so they can be disposable and be replaced at any time. Don't try to be precious with things
+
+
+
+
+
+## References
+
+* (The history of cattle vs pets)[http://cloudscaling.com/blog/cloud-computing/the-history-of-pets-vs-cattle/]
