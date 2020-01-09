@@ -1,6 +1,6 @@
 {
   "name": "principles",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "description": "A List of Principles",
   "main": "index.js",
   "scripts": {
@@ -15,6 +15,9 @@
   "bugs": {
     "url": "https://github.com/principle-driven-development/Principles/issues"
   },
-  "keywords": ["principles", "pdd"],
+  "keywords": [
+    "principles",
+    "pdd"
+  ],
   "homepage": "https://pdd.dev"
 }
