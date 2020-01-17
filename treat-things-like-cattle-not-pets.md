@@ -5,12 +5,16 @@ Tags = ["infrastructure"]
 title = "Treat things like cattle, not pets"
 +++
 
-Build things so they can be disposable and be replaced at any time. Don't try to be precious with things
+Attempt to get to a point where you can treat things (infrastructure/code/data) like they are un-precious commodities. Which are disposable or can be replaced or rebuilt at any time. Don't treat them as if they are precious.
 
+## Why
+
+* Things can be rebuilt from scratch, you do not have to know a long list of steps to rebuild something.
+* In emergencies, you will be able to react quickly.
 
 ## Content
 
-
+The principle originated from
 <blockquote>
 I emphasized the disposability of cattle and the uniqueness of pets.
 </blockquote>
