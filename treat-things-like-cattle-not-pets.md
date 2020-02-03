@@ -5,17 +5,22 @@ Tags = ["infrastructure"]
 title = "Treat things like cattle, not pets"
 +++
 
-Create things (infrastructure/code/data) in such a way that they can be treated like disposable commodities, rather than precious pets.
+Create things (infrastructure/code/data) in such a way that they can be disposed of when there is a problem or change required and replaced like a commodity item. Rather than something that is precious and needs careful management.
 
 ## Why
+
+* New features are significantly easier because instead of having to carefully transition data and build features around that transition, you can recreate things as needed.
+* You can react quickly in error states. Redeloying something is significantly faster than rebuilding a server from scratch and migrating config.
+* No config drift. Servers aren't updated individually with packages via ssh, so the working state of a server does not depend upon undetermined updates.
+* More willing to accept changes. You don't need to protect something if it's disposable
 
 -- things can be disposed of.
 -- You don't have to worry about losing something precious when the system crashes, a database fails, etc.
 -- Your systems are designed in a way that can handle being taken out. No single point of failure.
 -- Designing data this way, such as ETL processes, gives great flexibility to future
--- New features are significantly easier because instead of having to carefully transition data and build features around that transition, you can recreate the database when it is needed with new features such as timeseries, or a different database
+
 -- Instills confidence in what you're building. If things are constantly being re-created.
--- More willing to accept change. You don't need to protect something if it's disposable. Pets you will be afraid to move the goalposts.
+-- More willing to accept change. You don't need to protect something if it's disposable.
 
 
 
@@ -51,12 +56,8 @@ Arrays of more than two servers, that are built using automated tools, and are d
 In the old way of doing things, we treat our servers like pets, for example Bob the mail server. If Bob goes down, it’s all hands on deck. The CEO can’t get his email and it’s the end of the world. In the new way, servers are numbered, like cattle in a herd. For example, www001 to www100. When one server goes down, it’s taken out back, shot, and replaced on the line.</blockquote>
 
 
-It is treating things as if they were
+The principle originated in infrastructure, yet the principle in applies well in areas across the stack, not just infrastructure.
 
-
-## Exceptions
-
-Some things are unavoidably have to be treated like pets?
 
 
 ## References
