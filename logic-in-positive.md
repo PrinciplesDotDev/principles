@@ -1,7 +1,7 @@
 +++
 Categories = ["Process"]
 Description = ""
-Tags = [""]
+Tags = ["style"]
 title = "Logic should be in the positive"
 +++
 
@@ -17,7 +17,7 @@ Logic should in general be asking the question "Is this true?" instead of "Is th
 * Write logic that asks: Is this true?
 
 
-## Content 
+## Content
 
 
 ### Example
