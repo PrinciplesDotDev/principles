@@ -48,11 +48,13 @@ function unitFormatter(unit) {
 
     if (isPercentage(unit) {
         return convertUnitsToPercentage()
-    })
+    }
 }
+
+function unitFormatter2
 ```
 
-Tests unit formatter:
+Tests unitFormatter:
 
 * Test isDate
 * Test isDate failing
@@ -66,31 +68,17 @@ Tests unit formatter:
 * Test isPercentage failing
 * Test convertUnitToPercentage
 * Test convertUnitToPercentage failing
+* Test logic between 3 different units success states
+* Test logic between 3 different units failure states
 
 
-```js
-const data = {
-    todos: [
-        {content:"clean shoes", id:"todo1"},
-        {content:"wash hair", id:"todo2"}
-        {content:"brush teeth", id:"todo3"}
-    ],
-    users:[
-        {
-            username: "adam",
-            location: "London"
-        }
-    ],
-    permissions: [{
-        id:"todo1",
-        usernames: ["adam"],
-    }, {
-        id:"todo2",
-        usernames:["adam"]
-    }]
-]}
+If you test at the unit level, you can rely that the component functions you are using are throughouly tested and thus do not need to test their functionality, you can rely on it
 
-```
+Tests unitFormatter:
+
+* Test logic between 3 different units success states
+* Test logic between 3 different units failure states
+
 
 
 ### Example
