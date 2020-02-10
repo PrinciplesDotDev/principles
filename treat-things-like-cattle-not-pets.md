@@ -19,7 +19,8 @@ Create things (infrastructure/code/data) in such a way that they can be disposed
 
 ## How
 
-* Use containers to create self-contained builds that can be deployed.
+* Use containers to create self-contained applications that can be deployed.
+* Avoid creating things that aren't automated.
 
 
 ## Content
