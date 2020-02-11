@@ -19,8 +19,11 @@ Create things (infrastructure/code/data) in such a way that they can be disposed
 
 ## How
 
-* Use containers to create self-contained applications that can be deployed.
-* Avoid creating things that aren't automated.
+* Create software that can be thrown away and rebuilt (e.g. Docker containers)
+* Use repeatable configuration management (infrastructure as code) (e.g. Terraform)
+* Use container management systems to orchastrate containers (e.g. Docker Swarm, Kubernetes)
+* Use tools to periodically test your systems resiliancy by taking down applications (e.g. chaos monkey)
+* Where possible, create databases that can be easily restored from source files (e.g. store source data in s3).
 
 
 ## Content
@@ -49,9 +52,6 @@ In the old way of doing things, we treat our servers like pets, for example Bob 
 
 You can read more about the history an application of the principle, in the references below.
 
-## Definitions
-
-* Containers -
 
 ## References
 
