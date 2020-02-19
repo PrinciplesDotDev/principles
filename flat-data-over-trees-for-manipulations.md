@@ -33,9 +33,19 @@ const data = {
             username: "adam",
             location:"London",
             permissions: ["todo1", "todo2"]
+        },
+        {
+            username: "max",
+            location:"London",
+            permissions: ["todo3"]
         }
     ]
 ]}
+
+
+const user = getUser() // adam
+const visibleTodos = todos.get(user.permissions)
+
 ```
 
 
@@ -50,42 +60,33 @@ const data = {
         {
             username: "adam",
             location: "London"
+        },
+        {   username: "max",
+            location: "New York"
         }
     ],
     permissions: [{
-        id:"todo1",
-        usernames: ["adam"],
+        todo:"todo1",
+        username: "adam",
     }, {
-        id:"todo2",
-        usernames:["adam"]
+        todo:"todo2",
+        username:"adam",
     }]
 ]}
 
+const user = getUser() // adam
+const perrmissionedTodos = data.permissions
+    .filter((permission) => permissions.username === user))
+    .map((permission) => (permission.todo))
+
+const visibleTodos = todos.get(permissionedTodos)
+
+
+
+
 ```
 
 
-### Example
-
-The first statement written in the negative:
-
-```js
-isBlackOrWhite(black, white) => {
-    if (!black && !white) {
-        return false;
-    }
-    return true;
-}
-```
-Then written in the positive:
-
-```js
-isBlackOrWhite(black, white) => {
-    if (black && white) {
-        return true;
-    }
-    return false;
-}
-```
 
 
 ## Exceptions
