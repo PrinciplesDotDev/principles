@@ -3,21 +3,18 @@
 Categories = ["Process"]
 Description = ""
 Tags = ["epic:principle"]
-title = "Iterate chunks of work in Thens"
+title = "Iterate in Thens"
 +++
 
-You should iterate on a focused chunk of work at a time. Once that work has been complete, then iterate on another focused chunk of work:
-
-Do this
-THEN this
-THEN this
-
-Rather than iterating in ands, which is attempting  several chunks of work at the same time.
-
-Do this AND this AND this AND this.
-
+You should iterate sequentially on a focused chunk of work at a time. Once that chunk has been completed, THEN start the next chunk of work. This is opposed to doing multiple chunks of work at the same time and working on them simultaneously.
 
 ## Why
+
+* Easier on the mind. Sequential working increases the chance that all relevant context associated with a chunk of work be kept in mind.
+* Reduced context switching. Working on many related, but separate tasks, causes increased context switching.
+
+
+
 
 
 ## How
