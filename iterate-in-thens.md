@@ -31,14 +31,14 @@ A task maybe set to upgrade 3 cores libraries that 10 of your applications use.
 
 To iterate in ANDs you would go to one of those applications, update library 1 AND 2 AND 3 at the same time, then move on to the next application.
 
-This would mean you will have to understand 3 sets of bugs and each time you
+With this approach, you will have to keep in mind all bugs and changes required to update 3 libraries at once. Not only that, but the list of things that need to be kept in mind will likely increase with each new app and the interactions with updating 3 libraries at the same time may create complex behavior.
 
 
-Iterating in THEN approach:
+Iterating in THENs approach:
 
 Go to the first application, update library 1 THEN move onto to next application and update the library there.
 
-As your working through the applications, library 1 you have all the context for each app.
+With this approach you are focused on the context an individual library and all the associated bugs or things that need to be changed with that library.
 
 
 ## Definitions
