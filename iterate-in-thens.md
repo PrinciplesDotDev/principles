@@ -25,13 +25,17 @@ This applies to planning tasks as much
 
 ## Content
 
-No matter the engineer, the brain has a limit to the amount of context it can hold at any one time. Iterating on tasks by focusing on one chunk of work is generally better than trying to do too many things at once.
+--No matter the engineer, the brain has a limit to the amount of context it can hold at any one time-- SHould be handled outside of here.
 
-A task maybe set to upgrade 3 cores libraries that 10 of your applications use.
+Iterating on tasks by focusing on one chunk of work is generally better than trying to do too many things at once.
+
+A example task may be to upgrade 3 cores libraries that 10 of your applications use.
 
 To iterate in ANDs you would go to one of those applications, update library 1 AND 2 AND 3 at the same time, then move on to the next application.
 
 With this approach, you will have to keep in mind all bugs and changes required to update 3 libraries at once. Not only that, but the list of things that need to be kept in mind will likely increase with each new app and the interactions with updating 3 libraries at the same time may create complex behavior.
+
+* Interactions between the changes
 
 
 Iterating in THENs approach:
