@@ -1,6 +1,9 @@
 name: Node CI
 
-on: [push]
+on:
+  push:
+    tags:
+      - 'v*'
 
 jobs:
   build:
@@ -14,6 +17,12 @@ jobs:
       with:
         node-version: 12
         registry-url: https://registry.npmjs.org/
+    # Use this GitHub Action
+    - name: Check package version
+      uses: technote-space/package-version-check-action@v1
+      with:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        COMMIT_DISABLED: 1
     - name: setup github
       run: |
         git config --local user.email "action@github.com"
@@ -22,7 +31,6 @@ jobs:
       run: |
         npm version patch
         npm publish --access public
-        git commit -m "Github Action build" -a
       env:
         CI: true
         NODE_AUTH_TOKEN: ${{secrets.npm_token}}
