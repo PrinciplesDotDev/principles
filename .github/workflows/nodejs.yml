@@ -24,10 +24,10 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-      - name: Publish
-        run: |
-          npm config set //registry.npmjs.org/:_authToken=$npm_token
-          npm publish --access public
+    - name: Publish
+      run: |
+        npm config set //registry.npmjs.org/:_authToken=$npm_token
+        npm publish --access public
       env:
         CI: true
         NODE_AUTH_TOKEN: ${{secrets.npm_token}}
