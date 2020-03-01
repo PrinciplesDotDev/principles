@@ -26,7 +26,7 @@ jobs:
         git config --local user.name "GitHub Action"
     - name: Publish
       run: |
-        npm config set //registry.npmjs.org/:_authToken=$npm_token
+        echo "//registry.npmjs.org/:_authToken=${{ secrets.npm_token }}" > ~/.npmrc
         npm publish --access public
       env:
         CI: true
