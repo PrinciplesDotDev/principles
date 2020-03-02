@@ -6,43 +6,52 @@ Tags = ["epic:principle"]
 title = "Iterate in Thens"
 +++
 
-You should iterate sequentially on a focused chunk of work at a time. Once that chunk has been completed, THEN start the next chunk of work. This is opposed to doing multiple chunks of work at the same time, working on them simultaneously.
-
-This applies to planning tasks as much
+You should iterate sequentially on a focused chunk of work at a time. Once that chunk has been completed THEN start on the next chunk of work. This is opposed to doing multiple chunks of work at the same time, working on them simultaneously.
 
 ## Why
 
 * Sequential working increases the chance that all relevant context associated with a chunk of work be kept in mind.
-* Reduced context switching. Working separate tasks, even if related, causes increased context switching. Working on a focused task reduces that.
-* Errors are more obvious when focusing
-
-
+* Reduces context switching. Working on separate tasks, even if related, causes increased context switching.
+* Reduced eventualities (cartesian?). Changing one thing at at time, means the amount of input can
 
 ## How
 
 * Focus on defining work in a way that enables tasks to work with relevant context.
-* When working, focus on a single task and avoid getting distracted
+* When working, focus on a single task and add additional tasks as a separate task.
 
 ## Content
 
---No matter the engineer, the brain has a limit to the amount of context it can hold at any one time-- SHould be handled outside of here.
-
 Iterating on tasks by focusing on one chunk of work is generally better than trying to do too many things at once.
 
-A example task may be to upgrade 3 cores libraries that 10 of your applications use.
+A example task may be to upgrade 3 cores libraries that 10 applications use.
 
-To iterate in ANDs you would go to one of those applications, update library 1 AND 2 AND 3 at the same time, then move on to the next application.
+### Iterating in ANDs.
 
-With this approach, you will have to keep in mind all bugs and changes required to update 3 libraries at once. Not only that, but the list of things that need to be kept in mind will likely increase with each new app and the interactions with updating 3 libraries at the same time may create complex behavior.
+Go to the first application
+update library 1 **AND** 2 **AND** 3 at the same time
+**THEN** move on to the next application.
 
-* Interactions between the changes
+The complexity arises through having to work with lots of different changes
+
+* steps to update the 3 libraries
+* bugs arising from changing those libraries.
+* The complex interactions that may arise from changing 3 libraries at the same time.
+* Identifying which library the bug came from.
 
 
-Iterating in THENs approach:
+### Iterating in THENs approach:
 
-Go to the first application, update library 1 THEN move onto to next application and update the library there.
+Go to the first application
+update library 1
+**THEN** move onto to next application
 
-With this approach you are focused on the context an individual library and all the associated bugs or things that need to be changed with that library.
+This approach greatly focuses the engineer on the context an individual library and all the associated bugs or changes required.
+
+The complexity is reduced to:
+
+* steps to update the library
+* bugs
+
 
 
 ## Definitions
