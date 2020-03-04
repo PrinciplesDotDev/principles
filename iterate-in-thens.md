@@ -2,7 +2,7 @@
 +++
 Categories = ["Process"]
 Description = ""
-Tags = ["epic:principle"]
+Tags = ["epic:principle", "process"]
 title = "Iterate in Thens"
 +++
 
@@ -19,28 +19,30 @@ You should iterate sequentially on a focused chunk of work at a time. Once that 
 
 ## Content
 
-Iterating on tasks by focusing on one chunk of work is generally better than trying to do too many things at once.
+Iterating on tasks by focusing on one chunk of work is better than trying to do too many things at once.
 
-A example task may be to upgrade 3 cores libraries that 10 applications use.
+A example task is to upgrade 3 cores libraries that 10 applications use. Here are 3 approaches below:
 
-### Iterating with an "ANDs" approach:
+### Iterating with an "ANDs" approach (not recommended):
 
 Go to the first application
 update library 1 **AND** 2 **AND** 3 at the same time
 **THEN** move on to the next application.
 
-The complexity arises through having to work with lots of different changes which can be as follows:
+The complexity arises through having to work with lots of different changes which can look like as follows:
 
-* steps required to update 3 libraries.
-* bugs arising from changing 3 libraries.
+* Steps required to update 3 libraries.
+* Bugs arising from changing 3 libraries.
 * The complex interactions that may arise from changing 3 libraries at the same time.
 * Identifying which library a bug came from.
+
+There is much to keep in mind with this approach.
 
 ### Iterating in "THENs" approach:
 
 Go to the first application
 update library 1
-**THEN** move onto to next application
+**THEN** move onto to the next application
 
 This approach greatly focuses the context on an individual library and all the associated bugs or changes required.
 
@@ -49,23 +51,20 @@ The complexity is reduced to:
 * steps required to update a single library.
 * bugs arising from changing a library.
 
-### Parallel working
+### Iterating in "THENs" in parallel:
 
-Iterating also allows working in parallel, but the parallel task should be highly related or the same task.
-
-Working across 10 applications at the same time to update a single library.
+Iterating in thens also allows working in parallel. The parallel task should done sequentially with the task being mostly the same for each.
 
 With all the 10 applications
 search for the old library version
 **THEN** replace with the new version
 search for the old library method that is deprecated
 **THEN** replace with the new supported method.
-etcc..
+etc..
 
 ## Definitions
 
-* Chunk of work - An amount of work that you can be encapsulated into a task. This will vary with a persons experience.
-
+* Chunk of work - Work that is divided up into related sections.
 
 ## Contributors
 
