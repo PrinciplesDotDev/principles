@@ -8,4 +8,4 @@ How to format your own principles can be found [here](https://pdd.dev/principle-
 
 ## Contributing
 
-Work in progress. But if you're really passionate about principles and see the value in documenting them for others. You can open an issue or get in touch.
+Contributions are most welcome and encouraged. Once you've understood the Principle Specification above, create a pull request and add your own Principles.
