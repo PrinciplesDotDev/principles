@@ -25,9 +25,9 @@ A example task is to upgrade 3 cores libraries that 10 applications use. Here ar
 
 ### Iterating with an "ANDs" approach (not recommended):
 
-* Go to the first application
-* update library 1 **AND** 2 **AND** 3 at the same time
-* **THEN** move on to the next application.
+1. Go to the first application
+2. update library 1 **AND** 2 **AND** 3 at the same time
+3. **THEN** move on to the next application
 
 The complexity arises through having to work with lots of different changes which can look like as follows:
 
@@ -40,9 +40,9 @@ There is much to keep in mind with this approach.
 
 ### Iterating in "THENs" approach:
 
-* Go to the first application
-* update library 1
-* **THEN** move onto to the next application
+1. Go to the first application
+2. update library 1
+3. **THEN** move onto to the next application
 
 This approach greatly focuses the context on an individual library and all the associated bugs or changes required.
 
@@ -55,12 +55,11 @@ The complexity is reduced to:
 
 Iterating in thens also allows working in parallel. The parallel task should done sequentially with the task being mostly the same for each.
 
-* With all the 10 applications search for the old library version
-* **THEN** replace with the new version
-* search for the old library method that is deprecated
-* **THEN** replace with the new supported method.
-
-etc..
+1. With all the 10 applications search for the old library version
+2. **THEN** replace with the new version
+3. search for the old library method that is deprecated
+4. **THEN** replace with the new supported method.
+5. etc..
 
 ## Definitions
 
