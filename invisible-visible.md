@@ -6,7 +6,7 @@ Tags = ["epic:principle", "macro:principle", "pdd"]
 title = "Make the invisible, visible"
 +++
 
-Make the hidden principles, ideas and behaviors which make up a technology organization understood and explicit.
+Make the things which cannot be seen or easily conceptualized understood
 
 ## Why
 
@@ -15,13 +15,27 @@ Make the hidden principles, ideas and behaviors which make up a technology organ
 
 ## How
 
-* Use Principles combined with Principle-Driven Development to illuminate the technology organization from the source code to the leadership level.
-* Ask questions that seek to understand and illuminate.
+*
+
+* Convert data into visualizations that can be easily understood. (e.g. splunk)
+* Shine a light on the blackbox of a program.
+* You are building an abstract entity, represent that in less abstract ways.
+*
+* Use principles to help give a framework for behavior.
+
+
+Imagine being able to see every request through a production application, watching as the data arrives, moves around your app, watching how it is transformed, combined and stored as moves into a database. All whilst revealing memory usage, garbage collections, highlighting areas where code is slow. Whilst possible to do today, it's usually more common to find a few log files that help piece together what's going on with lots of disperate systems
+
+Imagine being able to understand an application as
+
+
+
+Imagine how much easier it would be to understand a system. Then imagine instead of being a group of text files moving through the system, a 3D representation appears. The edge of the building the data approaches is a gate which represents the API. We watch as someone checks this data comes into the building gets checked by and then is let in. We follow it into the next room where it examines what the data looks like the data some more watching areas where  of the different places of the app we visit, the model, the database connection, the frameworks the application is being held up by. We could go down this 3D structure, deeper and deeper until we get to the CPU, see how our data is converted into electrons and watch them buzz around the CPUs caches . How we visit each location   and then finally leaves the
 
 
 ## Content
 
-It is the founding principle of Principle-Driven Development (PDD). The base principle behind every other principle and the purpose of PDD. It is broad in scope and purpose.
+The base principle behind every other principle. It is broad in scope and purpose.
 
 Programming is abstract in nature, it cannot be seen. Only the results of programming can be seen. This is also true of the behavior of an organization.
 
@@ -34,6 +48,9 @@ Programming is like construction, if you entered a construction site at night ti
 Principles are the lights that help make what is invisible, visible. Everyone has them, but they aren't often shared. By sharing understanding of why a system is designed the way it is. It is like walking into the construction site with the lights on.
 
 The more principles that are defined and understood, the more visible a code base is.
+
+
+
 
 ## Contributors
 
