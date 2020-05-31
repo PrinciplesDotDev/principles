@@ -6,11 +6,14 @@ Tags = ["epic:principle", "macro:principle", "pdd"]
 title = "Make the invisible, visible"
 +++
 
-Make the things which cannot be seen or easily conceptualized understood
+
+Make things which are hard to understand, be understood by illuminating and revealing the hidden interactions of a system.
+
 
 ## Why
 
 * Understanding is what allows an outcome to be reached. The greater the understanding the better the communication, efficiency and effectiveness of a team.
+*
 
 
 ## How
