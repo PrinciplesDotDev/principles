@@ -7,7 +7,8 @@ title = "Make the invisible, visible"
 +++
 
 
-Make things which are hard to understand, be understood by illuminating and revealing the hidden interactions of a system.
+Make things which are hidden from explanation or difficult to understand, be understood by illuminating and revealing the hidden forces that operate on a system.
+
 
 
 ## Why
@@ -18,13 +19,10 @@ Make things which are hard to understand, be understood by illuminating and reve
 
 ## How
 
-*
-
 * Convert data into visualizations that can be easily understood. (e.g. splunk)
 * Shine a light on the blackbox of a program.
-* You are building an abstract entity, represent that in less abstract ways.
-*
-* Use principles to help give a framework for behavior.
+* Represent code in less abstract ways, such as drawing diagrams. You are building an abstract entity, represent that in less abstract ways.
+* Use principles to communicate beliefs and ideas.
 
 
 Imagine being able to see every request through a production application, watching as the data arrives, moves around your app, watching how it is transformed, combined and stored as moves into a database. All whilst revealing memory usage, garbage collections, highlighting areas where code is slow. Whilst possible to do today, it's usually more common to find a few log files that help piece together what's going on with lots of disperate systems
