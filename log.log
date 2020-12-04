@@ -1,0 +1,260 @@
+== Info:   Trying 18.134.216.98...
+== Info: TCP_NODELAY set
+== Info: Connected to t1h8ftxrq4.execute-api.eu-west-2.amazonaws.com (18.134.216.98) port 443 (#0)
+== Info: ALPN, offering h2
+== Info: ALPN, offering http/1.1
+== Info: successfully set certificate verify locations:
+== Info:   CAfile: /etc/ssl/cert.pem
+  CApath: none
+== Info: TLSv1.2 (OUT), TLS handshake, Client hello (1):
+=> Send SSL data, 260 bytes (0x104)
+0000: .......N........q..M.W..........i..3.\..\.0.,.(.$.......k.9.....
+0040: ............=.5...../.+.'.#.......g.3...E...<./...A.............
+0080: ........{...3.1...t1h8ftxrq4.execute-api.eu-west-2.amazonaws.com
+00c0: .........................................................h2.http
+0100: /1.1
+== Info: TLSv1.2 (IN), TLS handshake, Server hello (2):
+<= Recv SSL data, 98 bytes (0x62)
+0000: ...^...ov(...k\...$Z.4h9...4m.VVH.F..` -H....$.vb...`}ok...._:..
+0040: ..%}.f../.......................h2
+== Info: TLSv1.2 (IN), TLS handshake, Certificate (11):
+<= Recv SSL data, 4869 bytes (0x1305)
+0000: ..........0...0..z........Wl.t,...obev...0...*.H........0F1.0...
+0040: U....US1.0...U....Amazon1.0...U....Server CA 1B1.0...U....Amazon
+0080: 0...200830000000Z..210929120000Z001.0,..U...%*.execute-api.eu-we
+00c0: st-2.amazonaws.com0.."0...*.H.............0..........v......N2qx
+0100: c-c\..i.....Z.=O.....S1..u.{....o...6t!3..#S.s$.Q.S|.....]..(@.I
+0140: .....M.h&d2......HH.`.n...o...2KL.....^".t..>v....."...:........
+0180: .......x..J.<./.3.G.B....j.......,zYY,..h...V.eq..j...%.....~..
+01c0: L..O........\w`...*@Z.10.kVr..8..tWm...4...6...w...........0...
+0200: 0...U.#..0...Y.f.R.{..<...'.t[.=.0...U..........t..{N/UV....7...
+0240: 00..U...)0'.%*.execute-api.eu-west-2.amazonaws.com0...U.........
+0280: ..0...U.%..0...+.........+.......0;..U...40200...,.*http://crl.s
+02c0: ca1b.amazontrust.com/sca1b.crl0 ..U. ..0.0...`.H...l..0...g.....
+0300: 0u..+........i0g0-..+.....0..!http://ocsp.sca1b.amazontrust.com0
+0340: 6..+.....0..*http://crt.sca1b.amazontrust.com/sca1b.crt0...U....
+0380: ...0.0.....+.....y............u..\./.w0".T..0.V..M..3.../ ..N.d.
+03c0: ...t<.|......F0D. D.......X.....E].C..X......*4... f2 Fj@Z...,.
+0400: x...}nB@.:.~....p.y..v.\.C....ED.^..V..7...G..s..^........t<.|..
+0440: ....G0E.!......../..e.Kk:..w....4.p...h.... 8.N.1.9.K.+.....3.D.
+0480: ...9... ...M0...*.H...............v.B.> .Q.T./..Q.2N..T}.0..b..
+04c0: 8NASC^..@.<.$...."..:O...o.v:..,e.=..S...5.1W.......I....PM...).
+0500: k.........A.F.}.:....>.x...r.'T...W(/...qq.........Y.(t..V"|0...
+0540: .:....T.&^....l..&N....0.E.s,*..$z.(..\...@:."?.....+....{.!....
+0580: ;.)...~..S.._....N...LA.P.n..s.m..M0..I0..1.........W....w..S2[
+05c0: ...V.0...*.H........091.0...U....US1.0...U....Amazon1.0...U....A
+0600: mazon Root CA 10...151022000000Z..251019000000Z0F1.0...U....US1.
+0640: 0...U....Amazon1.0...U....Server CA 1B1.0...U....Amazon0.."0...*
+0680: .H.............0.........N.g...j.7Z.:0.......(H..)..nS....9..w..
+06c0: ...p..k....q..m...*N........<..9...X...V%.>Rz..)...nP.._1....Jb.
+0700: ..>G..'... .....5._..M.k7..P>D..Z.f..~.jU...5.....uNXU}Sk.k..B..
+0740: .........+....S..g....:..s._...r.~...0c*..z-......2>.....<...P..
+0780: C..*..h....Je.J...L.U...........;0..70...U.......0.......0...U..
+07c0: .........0...U......Y.f.R.{..<...'.t[.=.0...U.#..0.......4......
+0800: .Y....N..0{..+........o0m0/..+.....0..#http://ocsp.rootca1.amazo
+0840: ntrust.com0:..+.....0...http://crt.rootca1.amazontrust.com/rootc
+0880: a1.cer0?..U...80604.2.0..http://crl.rootca1.amazontrust.com/root
+08c0: ca1.crl0...U. ..0.0...g.....0...*.H................5.y...B...csS
+0900: 9R5........../..o..Nr. 0a.....'.E..v>.J....E..C...m.n.1.../1..ma
+0940: 7{X..Q..(.O.v......^.f........). `H.....Se5..k.Q@UW_...">..^....
+0980: ...AZ.R...6.O-...h5..r....}W.y.7.{`....-.w.I.'.8.......H........
+09c0: .vR...Axp.m..J.x-^...L`..G.x-...R..9,../.3........0...0..z.....
+0a00: ....J*'.....+.......0...*.H........0..1.0...U....US1.0...U....A
+0a40: rizona1.0...U....Scottsdale1%0#..U....Starfield Technologies, In
+0a80: c.1;09..U...2Starfield Services Root Certificate Authority - G20
+0ac0: ...150525120000Z..371231010000Z091.0...U....US1.0...U....Amazon1
+0b00: .0...U....Amazon Root CA 10.."0...*.H.............0.........x.q.
+0b40: x..q.G.Pt}n...v..h.X!`.t../..-...CzN...6.....H...6L...#.>.7....I
+0b80: h....v8.a....6..JV.E......t...59/.. P.lz.......G..P8....9X.....H
+0bc0: g0...x^o..Q.0.f.Ef.T.....H....0-}-tp5..$...Yn.s...2F(.C........$
+0c00: .-K.q\^i.....8..P8o..-b....T.w.g....#.?@  ...L>;$&...l.........
+0c40: ...10..-0...U.......0....0...U...........0...U..........4.......
+0c80: Y....N..0...U.#..0...._.....0+8...mJ.....0x..+........l0j0...+..
+0cc0: ...0.."http://ocsp.rootg2.amazontrust.com08..+.....0..,http://cr
+0d00: t.rootg2.amazontrust.com/rootg2.cer0=..U...60402.0...,http://crl
+0d40: .rootg2.amazontrust.com/rootg2.crl0...U. ..0.0...U. .0...*.H....
+0d80: .........b7B\...>.,...lE...z..X....>..%<.oP..5j..4.2!.HD...=..sm
+0dc0: ....l.(...Gy..~0[.;.`.w.....|^....{"....~.F....&W.09b.........>
+0e00: .ChlW.... ....j]..Jm.X...91_|s...j...'....F.~.r..R>...cw.i..9...
+0e40: .EM.Q:.]]7dL~0.U$B.6.]...a.....$...t..{E)P9....5%..jG#1/\.....bQ
+0e80: .*...4.!...y0..u0..]..........JL4..0...*.H........0h1.0...U....
+0ec0: US1%0#..U....Starfield Technologies, Inc.1200..U...)Starfield Cl
+0f00: ass 2 Certification Authority0...090902000000Z..340628173916Z0..
+0f40: 1.0...U....US1.0...U....Arizona1.0...U....Scottsdale1%0#..U....S
+0f80: tarfield Technologies, Inc.1;09..U...2Starfield Services Root Ce
+0fc0: rtificate Authority - G20.."0...*.H.............0..........:.*.N
+1000: ....._..S..?... .m):..}<.kv8c.6`..^\.../Y...%C..i.R...q..-.No..
+1040: I....V.+.t....&......j;X..GV.%..pS...t..g..h:..@Z.JN.C.;.V..p.R.
+1080: {}.:..1.E..`..Y.+..4G....em..,.......I|fN.:m...4.....3.G..k.%...
+10c0: ..EF2.p....IC..ls.d.aA...T../.".&..YTh...*/.U.u@`...U9.........
+1100: .0..0...U.......0....0...U...........0...U......._.....0+8...mJ.
+1140: ....0...U.#..0...._.......[U.........0O..+........C0A0...+.....0
+1180: ...http://o.ss2.us/0!..+.....0...http://x.ss2.us/x.cer0&..U....0
+11c0: .0.......http://s.ss2.us/r.crl0...U. ..0.0...U. .0...*.H........
+1200: .....#...W.}..yL..U..Sn>G...U...6...S.]4(k..U.g..?..3..X...../.
+1240: .`.........u.O..m......~@,....v.3.w...S..d..'.i.M^....u.XD-.<p.
+1280: ..i..w.1^,...:Gi.y_..T..^.x.`'...w.#Sw]...Y.......$.5.z....}..?
+12c0: ...rT....Y{..R.F...dv.H..y.nV..,....8.....[.....4I.V..._.3..G.0
+1300: .]...
+== Info: TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+<= Recv SSL data, 333 bytes (0x14d)
+0000: ...I...A.I...=..[.#.Q.Uf..BV..<.?...K.$.-f./..WfP..1G...h..t.."
+0040: zE...p.*d.....Q..51.t.).Y$....,..E....=..VF....#^t"...&..`.f..|f
+0080: ^IC.]6.x3..x.+.8...D. ..........R.Y....@.u...vh.A.rK.Hx....:.&a>
+00c0: }..[..,..2...-g...*...s...vz?......&"w.V.'.de.)...yH..."Pq&...T.
+0100: g.....L....$..g.^......XG..\....X.:.Nj....er.6Q.........~}.Z.a%.
+0140: '.l......-\..
+== Info: TLSv1.2 (IN), TLS handshake, Server finished (14):
+<= Recv SSL data, 4 bytes (0x4)
+0000: ....
+== Info: TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+=> Send SSL data, 70 bytes (0x46)
+0000: ...BA.......A.....9..+.%...ci]ji1J.)..v.zT.O..j.x.F.2..ad.C?...g
+0040: ..k#.d
+== Info: TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):
+=> Send SSL data, 1 bytes (0x1)
+0000: .
+== Info: TLSv1.2 (OUT), TLS handshake, Finished (20):
+=> Send SSL data, 16 bytes (0x10)
+0000: ....}.......;..Q
+== Info: TLSv1.2 (IN), TLS change cipher, Change cipher spec (1):
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+== Info: TLSv1.2 (IN), TLS handshake, Finished (20):
+<= Recv SSL data, 16 bytes (0x10)
+0000: ....[S._V...H.q.
+== Info: SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+== Info: ALPN, server accepted to use h2
+== Info: Server certificate:
+== Info:  subject: CN=*.execute-api.eu-west-2.amazonaws.com
+== Info:  start date: Aug 30 00:00:00 2020 GMT
+== Info:  expire date: Sep 29 12:00:00 2021 GMT
+== Info:  subjectAltName: host "t1h8ftxrq4.execute-api.eu-west-2.amazonaws.com" matched cert's "*.execute-api.eu-west-2.amazonaws.com"
+== Info:  issuer: C=US; O=Amazon; OU=Server CA 1B; CN=Amazon
+== Info:  SSL certificate verify ok.
+== Info: Using HTTP2, server supports multi-use
+== Info: Connection state changed (HTTP/2 confirmed)
+== Info: Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+== Info: Using Stream ID: 1 (easy handle 0x7f9e88810200)
+=> Send header, 178 bytes (0xb2)
+0000: PUT /default/validator-prod HTTP/2
+0024: Host: t1h8ftxrq4.execute-api.eu-west-2.amazonaws.com
+005a: User-Agent: curl/7.64.1
+0073: Accept: */*
+0080: Content-Type: text/plain
+009a: Content-Length: 2869
+00b0: 
+== Info: Connection state changed (MAX_CONCURRENT_STREAMS == 128)!
+=> Send data, 2869 bytes (0xb35)
+0000: +++.principle = "Separate core logic from the framework".descrip
+0040: tion = "Core logic that is related to solving a business or doma
+0080: in problem should exist outside of a framework.".category = "Str
+00c0: ategy".tags = ["organization", "strategy"].authors = ["github:Ad
+0100: amCraven"].contributors = [].license = "CC BY-SA 4.0".allow_dual
+0140: _licensing_to_GPLv3 = true.crystalized = false.+++..Core logic t
+0180: hat is related to solving a business or domain problem should ex
+01c0: ist outside of a framework...## Why..- Core logic is the most va
+0200: luable asset of the business. A framework change with the core l
+0240: ogic integrated results in a loss of that asset. Separation from
+0280:  the framework keeps the asset whilst allowing the framework to 
+02c0: change..- Separating core logic lets you use your own principles
+0300:  instead of the frameworks. Frameworks provide structure and use
+0340: ful abstractions that make engineering easier. Yet, using a fram
+0380: ework often means using its principles at the expense of your ow
+03c0: n..- You can solve your business problem better. Because a frame
+0400: work is not created to solve your particular problem, it cannot 
+0440: know the best way to solve it..- Code is easier to read. You onl
+0480: y need to understand the programming language, not the framework
+04c0: ..- Code is easier to test. It is not wrapped in a framework's a
+0500: bstractions...## How..The below example is taken from a redux fr
+0540: amework example in which a reducer - a redux concept - is used t
+0580: o add a todo item to an object. Where the core logic is wrapped 
+05c0: inside the reducer...```js.function nextTodoId(todos) {.  const 
+0600: maxId = todos.reduce((maxId, todo) => Math.max(todo.id, maxId), 
+0640: -1);.  return maxId + 1;.}..function todosReducer(state = initia
+0680: lState, action) {.  switch (action.type) {.    case "todos/todoA
+06c0: dded": {.      return [.        ...state,.        // Core logic 
+0700: start.        {.          id: nextTodoId(state),.          text:
+0740:  action.payload,.          completed: false,.        },.        
+0780: // Core logic end.      ];.    }.  }.}.```..If we extract the co
+07c0: re logic, the reducer looks like this:..```js.import { todoAdd }
+0800:  from "./todo";..function todosReducer(state = initialState, act
+0840: ion) {.  switch (action.type) {.    case "todos/todoAdded": {.  
+0880:     return todoAdd(state, action.payload);.    }.  }.}.```..The 
+08c0: core logic separated into another file:..```js.function nextTodo
+0900: Id(todos) {.  const maxId = todos.reduce((maxId, todo) => Math.m
+0940: ax(todo.id, maxId), -1);.  return maxId + 1;.}..function todoAdd
+0980: (todos, text) {.  const nextId = nextTodoId(todos);.  const newT
+09c0: oDoEntry = {.    id: nextId,.    text: text,.    completed: fals
+0a00: e,.  };.  return { ...todos, newToDoEntry };.}.```..## Exception
+0a40: s..- If your core logic is especially trivial or has limited bus
+0a80: iness value...## Contributors..<a class="contributor" alt="Adam 
+0ac0: Craven" href="https://github.com/adamcraven">.  <img src="https:
+0b00: //github.com/adamcraven.png?size=80" width="40">.</a>
+== Info: We are completely uploaded and fine
+<= Recv header, 13 bytes (0xd)
+0000: HTTP/2 200 
+<= Recv header, 37 bytes (0x25)
+0000: date: Fri, 04 Dec 2020 17:09:48 GMT
+<= Recv header, 32 bytes (0x20)
+0000: content-type: application/json
+<= Recv header, 22 bytes (0x16)
+0000: content-length: 3001
+<= Recv header, 56 bytes (0x38)
+0000: x-amzn-requestid: b95fcdd8-183d-468a-a1d9-26957a02c602
+<= Recv header, 34 bytes (0x22)
+0000: x-amz-apigw-id: XCYGeH8krPEFjJw=
+<= Recv header, 69 bytes (0x45)
+0000: x-amzn-trace-id: Root=1-5fca6d5c-7d33c34d3602b8da19059011;Sample
+0040: d=0
+<= Recv header, 2 bytes (0x2)
+0000: 
+<= Recv data, 3001 bytes (0xbb9)
+0000: {"header": {"principle": "Separate core logic from the framework
+0040: ", "description": "Core logic that is related to solving a busin
+0080: ess or domain problem should exist outside of a framework.", "ca
+00c0: tegory": "Strategy", "tags": ["organization", "strategy"], "auth
+0100: ors": ["github:AdamCraven"], "contributors": [], "license": "CC 
+0140: BY-SA 4.0", "allow_dual_licensing_to_GPLv3": true, "crystalized"
+0180: : false}, "body": "\n\nCore logic that is related to solving a b
+01c0: usiness or domain problem should exist outside of a framework.\n
+0200: \n## Why\n\n- Core logic is the most valuable asset of the busin
+0240: ess. A framework change with the core logic integrated results i
+0280: n a loss of that asset. Separation from the framework keeps the 
+02c0: asset whilst allowing the framework to change.\n- Separating cor
+0300: e logic lets you use your own principles instead of the framewor
+0340: ks. Frameworks provide structure and useful abstractions that ma
+0380: ke engineering easier. Yet, using a framework often means using 
+03c0: its principles at the expense of your own.\n- You can solve your
+0400:  business problem better. Because a framework is not created to 
+0440: solve your particular problem, it cannot know the best way to so
+0480: lve it.\n- Code is easier to read. You only need to understand t
+04c0: he programming language, not the framework.\n- Code is easier to
+0500:  test. It is not wrapped in a framework's abstractions.\n\n## Ho
+0540: w\n\nThe below example is taken from a redux framework example i
+0580: n which a reducer - a redux concept - is used to add a todo item
+05c0:  to an object. Where the core logic is wrapped inside the reduce
+0600: r.\n\n```js\nfunction nextTodoId(todos) {\n  const maxId = todos
+0640: .reduce((maxId, todo) => Math.max(todo.id, maxId), -1);\n  retur
+0680: n maxId + 1;\n}\n\nfunction todosReducer(state = initialState, a
+06c0: ction) {\n  switch (action.type) {\n    case \"todos/todoAdded\"
+0700: : {\n      return [\n        ...state,\n        // Core logic st
+0740: art\n        {\n          id: nextTodoId(state),\n          text
+0780: : action.payload,\n          completed: false,\n        },\n    
+07c0:     // Core logic end\n      ];\n    }\n  }\n}\n```\n\nIf we ext
+0800: ract the core logic, the reducer looks like this:\n\n```js\nimpo
+0840: rt { todoAdd } from \"./todo\";\n\nfunction todosReducer(state =
+0880:  initialState, action) {\n  switch (action.type) {\n    case \"t
+08c0: odos/todoAdded\": {\n      return todoAdd(state, action.payload)
+0900: ;\n    }\n  }\n}\n```\n\nThe core logic separated into another f
+0940: ile:\n\n```js\nfunction nextTodoId(todos) {\n  const maxId = tod
+0980: os.reduce((maxId, todo) => Math.max(todo.id, maxId), -1);\n  ret
+09c0: urn maxId + 1;\n}\n\nfunction todoAdd(todos, text) {\n  const ne
+0a00: xtId = nextTodoId(todos);\n  const newToDoEntry = {\n    id: nex
+0a40: tId,\n    text: text,\n    completed: false,\n  };\n  return { .
+0a80: ..todos, newToDoEntry };\n}\n```\n\n## Exceptions\n\n- If your c
+0ac0: ore logic is especially trivial or has limited business value.\n
+0b00: \n## Contributors\n\n<a class=\"contributor\" alt=\"Adam Craven\
+0b40: " href=\"https://github.com/adamcraven\">\n  <img src=\"https://
+0b80: github.com/adamcraven.png?size=80\" width=\"40\">\n</a>"}
+== Info: Connection #0 to host t1h8ftxrq4.execute-api.eu-west-2.amazonaws.com left intact

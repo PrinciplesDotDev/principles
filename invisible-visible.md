@@ -13,7 +13,7 @@ Make the hidden principles, ideas and behaviors which make up a technology organ
 
 ## How
 
-- Use Principles combined with Principle-Driven Development to illuminate the technology organization from the source code to the leadership level.
+- Use Principles combin'ed with Principle-Driven Development to illuminate the technology organization from the source code to the leadership level.
 - Ask questions that seek to understand and illuminate.
 
 ## Content
