@@ -8,7 +8,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v1
-      - uses: PrinciplesDotDev/get-changed-files@v2
+      - uses: jitterbit/get-changed-files@v1
         id: files
       - name: Changed files
         run: |
