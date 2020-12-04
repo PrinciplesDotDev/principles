@@ -9,9 +9,7 @@ Documentation, in all forms, should be as close as it can be to the code.
 
 ## Why
 
-- More productive teams. The further away documentation is from code, the more _friction_ is created in understanding the code.
-- Documentation will have a higher chance of being accurate and up to date. As it is readily accessible by developers to read write to.
-- Documentation will be accurate to the version being used. Documentation checked into source control (e.g. git) with the code, will be in sync with the version currently checked out.
+- More productive teams. The further away documentation is from code, the more _friction_ is created in understanding the
 
 ## How
 
