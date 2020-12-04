@@ -18,5 +18,6 @@ jobs:
             if [[ $changed_file == *.md ]] && [[ $changed_file != README.md ]];
               then
                   echo "Do something with this ${changed_file}."
+                  cat ${changed_file}
               fi
           done
