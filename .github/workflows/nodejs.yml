@@ -14,6 +14,6 @@ jobs:
         run: |
           echo "All:"
           echo "${{ steps.files.outputs.all }}"
-          for changed_file in ${{ steps.files.outputs.added_modified }}; do
+          for changed_file in ${{ steps.files.outputs.added_modified }}.md; do
             echo "Do something with this ${changed_file}."
           done
