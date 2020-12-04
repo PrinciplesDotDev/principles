@@ -14,6 +14,9 @@ jobs:
         run: |
           echo "All:"
           echo "${{ steps.files.outputs.all }}"
-          for changed_file in ${{ steps.files.outputs.added_modified }}.md; do
-            echo "Do something with this ${changed_file}."
+          for changed_file in ${{ steps.files.outputs.added_modified }}; do
+            if [[ $changed_file == *.md ]] && [[ $changed_file != README.md ]];
+              then
+                  echo "Do something with this ${changed_file}."
+              fi
           done
