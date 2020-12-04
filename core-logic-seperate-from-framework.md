@@ -1,10 +1,10 @@
 +++
 Categories = ["Process"]
-Description = ""
+Description = "Core logic that is related to solving a business or domain problem should exist outside of a framework."
 Tags = ["bug free"]
 title = "Separate your core logic from the framework"
 principle = "Separate core logic from the framework"
-description = ""
+description = "Core logic that is related to solving a business or domain problem should exist outside of a framework."
 category = "Strategy"
 tags = [""]
 authors = ["github:AdamCraven"]
@@ -16,22 +16,17 @@ crystalized = false
 
 Core logic that is related to solving a business or domain problem should exist outside of a framework.
 
-The current framework used in the application shouldn't interfere with this this logic.
-
 ## Why
 
-Core business logic code is the most valuable asset of the business. Integrating it into a framework means that once a framework changes, this asset is lost. Separating it from the framework allows the framework to change over time without throwing away that asset.
-
-The framework is not created to solve your business problem. Frameworks are tools that provide a structured way of engineering and abstractions to make engineering easier. Using a new framework often means adopting the framework's principles and way of structuring your code at the expense of your own. And as the framework is not created to solve your particular problem, and it cannot know the best way to solve it.
-
-Using both your team principles and the frameworks abstractions, you can solve your problem better than using a framework in it's entirety and can structure it in a more suitable way.
-
-- Code comprehension is significantly easier, as it requires no special knowledge of the framework.
-- Easy to test core logic, as it is not wrapped in a framework.
+- Core logic is the most valuable asset of the business. A framework change with the core logic integrated results in a loss of that asset. Separation from the framework keeps the asset whilst allowing the framework to change.
+- Separating core logic lets you use your own principles instead of the frameworks. Frameworks provide structure and useful abstractions that make engineering easier. Yet, using a framework often means using its principles at the expense of your own.
+- You can solve your business problem better. Because a framework is not created to solve your particular problem, it cannot know the best way to solve it.
+- Code is easier to read. You only need to understand the programming language, not the framework.
+- Code is easier to test. It is not wrapped in a framework's abstractions.
 
 ## How
 
-The below example is taken from a redux framework example in which a reducer - a redux concept - is used to add a todo item to an object.
+The below example is taken from a redux framework example in which a reducer - a redux concept - is used to add a todo item to an object. Where the core logic is wrapped inside the reducer.
 
 ```js
 function nextTodoId(todos) {
@@ -57,21 +52,21 @@ function todosReducer(state = initialState, action) {
 }
 ```
 
-Let's see how that would look if we still used the redux framework, but extracted the core logic into a separate piece:
+If we extract the core logic, the reducer looks like this:
 
 ```js
-import { todo } from "./todo";
+import { todoAdd } from "./todo";
 
 function todosReducer(state = initialState, action) {
   switch (action.type) {
     case "todos/todoAdded": {
-      return todo.add(state, action.payload);
+      return todoAdd(state, action.payload);
     }
   }
 }
 ```
 
-Separated core logic:
+The core separated into another file:
 
 ```js
 function nextTodoId(todos) {
@@ -79,23 +74,20 @@ function nextTodoId(todos) {
   return maxId + 1;
 }
 
-class todo {
-  static add(todos, text) {
-    const nextId = nextTodoId(todos);
-    const newToDoEntry = {
-      id: nextId,
-      text: text,
-      completed: false,
-    };
-    return { ...todos, newToDoEntry };
-  }
+function todoAdd(todos, text) {
+  const nextId = nextTodoId(todos);
+  const newToDoEntry = {
+    id: nextId,
+    text: text,
+    completed: false,
+  };
+  return { ...todos, newToDoEntry };
 }
 ```
 
-## Resources
+## Exceptions
 
-- Swift implementation of computed properties: https://docs.swift.org/swift-book/LanguageGuide/Properties.html#ID259
-- VueJS explanation https://vuejs.org/v2/guide/computed.html
+- If your core logic is especially trivial or has limited business value.
 
 ## Contributors
 
