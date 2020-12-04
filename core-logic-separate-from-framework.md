@@ -66,7 +66,7 @@ function todosReducer(state = initialState, action) {
 }
 ```
 
-The core separated into another file:
+The core logic separated into another file:
 
 ```js
 function nextTodoId(todos) {
