@@ -25,7 +25,6 @@ jobs:
 
                   if [[ $statusCode == "200" ]]; then
                       echo "SUCCESS!"
-                      exit 0
                   else
                       echo "FAILED"
                       echo ${curlOutput%StatusCode*}
