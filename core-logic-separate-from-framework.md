@@ -1,11 +1,11 @@
 +++
 Categories = ["Process"]
 Description = "Core logic that is related to solving a business or domain problem should exist outside of a framework."
-Tags = ["bug free"]
+Tags = ["organization", "strategy"]
 title = "Separate your core logic from the framework"
 principle = "Separate core logic from the framework"
 description = "Core logic that is related to solving a business or domain problem should exist outside of a framework."
-category = "Strategy"
+category = "Process"
 tags = ["organization", "strategy"]
 authors = ["github:AdamCraven"]
 contributors = []
@@ -26,7 +26,7 @@ Core logic that is related to solving a business or domain problem should exist 
 
 ## How
 
-The below example is taken from a redux framework example in which a reducer - a redux concept - is used to add a todo item to an object. Where the core logic is wrapped inside the reducer.
+The below example is from a redux framework in which a reducer - a redux concept - adds a todo item into the application:
 
 ```js
 function nextTodoId(todos) {
@@ -52,7 +52,7 @@ function todosReducer(state = initialState, action) {
 }
 ```
 
-If we extract the core logic, the reducer looks like this:
+Extracting the core logic, the framework code now looks like this:
 
 ```js
 import { todoAdd } from "./todo";
@@ -66,7 +66,7 @@ function todosReducer(state = initialState, action) {
 }
 ```
 
-The core logic separated into another file:
+Core logic is then moved into a new file. Separate from the framework.
 
 ```js
 function nextTodoId(todos) {
@@ -87,7 +87,7 @@ function todoAdd(todos, text) {
 
 ## Exceptions
 
-- If your core logic is especially trivial or has limited business value.
+- If your core logic is trivial or has limited business value.
 
 ## Contributors
 
