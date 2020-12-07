@@ -14,9 +14,10 @@ jobs:
         run: |
           echo "All:"
           echo "${{ steps.files.outputs.all }}"
+          echo "Step 1"
           for changed_file in ${{ steps.files.outputs.added_modified }}; do
-              if [[ $changed_file == *.md ]] && [[ $changed_file != README.md ]];
-              then
+              echo "Step 2"
+              if [[ $changed_file == *.md ]] && [[ $changed_file != README.md ]]; then
                   echo "Do something with this ${changed_file}."
                   output="$(cat $changed_file)"
                   curlOutput=$(curl --location -w '\n\nStatusCode:%{http_code}'  --request PUT 'https://t1h8ftxrq4.execute-api.eu-west-2.amazonaws.com/default/validator-prod' --header 'Content-Type: text/plain' --data-raw "${output}")
@@ -30,5 +31,4 @@ jobs:
                       #echo ${curlOutput%StatusCode*}
                   fi
               fi
-          exit 0;
           done
