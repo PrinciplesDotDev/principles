@@ -1,4 +1,4 @@
-for changed_file in ${{ steps.files.outputs.added_modified }}; do
+for changed_file in core-logic-separate-from-framework.md; do
     if [[ $changed_file == *.md ]] && [[ $changed_file != README.md ]];
     then
         echo "Do something with this ${changed_file}."
