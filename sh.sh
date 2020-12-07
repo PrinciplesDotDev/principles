@@ -1,4 +1,4 @@
-for changed_file in core-logic-separate-from-framework.md; do
+for changed_file in ${{ steps.files.outputs.added_modified }}; do
     if [[ $changed_file == *.md ]] && [[ $changed_file != README.md ]];
     then
         echo "Do something with this ${changed_file}."
@@ -9,8 +9,11 @@ for changed_file in core-logic-separate-from-framework.md; do
 
         if [[ $statusCode == "200" ]]; then
             echo "SUCCESS!"
+            exit 0
         else
             echo "FAILED"
+            echo ${curlOutput%StatusCode*}
+            exit 1
             #echo ${curlOutput%StatusCode*}
         fi
     fi
