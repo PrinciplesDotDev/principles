@@ -1,5 +1,4 @@
 +++
-title = "Separate your core logic from the framework"
 principle = "Separate core logic from the framework"
 description = "Core logic that is related to solving a business or domain problem should exist outside of a framework."
 category = "Process"
