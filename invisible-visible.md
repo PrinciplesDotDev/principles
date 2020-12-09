@@ -1,23 +1,24 @@
-
 +++
-Categories = ["Strategy"]
-Description = ""
-Tags = ["epic:principle", "macro:principle", "pdd"]
-title = "Make the invisible, visible"
+principle = "Make the invisible, visible"
+description = "Make the hidden principles, ideas and behaviors which make up a technology organization understood and explicit"
+category = "Strategy"
+tags = ["pde"]
+license = "CC BY-SA 4.0"
+allow_dual_licensing_to_GPLv3 = true
+authors= ["github:AdamCraven"]
+contributors = []
 +++
 
 Make the hidden principles, ideas and behaviors which make up a technology organization understood and explicit.
 
 ## Why
 
-* Understanding is what allows an outcome to be reached. The greater the understanding the better the communication, efficiency and effectiveness of a team.
-
+- Understanding is what allows an outcome to be reached. The greater the understanding the better the communication, efficiency and effectiveness of a team.
 
 ## How
 
-* Use Principles combined with Principle-Driven Development to illuminate the technology organization from the source code to the leadership level.
-* Ask questions that seek to understand and illuminate.
-
+- Use Principles combined with Principle-Driven Development to illuminate the technology organization from the source code to the leadership level.
+- Ask questions that seek to understand and illuminate.
 
 ## Content
 
@@ -29,7 +30,7 @@ Drawing parallels with the construction industry. In a construction project you 
 
 In code, you cannot look at an unfamiliar codebase and quickly understand the interconnections, structure and architecture of the system.
 
-Programming is like construction, if you entered a construction site at night time and all the lights were turned off. You cannot see what you're building. To see what is being created, you have to create the picture in your head, by manually parsing lines of code, reading documentation and  have team members share concepts with you.
+Programming is like construction, if you entered a construction site at night time and all the lights were turned off. You cannot see what you're building. To see what is being created, you have to create the picture in your head, by manually parsing lines of code, reading documentation and have team members share concepts with you.
 
 Principles are the lights that help make what is invisible, visible. Everyone has them, but they aren't often shared. By sharing understanding of why a system is designed the way it is. It is like walking into the construction site with the lights on.
 
