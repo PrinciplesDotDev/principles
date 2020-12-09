@@ -8,6 +8,7 @@ contributors = []
 license = "CC BY-SA 4.0"
 allow_dual_licensing_to_GPLv3 = true
 crystalized = false
+uid = "lavender-pinniped-wanids"
 +++
 
 Core logic that is related to solving a business or domain problem should exist outside of a framework.

@@ -7,6 +7,7 @@ authors = ["github:AdamCraven"]
 contributors = []
 license = "CC BY-SA 4.0"
 allow_dual_licensing_to_GPLv3 = true
+uid = "blue-tiger-odette"
 +++
 
 Computed (or Derived) properties are properties that don't store values in memory, but return values when they are called by reading values from other properties or functions.
