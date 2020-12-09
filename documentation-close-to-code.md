@@ -1,8 +1,12 @@
 +++
-Categories = ["Code Quality"]
-Description = ""
-Tags = ["documentation"]
-title = "Documentation should be close to the code"
+principle = "Documentation should be close to the code"
+description = "Documentation, in all forms, should be as close as it can be to the code."
+category = "Code Quality"
+tags = ["documentation"]
+license = "CC BY-SA 4.0"
+allow_dual_licensing_to_GPLv3 = true
+authors= ["github:AdamCraven"]
+contributors = []
 +++
 
 Documentation, in all forms, should be as close as it can be to the code.

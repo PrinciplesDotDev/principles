@@ -1,21 +1,25 @@
-
 +++
-Categories = ["Process"]
-Description = ""
-Tags = ["epic:principle", "process"]
-title = "Iterate in Thens"
+principle = "Iterate in Thens"
+description = "You should iterate sequentially on a focused chunk of work at a time."
+category = "Process"
+tags = []
+license = "CC BY-SA 4.0"
+allow_dual_licensing_to_GPLv3 = true
+authors= ["github:AdamCraven"]
+contributors = []
 +++
 
 You should iterate sequentially on a focused chunk of work at a time. Once that chunk has been completed THEN start on the next chunk of work. This is opposed to doing multiple chunks of different of work in parallel.
 
 ## Why
-* No context switching. Sequential working increases the chance that all relevant context associated with a chunk of work be kept in mind.
-* Reduced possible errors. Focusing on one change at a time, means the possible outcomes (e.g. bugs, regressions) from that change are much smaller than if many changes are made at the same time.
+
+- No context switching. Sequential working increases the chance that all relevant context associated with a chunk of work be kept in mind.
+- Reduced possible errors. Focusing on one change at a time, means the possible outcomes (e.g. bugs, regressions) from that change are much smaller than if many changes are made at the same time.
 
 ## How
 
-* Define tasks in a sequential way.
-* When working, focus on a single task and capture additional tasks as a separate items.
+- Define tasks in a sequential way.
+- When working, focus on a single task and capture additional tasks as a separate items.
 
 ## Content
 
@@ -31,10 +35,10 @@ A example task is to upgrade 3 cores libraries that 10 applications use. Here ar
 
 The complexity arises through having to work with lots of different changes which can look like as follows:
 
-* Steps required to update 3 libraries.
-* Bugs arising from changing 3 libraries.
-* The complex interactions that may arise from changing 3 libraries at the same time.
-* Identifying which library a bug came from.
+- Steps required to update 3 libraries.
+- Bugs arising from changing 3 libraries.
+- The complex interactions that may arise from changing 3 libraries at the same time.
+- Identifying which library a bug came from.
 
 There is much to keep in mind with this approach.
 
@@ -48,8 +52,8 @@ This approach greatly focuses the context on an individual library and all the a
 
 The complexity is reduced to:
 
-* steps required to update a single library.
-* bugs arising from changing a library.
+- steps required to update a single library.
+- bugs arising from changing a library.
 
 ### Iterating in "THENs" in parallel:
 
@@ -63,7 +67,7 @@ Iterating in thens also allows working in parallel. The parallel task should don
 
 ## Definitions
 
-* Chunk of work - Work that is divided up into related sections.
+- Chunk of work - Work that is divided up into related sections.
 
 ## Contributors
 
