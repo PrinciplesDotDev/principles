@@ -7,6 +7,7 @@ license = "CC BY-SA 4.0"
 allow_dual_licensing_to_GPLv3 = true
 authors= []
 contributors = ["github:AdamCraven"]
+uid = "amber-finch-jordain"
 +++
 
 Logic should in general be asking the question "Is this true?" instead of "Is this not true?"

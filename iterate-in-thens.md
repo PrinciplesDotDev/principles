@@ -7,6 +7,7 @@ license = "CC BY-SA 4.0"
 allow_dual_licensing_to_GPLv3 = true
 authors= ["github:AdamCraven"]
 contributors = []
+uid = "red-blackbird-junina"
 +++
 
 You should iterate sequentially on a focused chunk of work at a time. Once that chunk has been completed THEN start on the next chunk of work. This is opposed to doing multiple chunks of different of work in parallel.

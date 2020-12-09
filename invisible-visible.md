@@ -7,6 +7,7 @@ license = "CC BY-SA 4.0"
 allow_dual_licensing_to_GPLv3 = true
 authors= ["github:AdamCraven"]
 contributors = []
+uid = "plum-swordfish-binni"
 +++
 
 Make the hidden principles, ideas and behaviors which make up a technology organization understood and explicit.
