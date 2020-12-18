@@ -5,6 +5,8 @@ Tags = ["epic:principle", "macro:principle", "pdd"]
 title = "Make the invisible, visible"
 +++
 
+Reveal what is hidden so it can be understood.
+
 Make things which are hidden from explanation or difficult to understand, be understood by illuminating and revealing the hidden forces that operate on a system.
 
 ## Why
