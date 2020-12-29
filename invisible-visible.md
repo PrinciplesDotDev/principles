@@ -7,7 +7,15 @@ title = "Make the invisible, visible"
 
 Reveal what is hidden so it can be understood.
 
-Make things which are hidden from explanation or difficult to understand, be understood by illuminating and revealing the hidden forces that operate on a system.
+These are the patterns, behaviors, structures and interactions that make up a system or organization.
+
+Code - communicating the abstract ideas and structure of programming so it can be shared between engineers.
+
+A running programming - being able to peer inside of it, to see the changes that happen over time.
+
+Data - revealing the patterns hidden within.
+
+Teams and organizations - to expose the hidden dynamics and rationales operating on a team and the systems they engineer.
 
 ## Why
 
