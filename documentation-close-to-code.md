@@ -1,23 +1,27 @@
-
 +++
-Categories = ["Code Quality"]
-Description = ""
-Tags = ["documentation"]
-title = "Documentation should be close to the code"
+principle = "Documentation should be close to the code"
+description = "Documentation, in all forms, should be as close as it can be to the code."
+category = "Code Quality"
+tags = ["documentation"]
+license = "CC BY-SA 4.0"
+allow_dual_licensing_to_GPLv3 = true
+authors= ["github:AdamCraven"]
+contributors = []
+uid = "teal-beaver-sandye"
 +++
 
 Documentation, in all forms, should be as close as it can be to the code.
 
 ## Why
 
-* More productive teams. The further away documentation is from code, the more *friction* is created in understanding the code.
-* Documentation will have a higher chance of being accurate and up to date. As it is readily accessible by developers to read write to.
-* Documentation will be accurate to the version being used. Documentation checked into source control (e.g. git) with the code, will be in sync with the version currently checked out.
+- More productive teams. The further away documentation is from code, the more _friction_ is created in understanding the code.
+- Documentation will have a higher chance of being accurate and up to date. As it is readily accessible by developers to read write to.
+- Documentation will be accurate to the version being used. Documentation checked into source control (e.g. git) with the code, will be in sync with the version currently checked out.
 
 ## How
 
-* Keep the documentation with the source code.
-* Use tools to generate external documentation from within the project rather than creating external wikis.
+- Keep the documentation with the source code.
+- Use tools to generate external documentation from within the project rather than creating external wikis.
 
 ## Content
 
@@ -55,6 +59,7 @@ Unit tests act as examples of how the code being tested can be used. These examp
 **Sit next to the component**
 
 [//]: # "Explain scaffolded  better"
+
 Scaffolded components, are components which are loaded separately from an application. They act as examples of how the component can be used. As with unit tests, they act as some of the best documentation available. It explicitly shows the dependencies, how the component works and what options are available for configuring the component.
 
 ### Integration tests
@@ -67,9 +72,10 @@ Integration tests (http://softwaretestingfundamentals.com/integration-testing/),
 
 **Be within the codebase**
 
-General documentation, should be next to the code. A common implementation is README.md files in markdown format. They  should exist within the applicable logical grouping within a code base (e.g. a module or app folder that it is most relevant to). It is common to see README.md files at the top level of a project, but they can exist at any level. The top level README.md can act as an index which references or links to other README.md files within folders below.
+General documentation, should be next to the code. A common implementation is README.md files in markdown format. They should exist within the applicable logical grouping within a code base (e.g. a module or app folder that it is most relevant to). It is common to see README.md files at the top level of a project, but they can exist at any level. The top level README.md can act as an index which references or links to other README.md files within folders below.
 
 ### External documentation
+
 **Should be generated from the project.**
 
 External documentation, used for communicating to people external of your team, should exist within the applicable logical grouping within a code base (e.g. a module or app folder that it is most relevant to) and can be exported to an external wiki, rather than an external wiki edited away from the code base.
