@@ -17,17 +17,32 @@ Data - revealing the patterns hidden within.
 
 Teams and organizations - to expose the hidden dynamics and rationales operating on a team and the systems they engineer.
 
+Individuals - understand what you know, codifying your habits into understood actions and principles.
+
 ## Why
 
-- Creates understanding.
+Understanding allows better outcomes to be achieved. It improves producitivity. Without understanding, chaos reigns supreme and the systems and organizations that are built from that reflect that. Higher levels o. Buggy code, poor structure, unable to reach higher levels of complexity due to a poor base. If an ordered system is a city, then a chaotic system is a swamp.
+
+An ordered system which is understood allows complexity to be built upon complexity.
+
+It is akin to building a skyscraper. A skyscraper requires a strong foundation, a substructure, built on bedrock. Architects to design the overall look of the building, engineers to adapt the important sub-systems like the electrical and water systems. Construction engineers to build layer upon layer of interconnected floors to form a more complex system.
+
+Chaotic systems and organizations are more akin to a village. Pockets of complexity can arise with individual contributors, with varying levels of quality. But they cannot leverage and build something like a skyscraper. The complexity
+
+- Creates understanding. Understanding is what allows an outcome to be reached. The greater the understanding the better the communication, efficiency and effectiveness of a team.
+
 - Improves productivity.
 - Shares knowledge.
 
 ## How
 
+Data
+
 - Create visalizations that create insight. Convert data into visualizations that can be easily understood. (e.g. splunk)
+  Code
 - Use diagrams. Represent code in less abstract ways, such as drawing diagrams of a system using pen and paper or graphics design programs.
 - Document systems visually. Log and visualize results of a system
+  Teams
 - Use principles to communicate beliefs and ideas.
 
 ## Content
