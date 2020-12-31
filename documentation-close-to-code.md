@@ -5,7 +5,7 @@ category = "Code Quality"
 tags = ["documentation"]
 license = "CC BY-SA 4.0"
 allow_dual_licensing_to_GPLv3 = true
-authors= ["github:AdamCraven"]
+authors= ["AdamCraven"]
 contributors = []
 uid = "teal-beaver-sandye"
 +++
