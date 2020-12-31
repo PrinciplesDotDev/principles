@@ -83,7 +83,3 @@ External documentation, used for communicating to people external of your team, 
 <!--## Terms
 
 **Scaffolded components** - Components that can be loaded or bootstrapped within the application. They contain all the code required to bootstrap themselves with and are-->
-
-## Contributors
-
-<a class="contributor" alt="Adam Craven" href="https://github.com/adamcraven"><img src="https://github.com/adamcraven.png?size=80" width="40"></a>

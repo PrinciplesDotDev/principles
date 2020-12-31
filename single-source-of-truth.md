@@ -34,9 +34,3 @@ Don't allow data to be stored anywhere but the single source of truth.
 
 Further reading:
 https://en.wikipedia.org/wiki/Single_source_of_truth
-
-## Contributors
-
-<a class="contributor" alt="Adam Craven" href="https://github.com/adamcraven">
-  <img src="https://github.com/adamcraven.png?size=80" width="40">
-</a>

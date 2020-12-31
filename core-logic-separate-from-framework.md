@@ -85,9 +85,3 @@ function todoAdd(todos, text) {
 ## Exceptions
 
 - If your core logic is trivial or has limited business value.
-
-## Contributors
-
-<a class="contributor" alt="Adam Craven" href="https://github.com/adamcraven">
-  <img src="https://github.com/adamcraven.png?size=80" width="40">
-</a>

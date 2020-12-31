@@ -36,9 +36,3 @@ Programming is like construction, if you entered a construction site at night ti
 Principles are the lights that help make what is invisible, visible. Everyone has them, but they aren't often shared. By sharing understanding of why a system is designed the way it is. It is like walking into the construction site with the lights on.
 
 The more principles that are defined and understood, the more visible a code base is.
-
-## Contributors
-
-<a class="contributor" alt="Adam Craven" href="https://github.com/adamcraven">
-  <img src="https://github.com/adamcraven.png?size=80" width="40">
-</a>

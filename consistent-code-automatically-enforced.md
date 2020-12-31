@@ -38,9 +38,3 @@ Code should be formatted the same way and enforced automatically using tools.
 ## References
 
 https://www.python.org/dev/peps/pep-0008/
-
-## Contributors
-
-<a class="contributor" alt="Adam Craven" href="https://github.com/adamcraven">
-  <img src="https://github.com/adamcraven.png?size=80" width="40">
-</a>

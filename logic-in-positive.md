@@ -55,7 +55,3 @@ There are cases in which writing logic in the positive will make the code more d
 ["tree", "cat", "dog"].filter((item) => item !== "tree");
 // prints: ['cat','dog']
 ```
-
-## Contributors
-
-<a class="contributor" alt="Adam Craven" href="https://github.com/adamcraven"><img src="https://github.com/adamcraven.png?size=80" width="40"></a>

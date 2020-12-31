@@ -69,9 +69,3 @@ Iterating in thens also allows working in parallel. The parallel task should don
 ## Definitions
 
 - Chunk of work - Work that is divided up into related sections.
-
-## Contributors
-
-<a class="contributor" alt="Adam Craven" href="https://github.com/adamcraven">
-  <img src="https://github.com/adamcraven.png?size=80" width="40">
-</a>

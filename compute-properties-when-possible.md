@@ -90,9 +90,3 @@ class Product {
 
 - Swift implementation of computed properties: https://docs.swift.org/swift-book/LanguageGuide/Properties.html#ID259
 - VueJS explanation https://vuejs.org/v2/guide/computed.html
-
-## Contributors
-
-<a class="contributor" alt="Adam Craven" href="https://github.com/adamcraven">
-  <img src="https://github.com/adamcraven.png?size=80" width="40">
-</a>
