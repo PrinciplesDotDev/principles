@@ -1,8 +1,7 @@
 +++
 principle = "Make the invisible, visible"
-description = "Make the hidden principles, ideas and behaviors which make up a technology organization understood and explicit"
-category = "Strategy"
-tags = ["pde"]
+summary = "Make the hidden principles, ideas and behaviors which make up a technology organization understood and explicit"
+tags = ["pde", "leadership", "epic"]
 license = "CC BY-SA 4.0"
 allow_dual_licensing_to_GPLv3 = true
 authors= ["AdamCraven"]

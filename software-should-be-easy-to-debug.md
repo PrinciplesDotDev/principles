@@ -1,8 +1,7 @@
 +++
 principle = "Software should be easy to debug"
-description = "When software behaves unexpectedly, it should be easy to understand what is causing the problem."
-category = "Process"
-tags = ["errors", "debugging", "logs", "environment setup", "language choice", "productivity"]
+summary = "When software behaves unexpectedly, it should be easy to understand what is causing the problem."
+tags = ["practices", "medium", "errors", "debugging", "logs", "environment setup", "language choice", "productivity"]
 license= "CC BY-SA 4.0"
 allow_dual_licensing_to_GPLv3= true
 authors= ["AdamCraven"]

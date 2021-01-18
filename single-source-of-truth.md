@@ -1,8 +1,7 @@
 +++
 principle = "One single source of truth"
-description = "Data should be held in one location, duplicates of that data should be by reference only."
-category = "Process"
-tags = ["data"]
+summary = "Data should be held in one location, duplicates of that data should be by reference only."
+tags = ["data", "full-stack", "practices","medium", "team"]
 license = "CC BY-SA 4.0"
 allow_dual_licensing_to_GPLv3 = true
 authors= []
