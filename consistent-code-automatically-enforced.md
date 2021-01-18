@@ -1,6 +1,6 @@
 +++
 principle = "Use consistent coding conventions, automatically enforced"
-description = "Code should be formatted the same way and enforced automatically using tools."
+summary = "Code should be formatted the same way and enforced automatically using tools."
 category = "Process"
 tags = ["organization", "strategy"]
 authors = ["AdamCraven"]

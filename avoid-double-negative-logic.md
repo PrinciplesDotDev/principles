@@ -1,6 +1,6 @@
 +++
 principle = "Avoid double negative logic"
-description = "Conditional logic should avoid double negatives."
+summary = "Conditional logic should avoid double negatives."
 category = "Code Quality"
 tags = ["logic"]
 license = "CC BY-SA 4.0"

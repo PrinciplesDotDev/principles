@@ -1,6 +1,6 @@
 +++
 principle = "Ensure documentation is easy to amend"
-description = "When encountering documentation, it should be easy to make changes."
+summary = "When encountering documentation, it should be easy to make changes."
 category = "Code Quality"
 tags = ["documentation"]
 license = "CC BY-SA 4.0"

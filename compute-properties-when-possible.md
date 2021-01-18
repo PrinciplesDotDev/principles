@@ -1,6 +1,6 @@
 +++
 principle = "Compute properties when possible"
-description = ""
+summary = ""
 category = "Process"
 tags = ["bug free"]
 authors = ["AdamCraven"]

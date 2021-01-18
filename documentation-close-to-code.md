@@ -1,6 +1,6 @@
 +++
 principle = "Documentation should be close to the code"
-description = "Documentation, in all forms, should be as close as it can be to the code."
+summary = "Documentation, in all forms, should be as close as it can be to the code."
 category = "Code Quality"
 tags = ["documentation"]
 license = "CC BY-SA 4.0"

@@ -1,6 +1,6 @@
 +++
 principle = "Separate core logic from the framework"
-description = "Core logic that is related to solving a business or domain problem should exist outside of a framework."
+summary = "Core logic that is related to solving a business or domain problem should exist outside of a framework."
 category = "Process"
 tags = ["organization", "strategy"]
 authors = ["AdamCraven"]

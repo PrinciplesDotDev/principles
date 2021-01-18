@@ -1,6 +1,6 @@
 +++
 principle = "Logic should be in the positive"
-description = "Logic should in general be asking the question \"Is this true?\" instead of \"Is this not true?\""
+summary = "Logic should in general be asking the question \"Is this true?\" instead of \"Is this not true?\""
 category = "Process"
 tags = ["style"]
 license = "CC BY-SA 4.0"

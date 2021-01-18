@@ -1,6 +1,6 @@
 +++
 principle = "Iterate in Thens"
-description = "You should iterate sequentially on a focused chunk of work at a time."
+summary = "You should iterate sequentially on a focused chunk of work at a time."
 category = "Process"
 tags = []
 license = "CC BY-SA 4.0"

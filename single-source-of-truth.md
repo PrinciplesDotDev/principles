@@ -1,6 +1,6 @@
 +++
 principle = "One single source of truth"
-description = "Data should be held in one location, duplicates of that data should be by reference only."
+summary = "Data should be held in one location, duplicates of that data should be by reference only."
 category = "Process"
 tags = ["data"]
 license = "CC BY-SA 4.0"

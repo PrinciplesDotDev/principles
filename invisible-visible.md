@@ -1,6 +1,6 @@
 +++
 principle = "Make the invisible, visible"
-description = "Make the hidden principles, ideas and behaviors which make up a technology organization understood and explicit"
+summary = "Make the hidden principles, ideas and behaviors which make up a technology organization understood and explicit"
 category = "Strategy"
 tags = ["pde"]
 license = "CC BY-SA 4.0"
