@@ -1,8 +1,7 @@
 +++
 principle = "Compute properties when possible"
 summary = ""
-category = "Process"
-tags = ["bug free"]
+tags = ["bug free", "practices"]
 authors = ["AdamCraven"]
 contributors = []
 license = "CC BY-SA 4.0"

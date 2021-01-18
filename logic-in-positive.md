@@ -1,8 +1,7 @@
 +++
 principle = "Logic should be in the positive"
 summary = "Logic should in general be asking the question \"Is this true?\" instead of \"Is this not true?\""
-category = "Process"
-tags = ["style"]
+tags = ["style", "practices"]
 license = "CC BY-SA 4.0"
 allow_dual_licensing_to_GPLv3 = true
 authors= []

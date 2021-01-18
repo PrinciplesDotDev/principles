@@ -1,8 +1,7 @@
 +++
 principle = "Ensure documentation is easy to amend"
 summary = "When encountering documentation, it should be easy to make changes."
-category = "Code Quality"
-tags = ["documentation"]
+tags = ["documentation", "code", "practices"]
 license = "CC BY-SA 4.0"
 allow_dual_licensing_to_GPLv3 = true
 authors= ["AdamCraven"]

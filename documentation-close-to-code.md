@@ -1,8 +1,7 @@
 +++
 principle = "Documentation should be close to the code"
 summary = "Documentation, in all forms, should be as close as it can be to the code."
-category = "Code Quality"
-tags = ["documentation"]
+tags = ["documentation", "code", "practices"]
 license = "CC BY-SA 4.0"
 allow_dual_licensing_to_GPLv3 = true
 authors= ["AdamCraven"]

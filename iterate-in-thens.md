@@ -1,8 +1,7 @@
 +++
 principle = "Iterate in Thens"
 summary = "You should iterate sequentially on a focused chunk of work at a time."
-category = "Process"
-tags = []
+tags = ["process", "individual", "medium", "full-stack"]
 license = "CC BY-SA 4.0"
 allow_dual_licensing_to_GPLv3 = true
 authors= ["AdamCraven"]

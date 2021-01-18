@@ -1,8 +1,7 @@
 +++
 principle = "Use consistent coding conventions, automatically enforced"
 summary = "Code should be formatted the same way and enforced automatically using tools."
-category = "Process"
-tags = ["organization", "strategy"]
+tags = ["strategic", "team", "full-stack", "practices"]
 authors = ["AdamCraven"]
 contributors = []
 license = "CC BY-SA 4.0"

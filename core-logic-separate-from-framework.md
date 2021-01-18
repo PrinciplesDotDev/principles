@@ -1,8 +1,7 @@
 +++
 principle = "Separate core logic from the framework"
 summary = "Core logic that is related to solving a business or domain problem should exist outside of a framework."
-category = "Process"
-tags = ["organization", "strategy"]
+tags = ["organization", "strategic", "architecture", "full-stack", "practices"]
 authors = ["AdamCraven"]
 contributors = []
 license = "CC BY-SA 4.0"
