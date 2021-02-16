@@ -22,6 +22,12 @@ Core logic that is related to solving a business or domain problem should exist 
 
 ## How
 
+* Abstract code that is wrapped inside the framework to separate files
+* Use software engineering concepts such as domain-driven design to structure the code based on business requirements.
+* Use design patterns and principles when designing a system. e.g. repository pattern, inversion of control, solid principles, etc...
+
+## Basic example of abstracting code from a framework
+
 The below example is from a redux framework in which a reducer - a redux concept - adds a todo item into the application:
 
 ```js
