@@ -23,7 +23,7 @@ jobs:
                   if [[ $statusCode == "200" ]]; then
                       echo "VALID: ${changed_file}"
                   else
-                      echo "FAILED Validation: ${changed_file}: ${curlOutput%StatusCode*}"
+                      echo "FAILED Validation: ${changed_file}: >>> ${curlOutput%StatusCode*} <<<"
                       exit 1
                   fi
               fi
