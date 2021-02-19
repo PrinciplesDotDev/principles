@@ -1,7 +1,7 @@
 +++
 principle = "Avoid double negative logic"
 summary = "Conditional logic should avoid double negatives."
-tags = ["logic", "coide", "practices"]
+tags = ["logic", "code", "practices"]
 license = "CC BY-SA 4.0"
 allow_dual_licensing_to_GPLv3 = true
 authors= []
