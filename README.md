@@ -4,7 +4,7 @@ The repository outlines a list of principles used in software development to hel
 
 ## Format of a Principle
 
-How to format your own principles can be found [here](https://pdd.dev/principle-specification/)
+How to format your own principles can be found [here](https://principles.dev/documentation/)
 
 ## Contributing
 
