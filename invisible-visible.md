@@ -10,23 +10,30 @@ contributors = []
 uid = "plum-swordfish-binni"
 +++
 
-Reveal what is hidden so it can be understood.
+Revealing what is hidden so it can be understood.
 
-These are the patterns, behaviors, structures and interactions that make up a system or organization.
+These are patterns, behaviors, structures and interactions that make up a system or organization.
 
-Code - communicating the abstract ideas and structure of programming so it can be shared between engineers.
+The principle is wide in scope and covers many areas. Here of some examples of how it affects your approach.
 
-A running programming - being able to peer inside of it, to see the changes that happen over time.
+* *Code* - communicating the abstract ideas and structure of programming using principles so it can be shared between engineers.
+
+* Being able to explain why
+
+Being able to debug a running program, to see changes that happening over time. Rather than an input output black-box.
 
 Data - revealing the patterns hidden within.
 
-Teams and organizations - to expose the hidden dynamics and rationales operating on a team and the systems they engineer.
+Machine learning - Data mining a neural network to reveal hidden logic.
+
+
+Teams and organizations - exposing the hidden dynamics and rationales operating on a team and systems they engineer.
 
 Individuals - understand what you know, codifying your habits into understood actions and principles.
 
 ## Why
 
-Understanding allows better outcomes to be achieved. It improves producitivity. Without understanding, chaos reigns supreme and the systems and organizations that are built from that reflect that. Higher levels o. Buggy code, poor structure, unable to reach higher levels of complexity due to a poor base. If an ordered system is a city, then a chaotic system is a swamp.
+Understanding allows better outcomes to be achieved. It improves productivity. Without understanding, chaos reigns supreme and the systems and organizations that are built from that reflect that. Higher levels o. Buggy code, poor structure, unable to reach higher levels of complexity due to a poor base. If an ordered system is a city, then a chaotic system is a swamp.
 
 An ordered system which is understood allows complexity to be built upon complexity.
 
