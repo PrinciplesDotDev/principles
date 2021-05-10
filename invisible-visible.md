@@ -14,6 +14,22 @@ Revealing what is hidden so it can be understood.
 
 These are patterns, behaviors, structures and interactions that make up a system or organization.
 
+This might sound obvious, how can you build or operate in a system in which you don't understand?
+
+However, if you think about it, much of the building of software or interaction with teams. Most of the behavior is hidden.
+You don't know what's happening inside the CPU, nor do you know what's happening inside the minds of your team members.
+
+Programming is done on an island of understanding in a sea of chaos.
+
+The idea is not be make everything visible, for that is impossible. It is reveal what is valuable to be understand. From chunks of knowledge from other programmers, expressed in principles, to being able to watch a user's request in production work it's way through the system and watch what side-effects it has on the system.
+
+It requires less thought to attempt trial and error to resolve a problem, instead of stepping back and understanding what the problem is.
+
+
+Can see a request as it moves through
+
+
+
 The principle is wide in scope and covers many areas. Here of some examples of how it affects your approach.
 
 * *Code* - communicating the abstract ideas and structure of programming using principles so it can be shared between engineers.
