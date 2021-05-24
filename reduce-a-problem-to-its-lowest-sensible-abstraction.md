@@ -1,5 +1,5 @@
 +++
-principle = "Reduce a problem to its lowest sensible abstraction."
+principle = "Reduce a problem to its lowest sensible abstraction"
 tags = ["process"]
 summary = "Stating a problem in its lowest sensible abstraction helps you understand and develop accurate solutions to a problem."
 authors = ["AdamCraven"]
@@ -12,17 +12,17 @@ uid = "fb28478b-005a-4348-9bbf-0d7e3da4429f"
 +++
 Stating a problem in its lowest sensible abstraction helps you understand and develop accurate solutions to a problem.
 
-## Content
+----
 
-I was working on a web scraper that was performance-critical. I stated the problem as "I need to click buttons on this website and fill out forms fast."
+When working on building a performance-critical web scraper, the problem in my mind was, "I need to click buttons on this website and fill out forms fast."
 
-To solve that problem, I decided that using an automated headless browser, controlled by [Puppeteer](https://developers.google.com/web/tools/puppeteer), was a good choice.
+To solve that problem, I decided that the best way to solve that problem was using an automated headless browser, controlled by [Puppeteer](https://developers.google.com/web/tools/puppeteer).
 
 However, I soon found out it wasn't fast enough, and scaling would require a lot of computational resources.
 
-Because I thought of the problem in those terms, I became stuck. Thoughts entered my mind: "What was faster than headless chrome?" "Years of development had gone into it. How could I possibly make it run faster?"
+Because I thought of the problem in terms of clicking buttons, I became stuck. My thought process revolved around solving the problem I thought I had. "What is faster than headless chrome?" "Years of development had gone into it. How could I possibly make it run faster?"
 
-After thinking a while, I realized the problem was not clicking buttons on a website; it was: "I just need to parse HTML forms and submit them via post requests." It over-simplified the problem. But I'd found the lowest sensible abstraction.
+After a while, I realized the problem was not clicking buttons on a website; it was: "I just need to parse HTML forms and submit them via post requests.". It over-simplified the problem. But I'd found the lowest sensible abstraction.
 
 After I'd stated the problem correctly, I realized I didn't need to use a browser at all. I re-built the scraper in Go, then parsed the HTML and submitted the forms via post requests. Without the complexity of the browser, I moved page processing down from around 50ms to 0.5ms - A 100x improvement.
 
