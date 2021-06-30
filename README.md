@@ -3,15 +3,15 @@
 
 This repository is community created list of principles used in software engineering and software leadership to create better teams.
 
-This repository is also the main data source for https://principles.dev. Any changes to here will be added to the website.
+This repository is also the main data source for https://principles.dev. Any changes here will be reflected on the website.
 
 ![principle-capability-behavior-triangle cd42ec05a728-1](https://user-images.githubusercontent.com/610638/124030633-4a7bc000-d9ee-11eb-86e9-cff2431bfb5f.jpg)
 
 
 
-## Format of a Principle
+## Creating your first principle
 
-You can create your principle here: https://principles.dev/editor/ and read about what is necessary to create a principle here: https://principles.dev/documentation/#how-to-write-a-principle_1
+You can create your principle by using the [Editor](https://principles.dev/editor/) and what you need to include by reading [how to write a principle](https://principles.dev/documentation/#how-to-write-a-principle_1).
 
 
 ## Contributing
