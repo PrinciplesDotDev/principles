@@ -2,188 +2,91 @@
 principle = "Make the invisible, visible"
 description = "Make the hidden principles, ideas and behaviors which make up a technology organization understood and explicit"
 category = "Strategy"
-tags = ["pde"]
+tags = ["pde", "epic", "leadership", "organization", "team", "individual", "strategic"]
 license = "CC BY-SA 4.0"
 allow_dual_licensing_to_GPLv3 = true
-authors= ["github:AdamCraven"]
+authors= ["AdamCraven"]
 contributors = []
 uid = "plum-swordfish-binni"
 +++
 
-Revealing what is hidden so it can be understood.
-
-These are patterns, behaviors, structures and interactions that make up a system or organization.
-
-This might sound obvious, how can you build or operate in a system in which you don't understand?
-
-However, if you think about it, much of the building of software or interaction with teams. Most of the behavior is hidden.
-You don't know what's happening inside the CPU, nor do you know what's happening inside the minds of your team members.
-
-Programming is done on an island of understanding in a sea of chaos.
-
-The idea is not be make everything visible, for that is impossible. It is reveal what is valuable to be understand. From chunks of knowledge from other programmers, expressed in principles, to being able to watch a user's request in production work it's way through the system and watch what side-effects it has on the system.
-
-It requires less thought to attempt trial and error to resolve a problem, instead of stepping back and understanding what the problem is.
-
-
-Can see a request as it moves through
-
-
-
-The principle is wide in scope and covers many areas. Here of some examples of how it affects your approach.
-
-* *Code* - communicating the abstract ideas and structure of programming using principles so it can be shared between engineers.
-
-* Being able to explain why
-
-Being able to debug a running program, to see changes that happening over time. Rather than an input output black-box.
-
-Data - revealing the patterns hidden within.
-
-Machine learning - Data mining a neural network to reveal hidden logic.
-
-
-Teams and organizations - exposing the hidden dynamics and rationales operating on a team and systems they engineer.
-
-Individuals - understand what you know, codifying your habits into understood actions and principles.
+Reveal relevant information that is hidden so it can be understood. By making hidden principles, ideas, and behaviors that make up a technology organization understood and explicit.
 
 ## Why
 
-Understanding allows better outcomes to be achieved. It improves productivity. Without understanding, chaos reigns supreme and the systems and organizations that are built from that reflect that. Higher levels o. Buggy code, poor structure, unable to reach higher levels of complexity due to a poor base. If an ordered system is a city, then a chaotic system is a swamp.
+Understanding allows better outcomes. It improves productivity. Without understanding, chaos reigns supreme, and the systems and organizations that are based upon that reflect that, whether it be not understanding the business case or not understanding the software.
 
-An ordered system which is understood allows complexity to be built upon complexity.
-
-It is akin to building a skyscraper. A skyscraper requires a strong foundation, a substructure, built on bedrock. Architects to design the overall look of the building, engineers to adapt the important sub-systems like the electrical and water systems. Construction engineers to build layer upon layer of interconnected floors to form a more complex system.
-
-Chaotic systems and organizations are more akin to a village. Pockets of complexity can arise with individual contributors, with varying levels of quality. But they cannot leverage and build something like a skyscraper. The complexity
-
-- Creates understanding. Understanding is what allows an outcome to be reached. The greater the understanding the better the communication, efficiency and effectiveness of a team.
-
-- Improves productivity.
-- Shares knowledge.
+The greater the shared understanding in the team, the better the communication, efficiency, and effectiveness of the team members
 
 ## How
+
+A few examples:
 
 Data
 
-- Create visalizations that create insight. Convert data into visualizations that can be easily understood. (e.g. splunk)
-  Code
-- Use diagrams. Represent code in less abstract ways, such as drawing diagrams of a system using pen and paper or graphics design programs.
-- Document systems visually. Log and visualize results of a system
-  Teams
-- Use principles to communicate beliefs and ideas.
+* Create visualizations that create insight.
+* Convert data into visualizations that are easier to understand. (e.g., grafana, splunk)
+* Run calculations on the data to understand the content (e.g., average price, top sales)
+* Use analytics within a system to increase feedback cycles.
+* Data mining a dataset to reveal hidden patterns.
 
-## Content
+Code
 
-Making the invisible visible is about communicating understanding. To the team and to the the user of the system.
+* Use diagrams. Represent code in less abstract ways, such as drawing diagrams of a system using pen and paper or graphics design programs. This helps transmit mental models.
+* Document systems visually.
+* Log and visualize the results of a system.
+* Use debuggers to be able to peer inside a system to see changes that are happening over time, rather than an input-output black-box.
+* Use performance tools like flame-graphs to view what the system
 
-Software is abstract in nature. It is a collection of data or computer instructions that tell a computer how to work, but computer instructions on their own are rarely understandable.
+Teams
 
-Using concepts such as objects and relationships, software systems Software systems are written to be understood by a human. With concepts such as objects and relationships which help the mind sense of a system.
+* Use principles to communicate and build mental models that everyone can share in the team.
+* Ask questions that seek to understand and illuminate.
+* Use Principle-Driven Engineering as a guide to help make the invisible, visible.
 
-An example of an implementation:
+Individuals
 
-Being able to see every request through a production application. Watching in real time as the data arrives, moves around the system. Watching how it is transformed, combined and stored as moves into a database. All whilst revealing memory usage, garbage collections, highlighting areas where code is slow.
+* Understand what you know, codifying your habits into understood actions and principles.
+* Be intellectually honest and unafraid of being wrong. If you realize you are wrong, it allows you to learn rapidly.
 
-Drawing out relationships between parts of a system using a pen a paper or graphics design programs.
+## History
 
-### Document systems visually
+Making the invisible, visible is the principle that founded this project—the desire to share mental models and build capability for myself and my teams.
 
-The human
+In many ways, all principles inherit from it. The result of that is that all principles implicitly:
 
-TODO: How to does the main perceiving programming?
+* Increase understanding.
+* Improve productivity.
+* Share knowledge.
+* Constrain behavior / action.
+* Increase capability.
+* Improve behavior / action.
 
-Then imagine instead of being a group of text files moving through the system, a 3D representation appears. The edge of the building the data approaches is a gate which represents the API. We watch as someone checks this data comes into the building gets checked by and then is let in. We follow it into the next room where it examines what the data looks like the data some more watching areas where of the different places of the app we visit, the model, the database connection, the frameworks the application is being held up by. We could go down this 3D structure, deeper and deeper until we get to the CPU, see how our data is converted into electrons and watch them buzz around the CPUs caches . How we visit each location and then finally leaves the
+## Article
 
-Making the invisible visible
+How can you build anything if you don't understand it?
 
-This is a base principle which all principles inherit from. The result of that, is that all principles implicitly:
+Yet in software, most of the time, we are precisely working in a system in which we can understand only a tiny part.
 
-- Create understanding.
-- Improve productivity.
-- Shares knowledge.
+From building software or interacting with teams, most of the behavior is hidden. You don't know what other people are thinking - you cannot see their mental models. Nor do you know what's happening inside the CPU.
 
-All other principles do not need to mention the above benefits, as all principles will do the above.
+Making the invisible, visible is about revealing things that you currently don't understand - which are limiting your capability - by making them visible.
 
-Programming and the systems create from them are abstract in nature, they cannot be seen in the real world and are often hard to understand.
+These are patterns, behaviors, structures, and interactions that make up a system or organization.
 
-// Drawing parallels with the construction industry. In a construction project you can walk onto a construction site and view the physical structures.
+The idea is not to make everything visible, for that is impossible. It is to reveal what is valuable—from chunks of knowledge from other programmers, expressed in principles, to watching a user's request in production work its way through the system and being able to see all the side-effects it has on the system.
 
-In code, you cannot look at an unfamiliar codebase and quickly understand the interconnections, structure and architecture of the system.
+### In code
 
-Programming is like construction, if you entered a construction site at night time and all the lights were turned off. You cannot see what you're building. To see what is being created, you have to create the picture in your head, by manually parsing lines of code, reading documentation and have team members share concepts with you.
+Have you ever had a bug that you've tried to solve through trial and error? You change something over and over in the hope that it fixes that problem.
 
-Principles are the lights that help make what is invisible, visible. Everyone has them, but they aren't often shared. By sharing understanding of why a system is designed the way it is. It is like walking into the construction site with the lights on.
+The implication of not following the principle is less noticeable when you're developing locally because feedback cycles are short (i.e., you are on your local machine), and this approach works. But in production, feedback cycles are long, and the trial and error approach won't work.
 
-The more principles that are defined and understood, the more visible a code base is.
+Using this principle means ensuring a design to make complexity manageable and focuses on having the right tools throughout your stack.
 
-## Contributors
 
-<a class="contributor" alt="Adam Craven" href="https://github.com/adamcraven">
-  <img src="https://github.com/adamcraven.png?size=80" width="40">
-</a>
+### In teams
+What about assumptions in teams? Have you ever had a team member that goes off for a few weeks to create software only for it to get to code review, and they've done it in a way that you wouldn't have expected?
 
-https://en.wikipedia.org/wiki/Software
-https://www.coursera.org/lecture/dataviz-design/the-human-brain-and-data-visualization-X9lVx
-
----
-
-+++
-principle = "Make the invisible, visible"
-description = "Make the hidden principles, ideas and behaviors which make up a technology organization understood and explicit"
-category = "Strategy"
-tags = ["pde"]
-license = "CC BY-SA 4.0"
-allow_dual_licensing_to_GPLv3 = true
-authors= ["github:AdamCraven"]
-contributors = []
-uid = "plum-swordfish-binni"
-+++
-
-Make the hidden principles, structure and ac which make up a technology organization understood and explicit.
-
-Understand reality by making clear the behaviors that are acting upon a system.
-
-Reduce complexity by giving clear explainations
-
-Create understan
-
-The system could be the code, team or organisation.
-ideas, forces, complexity
-Enable understanding of the abstract by revealing what is causing it to be the way something is
-
-Abstract - "Existing in thought or as an idea but not having a physical or concrete existence."
-Enable understanding of the abstract by creating explicit for why the things are the way they are.
-
-Make the hidden principles, ideas and behaviors which make up a technology organization understood and explicit.
-
-## Why
-
-- Understanding is what allows an outcome to be reached. The greater the understanding the better the communication, efficiency and effectiveness of a team.
-
-## How
-
-- Use Principles combined with Principle-Driven Development to illuminate the technology organization from the source code to the leadership level.
-- Ask questions that seek to understand and illuminate.
-
-## Content
-
-It is the founding principle of Principle-Driven Development (PDD). The base principle behind every other principle and the purpose of PDD. It is broad in scope and purpose.
-
-Programming is abstract in nature, it cannot be seen. Only the results of programming can be seen. This is also true of the behavior of an organization.
-
-Drawing parallels with the construction industry. In a construction project you can walk onto a construction site and view the physical structures.
-
-In code, you cannot look at an unfamiliar codebase and quickly understand the interconnections, structure and architecture of the system.
-
-Programming is like construction, if you entered a construction site at night time and all the lights were turned off. You cannot see what you're building. To see what is being created, you have to create the picture in your head, by manually parsing lines of code, reading documentation and have team members share concepts with you.
-
-Principles are the lights that help make what is invisible, visible. Everyone has them, but they aren't often shared. By sharing understanding of why a system is designed the way it is. It is like walking into the construction site with the lights on.
-
-The more principles that are defined and understood, the more visible a code base is.
-
-## Contributors
-
-<a class="contributor" alt="Adam Craven" href="https://github.com/adamcraven">
-  <img src="https://github.com/adamcraven.png?size=80" width="40">
-</a>
+This is because you don't share similar mental models on designing software, and there were no constraints to guide the design.
+Sharing those models and understanding by making your principles visible means everyone on the team's code looks more familiar and easier to understand.
