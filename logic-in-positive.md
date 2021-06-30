@@ -38,7 +38,7 @@ Then written in the positive:
 
 ```js
 isBlackOrWhite(black, white) => {
-    if (black && white) {
+    if (black || white) {
         return true;
     }
     return false;
