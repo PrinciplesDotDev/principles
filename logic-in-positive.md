@@ -1,12 +1,11 @@
 +++
 principle = "Logic should be in the positive"
-description = "Logic should in general be asking the question \"Is this true?\" instead of \"Is this not true?\""
-category = "Process"
-tags = ["style"]
+summary = "Logic should in general be asking the question \"Is this true?\" instead of \"Is this not true?\""
+tags = ["style", "practices"]
 license = "CC BY-SA 4.0"
 allow_dual_licensing_to_GPLv3 = true
 authors= []
-contributors = ["github:AdamCraven"]
+contributors = ["AdamCraven"]
 uid = "amber-finch-jordain"
 +++
 
@@ -55,7 +54,3 @@ There are cases in which writing logic in the positive will make the code more d
 ["tree", "cat", "dog"].filter((item) => item !== "tree");
 // prints: ['cat','dog']
 ```
-
-## Contributors
-
-<a class="contributor" alt="Adam Craven" href="https://github.com/adamcraven"><img src="https://github.com/adamcraven.png?size=80" width="40"></a>

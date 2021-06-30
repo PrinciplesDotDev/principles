@@ -1,11 +1,10 @@
 +++
 principle = "Iterate in Thens"
-description = "You should iterate sequentially on a focused chunk of work at a time."
-category = "Process"
-tags = []
+summary = "You should iterate sequentially on a focused chunk of work at a time."
+tags = ["process", "individual", "medium", "full-stack"]
 license = "CC BY-SA 4.0"
 allow_dual_licensing_to_GPLv3 = true
-authors= ["github:AdamCraven"]
+authors= ["AdamCraven"]
 contributors = []
 uid = "red-blackbird-junina"
 +++
@@ -69,9 +68,3 @@ Iterating in thens also allows working in parallel. The parallel task should don
 ## Definitions
 
 - Chunk of work - Work that is divided up into related sections.
-
-## Contributors
-
-<a class="contributor" alt="Adam Craven" href="https://github.com/adamcraven">
-  <img src="https://github.com/adamcraven.png?size=80" width="40">
-</a>

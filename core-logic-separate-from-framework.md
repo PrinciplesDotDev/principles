@@ -1,9 +1,8 @@
 +++
 principle = "Separate core logic from the framework"
-description = "Core logic that is related to solving a business or domain problem should exist outside of a framework."
-category = "Process"
-tags = ["organization", "strategy"]
-authors = ["github:AdamCraven"]
+summary = "Core logic that is related to solving a business or domain problem should exist outside of a framework."
+tags = ["organization", "strategic", "architecture", "full-stack", "practices"]
+authors = ["AdamCraven"]
 contributors = []
 license = "CC BY-SA 4.0"
 allow_dual_licensing_to_GPLv3 = true
@@ -22,6 +21,12 @@ Core logic that is related to solving a business or domain problem should exist 
 - Code is easier to test. It is not wrapped in a framework's abstractions.
 
 ## How
+
+* Abstract code that is wrapped inside the framework to separate files
+* Use software engineering concepts such as domain-driven design to structure code based on business requirements.
+* Use design patterns and principles when designing a system. e.g. repository pattern, inversion of control, solid principles, etc.
+
+## Basic example of abstracting code from a framework
 
 The below example is from a redux framework in which a reducer - a redux concept - adds a todo item into the application:
 
@@ -85,9 +90,3 @@ function todoAdd(todos, text) {
 ## Exceptions
 
 - If your core logic is trivial or has limited business value.
-
-## Contributors
-
-<a class="contributor" alt="Adam Craven" href="https://github.com/adamcraven">
-  <img src="https://github.com/adamcraven.png?size=80" width="40">
-</a>

@@ -1,12 +1,11 @@
 +++
 principle = "One single source of truth"
-description = "Data should be held in one location, duplicates of that data should be by reference only."
-category = "Process"
-tags = ["data"]
+summary = "Data should be held in one location, duplicates of that data should be by reference only."
+tags = ["data", "full-stack", "practices","medium", "team"]
 license = "CC BY-SA 4.0"
 allow_dual_licensing_to_GPLv3 = true
 authors= []
-contributors = ["github:AdamCraven"]
+contributors = ["AdamCraven"]
 uid = "violet-primate-gertruda"
 +++
 
@@ -34,9 +33,3 @@ Don't allow data to be stored anywhere but the single source of truth.
 
 Further reading:
 https://en.wikipedia.org/wiki/Single_source_of_truth
-
-## Contributors
-
-<a class="contributor" alt="Adam Craven" href="https://github.com/adamcraven">
-  <img src="https://github.com/adamcraven.png?size=80" width="40">
-</a>

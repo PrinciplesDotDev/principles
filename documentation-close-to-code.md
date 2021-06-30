@@ -1,11 +1,10 @@
 +++
 principle = "Documentation should be close to the code"
-description = "Documentation, in all forms, should be as close as it can be to the code."
-category = "Code Quality"
-tags = ["documentation"]
+summary = "Documentation, in all forms, should be as close as it can be to the code."
+tags = ["documentation", "code", "practices"]
 license = "CC BY-SA 4.0"
 allow_dual_licensing_to_GPLv3 = true
-authors= ["github:AdamCraven"]
+authors= ["AdamCraven"]
 contributors = []
 uid = "teal-beaver-sandye"
 +++
@@ -83,7 +82,3 @@ External documentation, used for communicating to people external of your team, 
 <!--## Terms
 
 **Scaffolded components** - Components that can be loaded or bootstrapped within the application. They contain all the code required to bootstrap themselves with and are-->
-
-## Contributors
-
-<a class="contributor" alt="Adam Craven" href="https://github.com/adamcraven"><img src="https://github.com/adamcraven.png?size=80" width="40"></a>

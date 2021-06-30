@@ -1,7 +1,6 @@
 +++
 principle = "Make the invisible, visible"
-description = "Make the hidden principles, ideas and behaviors which make up a technology organization understood and explicit"
-category = "Strategy"
+summary = "Make the hidden principles, ideas and behaviors which make up a technology organization understood and explicit"
 tags = ["pde", "epic", "leadership", "organization", "team", "individual", "strategic"]
 license = "CC BY-SA 4.0"
 allow_dual_licensing_to_GPLv3 = true
@@ -84,9 +83,9 @@ The implication of not following the principle is less noticeable when you're de
 
 Using this principle means ensuring a design to make complexity manageable and focuses on having the right tools throughout your stack.
 
-
 ### In teams
 What about assumptions in teams? Have you ever had a team member that goes off for a few weeks to create software only for it to get to code review, and they've done it in a way that you wouldn't have expected?
 
 This is because you don't share similar mental models on designing software, and there were no constraints to guide the design.
 Sharing those models and understanding by making your principles visible means everyone on the team's code looks more familiar and easier to understand.
+

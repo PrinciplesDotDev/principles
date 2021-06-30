@@ -1,9 +1,8 @@
 +++
 principle = "Use consistent coding conventions, automatically enforced"
-description = "Code should be formatted the same way and enforced automatically using tools."
-category = "Process"
-tags = ["organization", "strategy"]
-authors = ["github:AdamCraven"]
+summary = "Code should be formatted the same way and enforced automatically using tools."
+tags = ["strategic", "team", "full-stack", "practices"]
+authors = ["AdamCraven"]
 contributors = []
 license = "CC BY-SA 4.0"
 allow_dual_licensing_to_GPLv3 = true
@@ -38,9 +37,3 @@ Code should be formatted the same way and enforced automatically using tools.
 ## References
 
 https://www.python.org/dev/peps/pep-0008/
-
-## Contributors
-
-<a class="contributor" alt="Adam Craven" href="https://github.com/adamcraven">
-  <img src="https://github.com/adamcraven.png?size=80" width="40">
-</a>
