@@ -32,10 +32,9 @@ Data
 Code
 
 * Use diagrams. Represent code in less abstract ways, such as drawing diagrams of a system using pen and paper or graphics design programs. This helps transmit mental models.
-* Document systems visually.
 * Log and visualize the results of a system.
 * Use debuggers to be able to peer inside a system to see changes that are happening over time, rather than an input-output black-box.
-* Use performance tools like flame-graphs to view what the system
+* Use performance tools like flame-graphs to visualize where the program is spending it's time.
 
 Teams
 
