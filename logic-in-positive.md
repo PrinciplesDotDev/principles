@@ -5,7 +5,7 @@ tags = ["style", "practices"]
 license = "CC BY-SA 4.0"
 allow_dual_licensing_to_GPLv3 = true
 authors= []
-contributors = ["AdamCraven"]
+contributors = ["AdamCraven", "streamer45"]
 uid = "amber-finch-jordain"
 +++
 
@@ -38,7 +38,7 @@ Then written in the positive:
 
 ```js
 isBlackOrWhite(black, white) => {
-    if (black && white) {
+    if (black || white) {
         return true;
     }
     return false;
