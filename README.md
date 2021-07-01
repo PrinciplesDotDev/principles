@@ -18,6 +18,10 @@ You can create your principle by using the [Editor](https://principles.dev/edito
 
 Contributions are most welcome and encouraged. Create a pull request and add your own Principles or update others with the merge target set to **release** branch
 
+## Keeping in touch
+
+Sign up for an account at https://principles.dev and follow [@principles_dev](https://twitter.com/principles_dev) to learn more about principles.
+
 ## Licensing
 
 
