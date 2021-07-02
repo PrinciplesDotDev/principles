@@ -19,12 +19,36 @@ Core logic that is related to solving a business or domain problem should exist 
 - You can solve your business problem better. Because a framework is not created to solve your particular problem, it cannot know the best way to solve it.
 - Code is easier to read. You only need to understand the programming language, not the framework.
 - Code is easier to test. It is not wrapped in a framework's abstractions.
-
 ## How
 
 * Abstract code that is wrapped inside the framework to separate files
 * Use software engineering concepts such as domain-driven design to structure code based on business requirements.
+* Use principles to give the team confidence and create autonomy to design a system.
 * Use design patterns and principles when designing a system. e.g. repository pattern, inversion of control, solid principles, etc.
+
+## Content
+
+One of the most costly decisions I've come across in Software Engineering, that costs billions in lost value, is building business logic entirely inside the confines of a framework.
+
+Imagine instead building a house, it is delivered to a plot of land you purchased - much cheaper than an ordinary house and easier to make.
+
+Except in this house, there's a catch. When you leave the house, you're not allowed to take anything away except you, your family, and your memories. All your precious items, photos, electronics, etc., have to be left behind.
+
+This analogy often happens with frameworks; instead of using the framework as a tool, all business logic is put inside and becomes inseparable.
+
+Changing the framework means losing that asset.
+
+Frameworks naturally have benefits. They provide structure, alignment, and initial development speed. It's much easier to point at a framework and follow all the documentation on a team. They can still be used, but as tools rather integrating all the core logic.
+
+### It takes experience
+
+It is the dividing line between an experienced software engineer and a junior: *Juniors rely on frameworks - senior ones use frameworks as tools.*
+
+It is why experienced software engineers are more valuable to businesses in the long run.
+
+It also applies to teams: *Unaligned teams **have** to rely on frameworks - aligned ones use frameworks as tools.*
+
+It is why principles are so helpful because they align teams.
 
 ## Basic example of abstracting code from a framework
 
