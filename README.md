@@ -1,7 +1,7 @@
 ![principles-logo@2x 2a8f2ec701e4](https://user-images.githubusercontent.com/610638/124029515-2370be80-d9ed-11eb-97e4-d20e54b51423.png) 
 # Principles 
 
-This repository is an open-source created list of principles used in software engineering and technical leadership to improve capability. 
+An open-source list of principles used in software engineering and leadership to improve capability. 
 
 If you have your own principles, you can contribute them to the repository (see below)
 
