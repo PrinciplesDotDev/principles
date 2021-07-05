@@ -1,7 +1,9 @@
 ![principles-logo@2x 2a8f2ec701e4](https://user-images.githubusercontent.com/610638/124029515-2370be80-d9ed-11eb-97e4-d20e54b51423.png) 
 # Principles 
 
-This repository is community created list of principles used in software engineering and software leadership to create better teams.
+This repository is open-source created list of principles used in software engineering and software leadership to create better teams. 
+
+If you have your own principles, you can contribute them to the repository (see below)
 
 This repository is also the main data source for https://principles.dev. Any changes here will be reflected on the website.
 
