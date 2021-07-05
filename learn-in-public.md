@@ -1,8 +1,8 @@
 +++
 principle = "Learn in Public"
 tags = ["learning", "knowledge management", "personal growth"]
-summary = "The fastest way to learn."
-authors = ["swyx"]
+summary = "Instead of keeping what you learn to yourself, share it as you go, for accountability, feedback, and networking."
+authors = ["sw-yx"]
 contributors = [""]
 license = "CC BY-SA 4.0"
 allow_dual_licensing_to_GPLv3 = true
