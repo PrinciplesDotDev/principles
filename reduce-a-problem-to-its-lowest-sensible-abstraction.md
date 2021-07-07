@@ -1,7 +1,7 @@
 +++
 principle = "Reduce a problem to its lowest sensible abstraction"
 tags = ["process"]
-summary = "Stating a problem in its lowest sensible abstraction helps you understand and develop accurate solutions to a problem."
+summary = "Framing a problem in its lowest sensible abstraction helps you understand and develop accurate solutions to a problem."
 authors = ["AdamCraven"]
 contributors = [""]
 license = "CC BY-SA 4.0"
@@ -10,11 +10,12 @@ original_source_is_canonical = false
 crystalized = false
 uid = "fb28478b-005a-4348-9bbf-0d7e3da4429f"
 +++
-Stating a problem in its lowest sensible abstraction to help you understand and develop accurate solutions to a problem.
 
-For example, for a business problem: I want to book an appointment rapidly on this website
+Framing a problem in its lowest sensible abstraction to help you understand and develop accurate solutions to a problem.
 
-The same problem could be stated in many different ways. From higher to lower abstractions:
+For example, for a business issue: I want to book an appointment rapidly on a website.
+
+You can frame the problem in many different ways. From higher to lower abstractions:
 
 I need to...
 
@@ -22,15 +23,14 @@ I need to...
 * click buttons on this website and fill out forms fast.
 * parse the DOM to access the website and submit the forms.
 * parse HTML forms and submit them via post requests.
-* parse HTTP response and submit a HTTP response
-* parse TCP packets and submit a TCP response
-* parse the binary 1s and 0s and submit a binary response.
+* parse an HTTP response, submit an HTTP response
+* parse TCP packets, submit a TCP response
 * parse the electrical signals and submit an electrical response.
 
 ## Why
 
-* Framing the a problem in the correct level of abstraction, greatly increases chances of project success
-* It helps you understand what capabilities are required to solve a problem. The team required to parse computer electrical signals would be very different from the team required to click buttons on a website
+* Greatly increases chances of project success, as you're working at the optimum level to solve the problem.
+* It helps you understand what capabilities are required to solve a problem. The team required to parse computer electrical signals would be very different from the team required to click buttons on a website.
 
 
 ----
