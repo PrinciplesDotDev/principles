@@ -2,7 +2,7 @@
 principle = "Code an off-switch"
 tags = ["feature flag", "feature toggle", "off switch", "practices", "team", "medium"]
 summary = "Always plan for a way to switch your work off"
-authors = ["Kealan Parr"]
+authors = ["kealanparr"]
 contributors = []
 license = "CC BY-SA 4.0"
 allow_dual_licensing_to_GPLv3 = true
@@ -20,7 +20,7 @@ It helps ensure:
 
 * You plan out your work in a modular way, to ensure your work can simply be "removed" and it falls back into an alternate state.
 * Provides a smooth release path for you to deploy your code.
-* Gives your on-call developers a very simple resolution if they get waken up at 1am to fix it.
+* Gives your on-call developers a very simple resolution if they get woken up at 1am to fix it.
 * It also will make it easier to configure your different features for different geolocations for example - Italian users shouldn't see this, but everyone else should.
 
 If there is a large cognitive overhead of having too many flags in your system, you can always remove the flag once your feature is bedded in.
