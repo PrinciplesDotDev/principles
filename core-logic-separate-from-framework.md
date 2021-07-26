@@ -36,8 +36,6 @@ This analogy often happens with frameworks; instead of using the framework as a 
 
 Changing the framework means losing that asset.
 
-Frameworks naturally have benefits. They provide structure, alignment, and initial development speed. It's much easier to point at a framework and follow all the documentation on a team. They should be used as tools rather than something to integrate all the core logic.
-
 ### It takes experience
 
 It is the dividing line between an experienced software engineer and a junior: *Juniors rely on frameworks - senior ones use frameworks as tools.*
