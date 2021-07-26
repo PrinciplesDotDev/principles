@@ -28,17 +28,15 @@ Core logic that is related to solving a business or domain problem should exist 
 
 ## Content
 
-One of the most costly decisions I've come across in Software Engineering, that costs billions in lost value, is building business logic entirely inside the confines of a framework.
+One of the most costly decisions I've come across in Software Engineering that must cost billions in lost value is building business logic entirely inside the confines of a framework.
 
-Imagine instead building a house, it is delivered to a plot of land you purchased - much cheaper than an ordinary house and easier to make.
-
-Except in this house, there's a catch. When you leave the house, you're not allowed to take anything away except you, your family, and your memories. All your precious items, photos, electronics, etc., have to be left behind.
+Business logic wrapped entirely inside a framework is a bit like living in a house and nailing all your items in place. You can't take anything with you when you leave except your memories. Moving house means all your precious items get left behind.
 
 This analogy often happens with frameworks; instead of using the framework as a tool, all business logic is put inside and becomes inseparable.
 
 Changing the framework means losing that asset.
 
-Frameworks naturally have benefits. They provide structure, alignment, and initial development speed. It's much easier to point at a framework and follow all the documentation on a team. They can still be used, but as tools rather integrating all the core logic.
+Frameworks naturally have benefits. They provide structure, alignment, and initial development speed. It's much easier to point at a framework and follow all the documentation on a team. They should be used as tools rather than something to integrate all the core logic.
 
 ### It takes experience
 
@@ -46,9 +44,9 @@ It is the dividing line between an experienced software engineer and a junior: *
 
 It is why experienced software engineers are more valuable to businesses in the long run.
 
-It also applies to teams: *Unaligned teams **have** to rely on frameworks - aligned ones use frameworks as tools.*
+It also applies to teams: *Unaligned teams **have** to rely on frameworks - aligned ones can use frameworks as tools.*
 
-It is why principles are so helpful because they align teams.
+It is why principles are so helpful - they align teams.
 
 ## Basic example of abstracting code from a framework
 
