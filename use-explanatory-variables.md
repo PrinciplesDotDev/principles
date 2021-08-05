@@ -1,7 +1,7 @@
 +++
 principle = "Use explanatory variables"
 tags = ["variables", "code", "rule", "code review"]
-summary = "Ensure variables are created with meaningful "
+summary = "Create variables to add meaning"
 authors = ["ryanmcdermott"]
 contributors = ["adamcraven"]
 license = "CC BY-SA 4.0"
@@ -11,7 +11,8 @@ original_source_is_canonical = false
 crystalized = false
 uid = "7576c44f-53cb-4c8a-a884-f174851f7ba4"
 +++
----
+
+Create variables to add meaning
 
 Bad:
 

@@ -1,6 +1,6 @@
 +++
 principle = "Avoid Mental Mapping"
-tags = ["variables", "code", "rule"]
+tags = ["variables", "code", "rule", "code review"]
 summary = "Avoid using shorter replacement variables that aren't explicit"
 authors = ["ryanmcdermott"]
 contributors = ["adamcraven"]
