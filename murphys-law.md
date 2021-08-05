@@ -1,49 +1,67 @@
 +++
-principle = "Murphy's law"
-tags = ["epic"]
+principle = "Murphy's law - design for errors"
+tags = ["epic", "strategic"]
 summary = "Whatever can go wrong will go wrong. So a solution is better the fewer possibilities there are for something to go wrong."
 authors = [""]
 contributors = ["crehn", "adamcraven"]
 license = "CC BY-SA 4.0"
 allow_dual_licensing_to_GPLv3 = true
+original_source = "http://principles-wiki.net/principles:murphy_s_law"
 original_source_is_canonical = false
 crystalized = false
-uid = "f8496ae6-e5fd-4f32-b261-c67a3a0cf874"
+uid = "4473624c-9eba-499f-9967-f9caeaaef302"
 +++
 Whatever can go wrong will go wrong. So a solution is better the fewer possibilities there are for something to go wrong.
 
+Alternative Names: Design for Errors [^1]
+
 ## Why
 
-Systems are built and used by humans. And humans inevitably make mistakes. This applies likewise to system design, implementation, verification, maintenance and use as all these tasks are (partly) carried out by humans.
+Systems are built and used by humans. And humans inevitably make mistakes.
 
-The fewer possibilities there are that mistakes are made, the fewer there will be. As errors are generally undesirable, a design is better when there are fewer possibilities for something to go wrong.
+Mistakes are undesirable - thus, you should design a system in a way that reduces them. The fewer possibilities there are to make mistakes, the fewer there will be.
+
 
 ##  Description
 
-Although often cited as a fatalistic comment, Murphy's Law is not stating "that life is unfair". Instead, it is (or at least can be seen as) engineering advice to design everything in a way that avoids incorrect usage. This applies to everything that is engineered in some way and in particular also to all kinds of modules, (user) interfaces and systems.
+Although often cited as a fatalistic comment, Murphy's Law is not stating "that life is unfair". Instead, it is (or at least can be seen as) engineering advice to design everything in a way that avoids incorrect usage. The Law applies to everything engineered, including all kinds of modules, [user] interfaces, and systems.
 
-Ideally, incorrect usage is impossible. For example, this is the case when the compiler will stop with an error if a particular mistake is made. And in the case of user interface design, a design is better when the user cannot make incorrect inputs as the given controls won't let them.
+Ideally, incorrect usage should be impossible. For example, this is the case when the compiler will stop when detecting a mistake. And in the case of user interface design, a design is better when the user cannot make incorrect inputs as the given controls won't let them.
 
-It is not always possible to design a system in such a way. But as humans build and use systems, one should strive for such "fool-proof" designs.
+It is not always possible to design a system without mistakes. But as humans build and use systems, one should strive for such "fool-proof" designs.
 
-Note that Murphy's Law also applies to every chunk of code. According to the Law, the programmer will make mistakes while implementing the system. So it is better to implement a simple design, as this will have fewer possibilities to make implementation mistakes. Furthermore, as code is maintained, bug fixes will be necessary as current functionality is changed or enhanced. A design is better the fewer possibilities there are to introduce faults while doing maintenance work.
-
-
+Note that Murphy's Law also applies to every chunk of code. According to the Law, the programmer will make mistakes while implementing the system. So it is better to implement a simple design, as this will have fewer possibilities to make implementation mistakes. Furthermore, bug fixes will be necessary as current functionality is changed or enhanced as code is maintained. A design is better the fewer possibilities there are to introduce faults while doing maintenance work.
 
 
 ## How
 
-This is a very general principle so there is a large variety of possible strategies to adhere more to this principle mainly depending on the given design problem:
+This is a very general principle, so there is a large variety of possible strategies to adhere more to this principle, mainly depending on the given design problem:
 
   * Make use of static typing so that the compiler will report faults
   * Make the design simple, so there will be fewer implementation defects
   * Use automatic testing to find defects
-  * Avoid duplication and manual tasks, so necessary changes aren't forgotten
+  * Avoid duplication and manual tasks, so you don't forget necessary changes.
   * Use polymorphism instead of repeated switch statements
-  * Use the same mechanisms wherever reasonably possible
+  * Use the exact mechanisms wherever reasonably possible
   * Use consistent naming and models throughout the design
 
 
 ## History
 
-The exact wording and who exactly coined the term, remains unknown. Nevertheless, it is stated that its origin is from an experiment with a rocket sled conducted by Edward A. Murphy and John Paul Stapp. During this experiment, some sensors have been wired incorrectly. A more accurate quote might read something like this: "If there's more than one possible outcome of a job or task, and one of those outcomes will result in disaster or an undesirable consequence, then somebody will do it that way." A more detailed version of the history of the experiment and the Law can be found in (Nick T. Spark: [The Fastest Man on Earth](http://www.improb.com/airchives/paperair/volume9/v9i5/murphy/murphy0.html) . In: Annals of Improbable Research)) and Wikipedia.
+The exact wording and who exactly coined the term remains unknown. Nevertheless, it is stated that its origin is from an experiment with a rocket sled conducted by Edward A. Murphy and John Paul Stapp. During this experiment, a technician had wired some sensors incorrectly. Murphy - on recognizing the error - cursed the technician responsible and said, "If there is any way to do it wrong, he'll find it.". [^2]
+
+
+## Further reading
+
+  * http://wiki.c2.com/?MurphysLaw
+  * https://en.wikipedia.org/wiki/Murphy%27s_law
+
+
+
+[^1]: Alan M. Davis: 201 Principles of Software Development
+[^2]: [Murphy's law origins](http://www.murphys-laws.com/murphy/murphy-true.html)
+
+
+## Derivative work
+
+> This work is a derivative of "Murphy's Law (ML)" by Christian Rehn, originally licensed under CC BY 4.0. The original version can be found [here](http://principles-wiki.net/principles:murphy_s_law?rev=1620763937).
