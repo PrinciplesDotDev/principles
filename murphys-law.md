@@ -1,5 +1,5 @@
 +++
-principle = "Murphy's law - design for errors"
+principle = "Murphy's law"
 tags = ["epic", "strategic"]
 summary = "Whatever can go wrong will go wrong. So a solution is better the fewer possibilities there are for something to go wrong."
 authors = [""]
@@ -12,8 +12,6 @@ crystalized = false
 uid = "4473624c-9eba-499f-9967-f9caeaaef302"
 +++
 Whatever can go wrong will go wrong. So a solution is better the fewer possibilities there are for something to go wrong.
-
-Alternative Names: Design for Errors [^1]
 
 ## Why
 
@@ -48,7 +46,7 @@ This is a very general principle, so there is a large variety of possible strate
 
 ## History
 
-The exact wording and who exactly coined the term remains unknown. Nevertheless, it is stated that its origin is from an experiment with a rocket sled conducted by Edward A. Murphy and John Paul Stapp. During this experiment, a technician had wired some sensors incorrectly. Murphy - on recognizing the error - cursed the technician responsible and said, "If there is any way to do it wrong, he'll find it.". [^2]
+The exact wording and who exactly coined the term remains unknown. Nevertheless, it is stated that its origin is from an experiment with a rocket sled conducted by Edward A. Murphy and John Paul Stapp. During this experiment, a technician had wired some sensors incorrectly. Murphy - on recognizing the error - cursed the technician responsible and said, "If there is any way to do it wrong, he'll find it.". [^1]
 
 
 ## Further reading
@@ -58,8 +56,7 @@ The exact wording and who exactly coined the term remains unknown. Nevertheless,
 
 
 
-[^1]: Alan M. Davis: 201 Principles of Software Development
-[^2]: [Murphy's law origins](http://www.murphys-laws.com/murphy/murphy-true.html)
+[^1]: [Murphy's law origins](http://www.murphys-laws.com/murphy/murphy-true.html)
 
 
 ## Derivative work
