@@ -37,7 +37,7 @@ addMonthToDate(1, date);
 
 ## Why
 
-It aids rapid understanding of what a function does without reading all the source code or referring to tests.
+* It aids rapid understanding of what a function does without reading all the source code or referring to tests.
 
 ## Derivative work
 
