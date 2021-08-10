@@ -7,7 +7,7 @@ If you have your own principles, you can contribute them to the repository (see 
 
 This repository is also the main data source for https://principles.dev. Any changes here will be reflected on the website.
 
-![principle-capability-behavior-triangle cd42ec05a728-1](https://user-images.githubusercontent.com/610638/124030633-4a7bc000-d9ee-11eb-86e9-cff2431bfb5f.jpg)
+![principle-capability-behavior-triangle](https://user-images.githubusercontent.com/610638/128890485-44f2838d-aa28-41df-be31-8b2fe5bbb2d4.jpg)
 
 
 
