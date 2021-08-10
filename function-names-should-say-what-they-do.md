@@ -1,6 +1,6 @@
 +++
-principle = "Use the same vocabulary for the same type of variable"
-tags = ["variables", "code", "rule", "code review", "clean code"]
+principle = "Function names should say what they do"
+tags = ["functions", "code", "rule", "code review", "clean code"]
 summary = ""
 authors = ["ryanmcdermott"]
 contributors = ["AdamCraven"]
@@ -9,27 +9,35 @@ allow_dual_licensing_to_GPLv3 = true
 original_source = "https://github.com/ryanmcdermott/clean-code-javascript"
 original_source_is_canonical = false
 crystalized = false
-uid = "ecad0aa7-3006-4244-9e9d-961e32652db4"
+uid = "b943e48e-0b1b-4874-9877-d3773e23a8c9"
 +++
-----
+---
 
 Bad:
 ```js
-getUserInfo();
-getClientData();
-getCustomerRecord();
-getPersonDateOfBirth();
+function addToDate(date, month) {
+  // ...
+}
+
+const date = new Date();
+
+// It's hard to tell from the function name what is added
+addToDate(date, 1);
 ```
+
 Good:
 ```js
-getUser();
-getUserDateOfBirth();
+function addMonthToDate(month, date) {
+  // ...
+}
+
+const date = new Date();
+addMonthToDate(1, date);
 ```
 
 ## Why
 
-* Using the same vocabulary creates clarity and understanding
-* Reduces confusion
+* It aids rapid understanding of what a function does without reading all the source code or referring to tests.
 
 ## Derivative work
 

@@ -1,7 +1,7 @@
 +++
-principle = "Use explanatory variables"
+principle = "Don't add unneeded context"
 tags = ["variables", "code", "rule", "code review", "clean code"]
-summary = "Create variables to add meaning"
+summary = "Don't add the class/object names to properties"
 authors = ["ryanmcdermott"]
 contributors = ["AdamCraven"]
 license = "CC BY-SA 4.0"
@@ -9,36 +9,40 @@ allow_dual_licensing_to_GPLv3 = true
 original_source = "https://github.com/ryanmcdermott/clean-code-javascript"
 original_source_is_canonical = false
 crystalized = false
-uid = "7576c44f-53cb-4c8a-a884-f174851f7ba4"
+uid = "0977e551-cf55-4497-acc7-91fd8f291eef"
 +++
 
-Create variables to add meaning
+If your class/object name tells you something, don't repeat that in your variable name.
 
 Bad:
-
 ```js
-const address = "One Infinite Loop, Cupertino 95014";
-const cityZipCodeRegex = /^[^,\\]+[,\\\s]+(.+?)\s*(\d{5})?$/;
-saveCityZipCode(
-  address.match(cityZipCodeRegex)[1],
-  address.match(cityZipCodeRegex)[2]
-);
+const Car = {
+  carMake: "Honda",
+  carModel: "Accord",
+  carColor: "Blue"
+};
+
+function paintCar(car, color) {
+  car.carColor = color;
+}
 ```
 
 Good:
-
 ```js
-const address = "One Infinite Loop, Cupertino 95014";
-const cityZipCodeRegex = /^[^,\\]+[,\\\s]+(.+?)\s*(\d{5})?$/;
-const [_, city, zipCode] = address.match(cityZipCodeRegex) || [];
-saveCityZipCode(city, zipCode);
+const Car = {
+  make: "Honda",
+  model: "Accord",
+  color: "Blue"
+};
+
+function paintCar(car, color) {
+  car.color = color;
+}
 ```
 
 ## Why
 
-* Increases understanding
-* Lowers cognitive load
-
+* Context is already understood. You know that if you are in a class/object, adjusting the properties relate to that class/object.
 
 ## Derivative work
 

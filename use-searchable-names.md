@@ -1,6 +1,6 @@
 +++
 principle = "Use searchable names"
-tags = ["variables", "code", "rule", "code review"]
+tags = ["variables", "code", "rule", "code review", "clean code"]
 summary = ""
 authors = ["ryanmcdermott"]
 contributors = ["AdamCraven"]
