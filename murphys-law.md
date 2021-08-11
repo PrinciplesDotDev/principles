@@ -15,9 +15,11 @@ Whatever can go wrong will go wrong. So a solution is better the fewer possibili
 
 ## Why
 
-Systems are built and used by humans. And humans inevitably make mistakes.
+Systems are built and used by humans. And humans inevitably make mistakes.  So if a mistake is possible, eventually, it will occur.
 
-Mistakes are undesirable - thus, you should design a system in a way that reduces them. The fewer possibilities there are to make mistakes, the fewer there will be.
+As mistakes are undesirable - you should design a system in a way that reduces them. The fewer possibilities there are to make mistakes, the fewer there will be and a greater chance of producing higher-quality software.
+
+This also applies to system design, implementation, verification, maintenance, and use. Because all these tasks are (partly) carried out by humans.
 
 
 ##  Description
@@ -40,8 +42,7 @@ This is a very general principle, so there is a large variety of possible strate
   * Use automatic testing to find defects
   * Avoid duplication and manual tasks, so you don't forget necessary changes.
   * Use polymorphism instead of repeated switch statements
-  * Use the exact mechanisms wherever reasonably possible
-  * Use consistent naming and models throughout the design
+  * Use consistent naming throughout the design
 
 
 ## History
