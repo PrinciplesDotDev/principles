@@ -2,7 +2,7 @@
 principle = "Murphy's law"
 tags = ["epic", "strategic"]
 summary = "Whatever can go wrong will go wrong. So a solution is better the fewer possibilities there are for something to go wrong."
-authors = [""]
+authors = []
 contributors = ["crehn", "adamcraven"]
 license = "CC BY-SA 4.0"
 allow_dual_licensing_to_GPLv3 = true
