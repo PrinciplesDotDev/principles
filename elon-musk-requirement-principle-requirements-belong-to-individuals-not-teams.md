@@ -1,7 +1,7 @@
 +++
-principle = "Musk requirement principle - Requirements belong to individuals, not teams"
+principle = "Musk requirement principle"
 tags = ["organization", "leadership", "epic", "strategic"]
-summary = ""
+summary = "Requirements belong to individuals, not teams"
 authors = ["Elon Musk"]
 contributors = ["AdamCraven"]
 license = "CC BY-SA 4.0"
