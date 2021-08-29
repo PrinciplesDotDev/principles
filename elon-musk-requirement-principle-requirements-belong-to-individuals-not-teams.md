@@ -17,7 +17,6 @@ Requirements must belong to an individual, not a team or department.  The person
 - You may build something that isn't needed - If it doesn't belong to an individual, there's no one to understand why the requirement is essential.
 - You may build something that nobody wants - If an individual isn't assigned and leaves the team, it can get lost in project backlogs and end up being made, even though no one wants it.
 - Individuals can take ownership because they may be the only person that understands. When building a complicated thing (e.g. a space rocket or software engineering project), there are often many hyper-specialised people who have profound knowledge about the individual characteristics of a part of that project. That knowledge may be impossible for the team to know and answer questions; thus, the individual should own it.
-- Diffusion of responsibility - If a team is responsible, no one person will necessarily feel responsible.
 
 ----
 
