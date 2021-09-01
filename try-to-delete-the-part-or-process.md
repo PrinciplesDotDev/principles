@@ -11,7 +11,7 @@ crystalized = false
 uid = "278c8f32-4a98-4cd6-91f2-a881194f1dc7"
 +++
 
-Actively attempt to remove features or processes to reduce bloat and build things that are required, instead of ending up in a situation with feature bloat. Or as Musk says "Because if you don't run at tight margins, you're not going to get nothing to orbit."
+Actively attempt to remove features or processes to reduce bloat and build things that are required, instead of adding things which prevent you from reaching the projects goals. Or as Musk says "if you don't run at tight margins, you're going to get nothing to orbit."
 
 This principle originated from building spaceships but is generally applicable to building anything complicated.
 
@@ -20,7 +20,6 @@ This principle originated from building spaceships but is generally applicable t
 * Build what is necessary - It is easy to add unnecessary features to solve problems because you can make arguments to rationalize every use case. Instead of attempting to make existing features cover the work.
 * Building things lean simplifies the process.
 * Running with fewer features means you ship faster and with higher quality.
-
 
 ## Content
 
@@ -34,7 +33,7 @@ Here's the transcript:
 
 "But you can basically make [just] in-case arguments for so many things. And for a rocket that is trying to be the first fully reusable rocket.  - There's never been a fully reusable rocket. This is the holy grail of rocketry".
 
-"So you really need to run at tight margins. Because if you don't run at tight margins, you're not going to get nothing to orbit."
+"So you really need to run at tight margins. Because if you don't run at tight margins, you're going to get nothing to orbit."
 
 "So you've got to delete the part or process and you can't hedge your bets."
 
