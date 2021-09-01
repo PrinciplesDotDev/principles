@@ -2,7 +2,7 @@
 principle = "Use default arguments instead of short circuiting or conditionals"
 tags = ["variables", "code", "rule", "code review", "clean code", "clean code"]
 summary = ""
-authors = ["ryanmcdermott"]
+authors = []
 contributors = ["AdamCraven"]
 license = "CC BY-SA 4.0"
 allow_dual_licensing_to_GPLv3 = true

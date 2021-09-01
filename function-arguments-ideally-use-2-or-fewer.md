@@ -2,7 +2,7 @@
 principle = "Function arguments, ideally use 2 or fewer"
 tags = ["functions", "code", "rule", "code review", "javascript", "clean code"]
 summary = ""
-authors = ["ryanmcdermott"]
+authors = []
 contributors = ["AdamCraven"]
 license = "CC BY-SA 4.0"
 allow_dual_licensing_to_GPLv3 = true
