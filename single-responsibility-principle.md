@@ -6,7 +6,7 @@ authors = ["Robert C. Martin"]
 contributors = ["AdamCraven"]
 license = "CC BY-SA 4.0"
 allow_dual_licensing_to_GPLv3 = true
-original_source = "https://en.wikipedia.org/wiki/Single-responsibility_principle"
+original_source = ""
 original_source_is_canonical = false
 crystalized = false
 uid = "fcd54e0e-4fb2-4dfc-a15e-c1772f9cfa92"
@@ -29,3 +29,7 @@ Martin defines a responsibility as a reason to change, and concludes that a clas
 As an example, consider a module that compiles and prints a report. Imagine such a module can be changed for two reasons. First, the content of the report could change. Second, the format of the report could change. These two things change for different causes. The single-responsibility principle says that these two aspects of the problem are really two separate responsibilities, and should, therefore, be in separate classes or modules. It would be a bad design to couple two things that change for different reasons at different times.
 
 The reason it is important to keep a class focused on a single concern is that it makes the class more robust. Continuing with the foregoing example, if there is a change to the report compilation process, there is a greater danger that the printing code will break if it is part of the same class.
+
+## Derivative work
+
+> This work is a derivative of "Single-responsibility principle" by multiple authors, originally licensed under CC BY SA 3.0. The original version can be found [here](https://en.wikipedia.org/wiki/Single-responsibility_principle2).
