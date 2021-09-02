@@ -31,6 +31,8 @@ There are many ways to contribute to the project, from simple to most rewarding:
 
 If you're creating or copying a principle. You should at least read through the [how to write a principle](https://principles.dev/documentation/) quickstart section before you begin. Having a look at existing principles on the site will help you understand what's required.
 
+### Getting principle on website 
+
 One of the most significant sources of friction you will experience that will hold you back from contributing is whether you feel your principle will be rejected or not. No one wants to put in work for someone to turn around and say no. 
 
 It will generally be approved if it reaches the requirement for a [basic principle](https://principles.dev/documentation/#quickstart-writing-your-first-principle). 
@@ -39,7 +41,6 @@ Reasons for lack of approval are:
 
 * Low quality - The principle is unable to change someone's behavior or capability because it's missing crucial information or context.
 * Not containing what it is and why
-* Multiple principles combined in one file
 * The principle is offensive, inflammatory, or is generally targetted at being hostile towards a different group (e.g., don't use X language, X technology, etc.)
 * Grammar or spelling mistakes (which are easily correctable)
 
