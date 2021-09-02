@@ -18,16 +18,16 @@ You can create your principle by using the [Editor](https://principles.dev/edito
 
 ## Contributing
 
-If you want to make Software Engineering better for everybody, please make a pull request. You can create a pull request and add your own Principles or update others with the merge target set to **release** branch.
+If you want to make Software Engineering better for everybody, please make a pull request. You can create a pull request and add your own principles or update others with the merge target set to **release** branch.
 
 You might want to read [why create a principle](https://principles.dev/why-create-principle/).
 
 There are many ways to contribute to the project, from simple to most rewarding: 
 
-* Correct mistakes -  This could be spelling, grammar or getting the point across more clearly.
-* Edit a principle - enrich its content. Nearly all principles can be improved by adding in more information or better reasoning.
-* Copy an existing principle - Derive a principle from elsewhere. Make sure it has a permissible license (e.g., MIT, CC BY-SA).
-* Create a principle - Have a principle of your own? Please share it with the world on principles.dev. 
+* **Correct mistakes** -  This could be spelling, grammar or getting the point across more clearly.
+* **Edit a principle** - enrich its content. Nearly all principles can be improved by adding in more information or better reasoning.
+* **Copy an existing** principle - Derive a principle from elsewhere. Make sure it has a permissible license (e.g., MIT, CC BY-SA).
+* **Create a principle** - Have a principle of your own? Please share it with the world on principles.dev. 
 
 If you're creating or copying a principle. You should at least read through the [how to write a principle](https://principles.dev/documentation/) quickstart section before you begin. Having a look at existing principles on the site will help you understand what's required.
 
