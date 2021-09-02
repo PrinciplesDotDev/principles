@@ -37,13 +37,15 @@ It will generally be approved if it reaches the requirement for a [basic princip
 
 Reasons for lack of approval are:
 
-* Low quality
+* Low quality - The principle is unable to change someone's behavior or capability because it's missing crucial information or context.
 * Not containing what it is and why
 * Multiple principles combined in one file
-* The principle would is offensive, inflammatory, or is generally targetted at being hostile towards a different group (e.g., don't use X language, X technology, etc.)
+* The principle is offensive, inflammatory, or is generally targetted at being hostile towards a different group (e.g., don't use X language, X technology, etc.)
 * Grammar or spelling mistakes (which are easily correctable)
 
-If you are unsure, it's ok to open an issue on this repository to discuss a principle to get some general pointers. 
+If you are unsure, it's ok to open an issue on this repository to discuss a principle to get some general pointers. If you create a pull request and any of the above problems exist, don't worry, the maintainers will point them out, and you'll have opportunities to correct it. 
+
+Also, try your best before reaching out to the maintainers. That means reading the documentation beforehand and understanding this project. If you've spent a lot of time on something, the maintainers will be more willing to help you.
 
 Thank you for reading and making Software Engineering better for everyone.
 
