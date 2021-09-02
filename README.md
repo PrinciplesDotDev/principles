@@ -31,7 +31,7 @@ There are many ways to contribute to the project, from simple to most rewarding:
 
 If you're creating or copying a principle. You should at least read through the [how to write a principle](https://principles.dev/documentation/) quickstart section before you begin. Having a look at existing principles on the site will help you understand what's required.
 
-### Getting principle on website 
+### Will my principle be accepted?
 
 One of the most significant sources of friction you will experience that will hold you back from contributing is whether you feel your principle will be rejected or not. No one wants to put in work for someone to turn around and say no. 
 
