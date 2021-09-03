@@ -6,7 +6,6 @@ authors = ["Robert C. Martin"]
 contributors = ["AdamCraven"]
 license = "CC BY-SA 4.0"
 allow_dual_licensing_to_GPLv3 = true
-original_source = ""
 original_source_is_canonical = false
 crystalized = false
 uid = "fcd54e0e-4fb2-4dfc-a15e-c1772f9cfa92"
