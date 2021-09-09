@@ -17,9 +17,10 @@ This principle originated from building spaceships but is generally applicable t
 
 ## Why
 
-* Build what is necessary - It is easy to add unnecessary features to solve problems because you can make arguments to rationalize every use case. Instead of attempting to make existing features cover the work.
-* Building things lean simplifies the process.
-* Running with fewer features means you ship faster and with higher quality.
+* Build what you need - It is easy to add unnecessary features to solve problems because you can make arguments to rationalize every use case. Instead of attempting to make existing features cover the work.
+* It reduces complexity - A reduction in complexity means fewer chances of something going wrong, which is especially important if you're launching things into space 🚀
+* Ship faster - Running with fewer features means you reach your deadlines quicker.
+* Reduces bloat - Forcing an evaluation of a feature means you will ensure the feature is still valuable to you as the project progresses.
 
 ## Content
 
