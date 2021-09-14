@@ -1,7 +1,7 @@
 +++
 principle = "Model all state in an application"
 tags = ["front-end", "bug-free", "practices"]
-summary = "Create a strucutred representation of the system's state"
+summary = "Create a structured representation of the system's state"
 authors = ["AdamCraven"]
 contributors = [""]
 license = "CC BY-SA 4.0"
