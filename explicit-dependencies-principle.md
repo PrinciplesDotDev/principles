@@ -2,7 +2,7 @@
 principle = "Explicit Dependencies Principle"
 tags = ["code", "team", "organization", "rdt"]
 summary = "Methods and classes should explicitly require any collaborating objects they need in order to function correctly"
-authors = [""]
+authors = []
 contributors = ["AdamCraven"]
 license = "CC BY-SA 4.0"
 allow_dual_licensing_to_GPLv3 = true

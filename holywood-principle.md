@@ -2,7 +2,7 @@
 principle = "Holywood Principle"
 tags = ["code", "team", "organization", "rdt"]
 summary = "Write code to respond to external events, such as from an existing framework"
-authors = [""]
+authors = []
 contributors = ["AdamCraven"]
 license = "CC BY-SA 4.0"
 allow_dual_licensing_to_GPLv3 = true

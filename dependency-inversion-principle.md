@@ -1,8 +1,8 @@
 +++
 principle = "Dependency Inversion Principle"
-tags = ["solid", "practices", "code", "team", "organization"]
+tags = ["solid", "practices", "code", "team", "organization", "rdt"]
 summary = "high level modules should not depend on low level modules; both should depend on abstractions."
-authors = [""]
+authors = []
 contributors = ["AdamCraven"]
 license = "CC BY-SA 4.0"
 allow_dual_licensing_to_GPLv3 = true
@@ -10,7 +10,7 @@ original_source_is_canonical = false
 crystalized = false
 uid = "c50cbafb-e53a-479a-9e66-1d74d9526099"
 +++
-The Dependency Inversion Principle (DIP) states that _** high-level modules should not depend on low-level modules; both should depend on abstractions. Abstractions should not depend on details.  Details should depend upon abstractions**_. 
+The Dependency Inversion Principle (DIP) states that _** high-level modules should not depend on low-level modules; both should depend on abstractions. Abstractions should not depend on details.  Details should depend upon abstractions**_.
 
 It's extremely common when writing software to implement it such that each module or method refers explicitly to its collaborators, which does the same. This type of programming typically lacks sufficient layers of abstraction and results in a very tightly coupled system, since every module directly references lower-level modules.
 
