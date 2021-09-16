@@ -1,5 +1,5 @@
 +++
-principle = "Holywood Principle"
+principle = "Hollywood Principle"
 tags = ["code", "team", "organization", "rdt"]
 summary = "Write code to respond to external events, such as from an existing framework"
 authors = []
@@ -8,7 +8,7 @@ license = "CC BY-SA 4.0"
 allow_dual_licensing_to_GPLv3 = true
 original_source_is_canonical = false
 crystalized = false
-uid = "303fedf2-ab40-4bae-9cc4-cd7d1b154229"
+uid = "303fedf2-ab40-4bae-9cc4-cd7d1b184229"
 +++
 The Hollywood Principle states, "Don't Call Us, We'll Call You." It's closely related to the [Dependency Inversion Principle](/p/dependency-inversion-principle), and illustrates a different way of writing software from the more traditional form of programming in which one's own code dictates the flow of control.  When following the Hollywood Principle, code is written to respond to external events, such as from an existing framework.
 
@@ -24,4 +24,4 @@ By way of an example, a typical ASP.NET Web Form might have in its codebehind pa
 
 ## Derivative work
 
-> This work is a derivative of "Holywood Principle" by deviq, originally licensed under MIT. The original version can be found [here](https://deviq.com/principles/hollywood-principle).
+> This work is a derivative of "Hollywood Principle" by deviq, originally licensed under MIT. The original version can be found [here](https://deviq.com/principles/hollywood-principle).
