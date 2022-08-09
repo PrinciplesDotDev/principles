@@ -2,7 +2,7 @@
 principle = "Be constructive, not destructive."
 tags = ["leadership", "medium", "practice", "team"]
 summary = ""
-authors = ["NickyHannaway"]
+authors = ["nickyhannaway"]
 contributors = ["AdamCraven"]
 license = "CC BY-SA 4.0"
 allow_dual_licensing_to_GPLv3 = true
@@ -10,7 +10,7 @@ original_source_is_canonical = false
 crystalized = false
 uid = "1e4becc9-9622-49f8-93eb-db0e5b5c582c"
 +++
-When you are a participant in collaborative decision making, communicate and convey your ideas in a constructive manner. 
+When you are a participant in collaborative decision making, communicate and convey your ideas in a constructive manner.
 Doing this enhances the clarity of your ideas, makes them more impactful and makes other team members more likely to align to your thoughts and suggestions.
 
 Destructive behaviours such as talking over people, not considering other viewpoints and clinging onto your own ideas regardless of collective opinion and value can damage team morale.
@@ -30,5 +30,5 @@ decision making in the most positive and constructive way. Being constructive, n
 ## When not to apply
 * When you feel your potential solution is less effective than those already being discussed and introducing it could simply muddy the waters of the collaborative decision making process.
 * When you don't have a good or full understanding of the problem the team is collectively trying to solve.
-* When personally, in any given moment your mood is not conducive to constructive behaviours and you feel this mood or external factors could influence detrimentally your ability to convey your thoughts 
+* When personally, in any given moment your mood is not conducive to constructive behaviours and you feel this mood or external factors could influence detrimentally your ability to convey your thoughts
 and any potential misgivings constructively. In this scenario you should feel comfortable enough to ask the team if they could reconvene when you are feeling better.
