@@ -20,26 +20,20 @@ Suppose a species evolves in a limited environment, such as a cold pool of water
 
 The analogy applies to designing any system. If you focus on a small part of it from the beginning, not noticing upcoming direction, then change is significantly harder.
 
-## Why (in software)
+## Why
 
-(In software)
-* The software is adaptable to future change, it allows a team to see the overall picture and to design a system that can anticipate future change.
-* Lightly designing a system from the beginning allows you to peer into the future and see what you're going to need and what you need to understand
-* Peering into the future  stretching people's understanding and lets people focus in great detail to focus now and leave to later
-* Engineers create less rigid Software because they are aware of the upcoming direction.
-* Leaders create more adaptable organisations
-* The team will have a better understanding of the overall picture, allowing them to make better decisions
 
-## Why (leadership)
-
+* Software designed with the known future in mind will be adaptable to future change, it allows a team to see the overall picture and to design a system that can anticipate future change.
+* Lightly designing a system from the beginning allows you to peer into the future and see what you're going to need and what you known unknowns you will need to understand.
 * It allows other parts of the team or organisation to figure out conceptually what you need to iterate on before it is built.
+* The team will make better decisions because they know where they are going.
 
 
-
+<!--
 ## Thoughts
 
 Organisation-wide decisions: A banking start-up makes a current account that is used in a single country. Monzo, in the UK is a good example of that. If the long-term strategy is to be in multiple countries, a go wide and refine approach would is to think about multi-currency support from the beginning. It is a much larger shift strategically, culturally, operationally and technically to do that later on.
 
 Software: When building an MVP a system has been defined that accepts purchases from credit cards, the team focuses on supporting that use case alone. Once they are happy with the purchase flow, they realise they need to support refunds. Adding
 
-application that is made for use in a single country, say the UK. The whole application is built upon accomodating
+application that is made for use in a single country, say the UK. The whole application is built upon accomodating-->
