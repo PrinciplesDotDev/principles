@@ -27,7 +27,7 @@ Code should be formatted the same way and enforced automatically using tools.
 - In languages where a common convention hasn't been decided. Opt for popular third party configurations. There will be a higher chance that this will make third party libraries easier to read and the rules can be reduced to suit the teams preferences.
 - Link tools to IDE/Editor for rapid feedback.
 
-[//]: # "## Content"
+[//]: # "## Article"
 [//]: # "Code is read much more often than it is written. So it should be that care it taken "
 [//]: # "Consistent code helps everyone on the team by reducing. "
 [//]: # "1. Show autofixing functionlity is eslint."

@@ -21,7 +21,7 @@ Documentation, in all forms, should be as close as it can be to the code.
 - Keep the documentation with the source code.
 - Use tools to generate external documentation from within the project rather than creating external wikis.
 
-## Content
+## Article
 
 The goal is to bring documentation as close to the code as possible while maintaining a grouping that makes sense.
 

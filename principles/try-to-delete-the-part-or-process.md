@@ -22,7 +22,7 @@ This principle originated from building spaceships but is generally applicable t
 * Ship faster - Running with fewer features means you reach your deadlines quicker.
 * Reduces bloat - Forcing an evaluation of a feature means you will ensure the feature is still valuable to you as the project progresses.
 
-## Content
+## Article
 
 The principle originated from Elon Musk, during his Starbase Tour: https://youtu.be/t705r8ICkRw?t=837
 

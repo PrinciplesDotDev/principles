@@ -26,7 +26,7 @@ Core logic that is related to solving a business or domain problem should exist 
 * Use principles to give the team confidence and create autonomy to design a system.
 * Use design patterns and principles when designing a system. e.g. repository pattern, inversion of control, solid principles, etc.
 
-## Content
+## Article
 
 One of the most costly decisions I've come across in Software Engineering that must cost billions in lost value is building business logic entirely inside the confines of a framework.
 

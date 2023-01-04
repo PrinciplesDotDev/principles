@@ -21,7 +21,7 @@ When software behaves unexpectedly, it should be easy to understand what is caus
 - Ensure code has good metrics around them, such as logging, stack traces and error messages.
 - Ensure the code can be easily debugged.
 
-## Content
+## Article
 
 One of the largest unaccounted for time sinks in engineering is figuring out unexpected problems. Bad debugging tools, poor error messages and bad logs increase the time taken to resolve an issue.
 

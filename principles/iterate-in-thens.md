@@ -21,7 +21,7 @@ You should iterate sequentially on a focused chunk of work at a time. Once that 
 - Define tasks in a sequential way.
 - When working, focus on a single task and capture additional tasks as a separate items.
 
-## Content
+## Article
 
 Iterating on tasks by focusing on one chunk of work is better than trying to do too many things at once.
 
