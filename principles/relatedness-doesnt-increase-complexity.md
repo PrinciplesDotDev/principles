@@ -1,6 +1,6 @@
 +++
 principle = "Relatedness doesn't increase cognitive complexity"
-tags = ["cognitive"]
+tags = ["cognitive", "code", "comprehension", "individual", "focused"]
 summary = "Things that are related to one another and ordered logically do not increase cognitive complexity"
 authors = ["AdamCraven"]
 contributors = [""]
