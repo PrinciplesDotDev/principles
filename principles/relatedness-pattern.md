@@ -11,7 +11,7 @@ crystalized = false
 uid = "60f225ff-3110-4c4c-bf1c-677aa2c2b602"
 +++
 
-Relatedness pattern is a pattern of cognition that states: Cognitive complexity is not increased with things that have high relatedness. Meaning your mind doesn't have to work any harder with highly related items (e.g. code, methods in a class, configuration , etc.), even if there are many of them.
+Relatedness pattern is a pattern of cognition that states: Cognitive complexity is not increased with things that have high relatedness. Meaning your mind doesn't have to work any harder with highly related items (e.g. code, methods in a class, configuration, etc.), even if there are many of them.
 
 To have high relatedness, it must have these properties:
 
