@@ -74,7 +74,7 @@ A real-life example would be in the back of a textbook that contains an index. T
 Humans are good with patterns [1](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4141622/). If the mind can recognise an overall pattern, it intuitively understands the rest of the code by understanding one part.
 
 
-[[toc]]
+[TOC]
 
 
 ## Article
@@ -472,13 +472,13 @@ class MessageManipulator {
 
 It won't always be possible to have highly related methods within executing code - but doing so will reduce cognitive complexity.
 
-### On relation to other principles:
+### Related principles:
 
 This principle complements:
 
 [single-responsibility principle](https://principles.dev/p/single-responsibility-principle/) - which states that files should do one thing.
 
-"Explicit is better than implicit" - Being explicit often increases relatedness
+"Explicit is better than implicit" - Being explicit often increases relatedness.
 
 
 
