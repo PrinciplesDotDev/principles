@@ -11,12 +11,32 @@ crystalized = false
 uid = "60f225ff-3110-4c4c-bf1c-677aa2c2b602"
 +++
 
-
-
 Relatedness pattern is a pattern of cognition that states: Cognitive complexity is not increased with things that have high relatedness. Meaning your mind doesn't have to work any harder with highly related items (e.g. code, methods in a class, configuration, etc.), even if there are many of them.
 
-To have high relatedness, it must have these properties:
 
+For example: You could have many Spotlights defined next to each other without the code becoming complex:
+```js
+[
+    new Spotlight({ visible: false, x: -2, color: 'red' }),
+    new Spotlight({ visible: true,  x: 0,  color: 'white' }),
+    new Spotlight({ visible: false, x: 2,  color: 'blue' }),
+
+]
+```
+
+But very few of these:
+
+```js
+[
+    new Spotlight({ visible: false, x: -6, color: 'green' }),
+    new Window({ width:3, false, y: -4, height: 8,   }),
+    new HttpRequester(),
+    new Floor({ opacity:0.7,  width:40, height: 40, x:4, texture: 'marble-floor-2048x2048.png' }),
+    new Bootstrapper(6),
+]
+```
+
+To have high relatedness, it must have these properties:
 
 1. Similar things should be next to each other
 2. Those things should be used in a consistent way
@@ -26,9 +46,6 @@ To have high relatedness, it must have these properties:
 
 Humans are good with patterns [1](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4141622/). If the mind recognises a consistent pattern, we intuitively understand that it will apply elsewhere.
 
-
-
-[TOC]
 
 
 ## Examples
@@ -79,9 +96,11 @@ A real-life example would be in the back of a textbook that contains an index. T
 3. They are ordered alphabetically, and indexes use indentation to group sub-words.
 
 
+[TOC]
+
 ## Article
 
-This principle will help structure your code to reduce cognitive load by increasing relatedness. Let's take you through some examples:
+This principle will change the way you code day to day. It will help you structure your code and reduce cognitive load by increasing relatedness. Let's take you through some examples:
 
 ### Related objects with unrelated arguments
 
