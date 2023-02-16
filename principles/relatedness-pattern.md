@@ -11,6 +11,8 @@ crystalized = false
 uid = "60f225ff-3110-4c4c-bf1c-677aa2c2b602"
 +++
 
+
+
 Relatedness pattern is a pattern of cognition that states: Cognitive complexity is not increased with things that have high relatedness. Meaning your mind doesn't have to work any harder with highly related items (e.g. code, methods in a class, configuration, etc.), even if there are many of them.
 
 To have high relatedness, it must have these properties:
@@ -20,6 +22,16 @@ To have high relatedness, it must have these properties:
 2. Those things should be used in a consistent way
 3. They should be logically ordered or grouped
 
+## Why
+
+Humans are good with patterns [1](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4141622/). If the mind recognises a consistent pattern, we intuitively understand that it will apply elsewhere.
+
+
+
+[TOC]
+
+
+## Examples
 ### High relatedness example
 
 ```js
@@ -65,16 +77,6 @@ A real-life example would be in the back of a textbook that contains an index. T
 1. The words are next to each other.
 2. They follow the format: word, location(s)
 3. They are ordered alphabetically, and indexes use indentation to group sub-words.
-
-
-
-
-## Why
-
-Humans are good with patterns [1](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4141622/). If the mind can recognise an overall pattern, it intuitively understands the rest of the code by understanding one part.
-
-
-[TOC]
 
 
 ## Article
@@ -472,14 +474,13 @@ class MessageManipulator {
 
 It won't always be possible to have highly related methods within executing code - but doing so will reduce cognitive complexity.
 
-## Related principles:
+## Related principles
 
 This principle complements:
 
 [single-responsibility principle](https://principles.dev/p/single-responsibility-principle/) - which states that files should do one thing.
 
 "Explicit is better than implicit" - Being explicit often increases relatedness.
-
 
 
 ## Exceptions
