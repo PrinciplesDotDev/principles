@@ -208,7 +208,7 @@ We can help with the relatedness by creating a variable - `const objectsToAddTo3
 
 The logical ordering used here is: parts of the building first, then lighting after. However, it is hard to enforce that ordering.
 
-#### Full relatedness
+#### High relatedness
 
 ```js
 
@@ -230,7 +230,7 @@ const lighting = [
 
 ```
 
-If we group the objects - So the building objects and lighting objects go together - we are back to full relatedness. No additional complexity is created by adding another object to either one of those arrays.
+If we group the objects - So the building objects and lighting objects go together - we are back to high relatedness. No additional complexity is created by adding another object to either one of those arrays.
 
 ### Indexes
 
@@ -354,7 +354,7 @@ func (pm *Page) AttemptBooking(selectSlot int, transit map[string]interface{}) e
 All unrelated methods have been removed where possible, which has increased clarity. This clarity should make it easier for you to guess what the application may do- It's a file that performs a booking. The methods are all related - they perform similar actions: Load web pages, transition between pages and attempt to perform actions upon them. It's ordered by what happens first to last. However, we can still there is some unrelatedness in arguments. That is sometimes unavoidable, but in this case we can fix it
 
 
-#### Full relatedness between the methods
+#### High relatedness between the methods
 
 ```go
 
@@ -472,7 +472,7 @@ class MessageManipulator {
 
 It won't always be possible to have highly related methods within executing code - but doing so will reduce cognitive complexity.
 
-### Related principles:
+## Related principles:
 
 This principle complements:
 
