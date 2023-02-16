@@ -9,7 +9,7 @@ contributors = []
 uid = "plum-swordfish-binni"
 +++
 
-Reveal relevant information that is hidden so it can be understood. By making hidden principles, ideas, and behaviors that make up a technology organization understood and explicit.
+Reveal relevant information that is hidden so it can be understood. By making things explicit that would otherwise be hidden, such as: hidden principles, ideas, and behaviors.
 
 ## Why
 
@@ -87,4 +87,3 @@ What about assumptions in teams? Have you ever had a team member that goes off f
 
 This is because you don't share similar mental models on designing software, and there were no constraints to guide the design.
 Sharing those models and understanding by making your principles visible means everyone on the team's code looks more familiar and easier to understand.
-
