@@ -11,7 +11,7 @@ crystalized = false
 uid = "60f225ff-3110-4c4c-bf1c-677aa2c2b602"
 +++
 
-Relatedness pattern is a pattern of cognition that states: Cognitive complexity is not increased with things that have high relatedness. Meaning your mind doesn't have to work any harder with highly related items (e.g. code, methods in a class, configuration, etc.), even if there are many of them.
+Cognitive complexity is not increased with things that have high relatedness. Meaning your mind doesn't have to work any harder with highly related items (e.g. code, methods in a class, configuration, etc.), even if there are many of them. This cognitive principle reduces complexity by taking advantage of the one of the best features of our brains: Pattern recognition.
 
 
 For example: You could have many Spotlights defined next to each other without the code becoming complex:
@@ -44,9 +44,7 @@ To have high relatedness, it must have these properties:
 
 ## Why
 
-Humans are good with patterns [1](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4141622/). If the mind recognises a consistent pattern, we intuitively understand that it will apply elsewhere.
-
-
+Humans are good with patterns [1](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4141622/). If the mind recognises a consistent pattern, we intuitively understand that it will apply elsewhere. 
 
 ## Examples
 ### High relatedness example
