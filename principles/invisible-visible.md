@@ -9,17 +9,36 @@ contributors = []
 uid = "plum-swordfish-binni"
 +++
 
-Reveal relevant information that is hidden so it can be understood. By making things explicit that would otherwise be hidden, such as: hidden principles, ideas, and behaviors.
+"Make the invisible, visible" means: make *relevant* information visible so we can understand things clearly. This principle is at the root of understanding of all things.
 
-## Why
+Making relevant information visible increases understanding, allowing you to do more: Better problem-solving, behaviours, and code bases. Without making relevant information visible, it creates a deficit in understanding. How can you understand anything correctly - whether it be a team, organization or code base - if there is a knowledge gap due to invisible relevant information?
 
-Understanding allows better outcomes. It improves productivity. Without understanding, chaos reigns supreme, and the systems and organizations that are based upon that reflect that, whether it be not understanding the business case or not understanding the software.
 
-The greater the shared understanding in the team, the better the communication, efficiency, and effectiveness of the team members
+## How to determine relevancy
 
-## How
+Determining what is relevant is crucial, as in any system *there are always more irrelevant details than relevant ones*. Let's take a coin as an example of this phenomenon. A coin has printed faces, often with a production date on one side and the currency value on another. It also has many other properties: weight, mass, electrical conductivity, melting point, metallic composition, etc. Focusing on just one of those properties, such as the metallic composition, reveals an even more significant number of possible attributes, such as a mixture of numerous elements. Within those elements are an arrangement of atoms and within the atoms; quarks. Deeper still are further complexities at the quantum level. Most of those properties are irrelevant and invisible, but depending on your perspective, some are *relevant but unfortunately invisible*. To make the invisible, visible - we need to find what is relevant and make that visible.
 
-A few examples:
+You can determine relevancy by asking two related questions:
+
+1. **"What information would be useful in helping me understand this better?"**  - This will generate many answers while ignoring your existing limitations.
+2. **What information would be helpful for others to understand this better?** - This will help you think about your users and other perspectives.
+
+Going back to the coin example, you and I probably only care what the printed value of a coin. But if you were a precious metal dealer instead, what is relevant to you about coins is now different - it is based upon the underlying metals' worth. To know its worth, we need to know the type of precious metal, its quantity, and its purity.
+
+<img width="75%" class="mx-auto d-block" src="/static/images/principles-content/invisible-visible/2022-christmas-gold-proof-sixpence-reverse.jpg" />
+
+The "sixpence" is a precious coin made from gold, but it wouldn't make a good coin for precious metal dealing as its relevant properties are invisible. We need to find out what it's made from, the weight of that material, and its purity. To make those properties visible, you would need to test the metal to determine its properties or rely on documentation elsewhere.
+
+<img width="80%" class="mx-auto d-block" src="/static/images/principles-content/invisible-visible/2021-britannia-gold-1oz.jpg" />
+
+The "Britannia" on the other hand, has all its relevant properties visible: It is made of gold, 1oz of it, with a 999.9 purity (24 carats). If we were to make the sixpence into a coin for trading precious metals, we would "make the invisible, visible" by updating the coin design to be closer to that of the Brittania.
+
+Unfortunately, in most systems, hidden relevant information is obscured, reducing our understanding. Behaviours are a widespread example of relevant information being invisible. Hidden behaviours cause unaligned teams, dysfunctional organizations and complex code bases. Because those behaviours are in our minds, they often aren't visible. From a leadership perspective, people don't know how to act. From a code perspective, engineers don't know why the code is written like it is. Hidden behaviours are solved by using principles, which create visible, sharable behaviour that others can interrogate and align to. "Make the invisible, visible" is the reason why any principles exist at all.
+
+
+## Examples
+
+Further examples of making relevant information visible.
 
 Data
 
@@ -31,59 +50,16 @@ Data
 
 Code
 
-* Use diagrams. Represent code in less abstract ways, such as drawing diagrams of a system using pen and paper or graphics design programs. This helps transmit mental models.
+* Use diagrams. Represent code in less abstract ways, such as drawing diagrams of a system using pen and paper or graphics design programs.
 * Log and visualize the results of a system.
-* Use debuggers to be able to peer inside a system to see changes that are happening over time, rather than an input-output black-box.
-* Use performance tools like flame-graphs to visualize where the program is spending it's time.
+* Use debuggers to peer inside a system to see changes over time rather than an input-output black box.
+* Use performance tools like flame graphs to visualize where the program spends its time.
 
 Teams
 
-* Use principles to communicate and build mental models that everyone can share in the team.
+* Use principles to communicate and build mental models everyone can share in the team.
 * Ask questions that seek to understand and illuminate.
-* Use Principle-Driven Engineering as a guide to help make the invisible, visible.
 
 Individuals
 
-* Understand what you know, codifying your habits into understood actions and principles.
-* Be intellectually honest and unafraid of being wrong. If you realize you are wrong, it allows you to learn rapidly.
-
-## History
-
-Making the invisible, visible is the principle that founded this project—the desire to share mental models and build capability for myself and my teams.
-
-In many ways, all principles inherit from it. The result of that is that all principles implicitly:
-
-* Increase understanding.
-* Improve productivity.
-* Share knowledge.
-* Constrain behavior / action.
-* Increase capability.
-* Improve behavior / action.
-
-## Article
-
-How can you build anything if you don't understand it?
-
-Yet in software, most of the time, we are precisely working in a system in which we can understand only a tiny part.
-
-From building software or interacting with teams, most of the behavior is hidden. You don't know what other people are thinking - you cannot see their mental models. Nor do you know what's happening inside the CPU.
-
-Making the invisible, visible is about revealing things that you currently don't understand - which are limiting your capability - by making them visible.
-
-These are patterns, behaviors, structures, and interactions that make up a system or organization.
-
-The idea is not to make everything visible, for that is impossible. It is to reveal what is valuable—from chunks of knowledge from other programmers, expressed in principles, to watching a user's request in production work its way through the system and being able to see all the side-effects it has on the system.
-
-### In code
-
-Have you ever had a bug that you've tried to solve through trial and error? You change something over and over in the hope that it fixes that problem.
-
-The implication of not following the principle is less noticeable when you're developing locally because feedback cycles are short (i.e., you are on your local machine), and this approach works. But in production, feedback cycles are long, and the trial and error approach won't work.
-
-Using this principle means ensuring a design to make complexity manageable and focuses on having the right tools throughout your stack.
-
-### In teams
-What about assumptions in teams? Have you ever had a team member that goes off for a few weeks to create software only for it to get to code review, and they've done it in a way that you wouldn't have expected?
-
-This is because you don't share similar mental models on designing software, and there were no constraints to guide the design.
-Sharing those models and understanding by making your principles visible means everyone on the team's code looks more familiar and easier to understand.
+* Understand and share your knowledge, codifying your habits into understood actions and principles.
