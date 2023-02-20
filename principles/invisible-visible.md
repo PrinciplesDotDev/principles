@@ -1,6 +1,6 @@
 +++
 principle = "Make the invisible, visible"
-summary = "Make the hidden principles, ideas and behaviors which make up a technology organization understood and explicit"
+summary = "Make relevant information visible so things can be clearly understood"
 tags = ["pde", "epic", "leadership", "organization", "team", "individual", "strategic"]
 license = "CC BY-SA 4.0"
 allow_dual_licensing_to_GPLv3 = true
