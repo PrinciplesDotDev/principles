@@ -1,62 +1,44 @@
-![principles-logo@2x 2a8f2ec701e4](https://user-images.githubusercontent.com/610638/124029515-2370be80-d9ed-11eb-97e4-d20e54b51423.png) 
-# Principles 
 
-An open-source list of principles used in software engineering and leadership to improve capability. 
 
-If you have your own principles, you can contribute them to the repository (see below)
+<div align="center">
+<h1>Principles</h1>
+<br ><br >
+<img src="https://user-images.githubusercontent.com/610638/124029515-2370be80-d9ed-11eb-97e4-d20e54b51423.png" height="96" /><br><br >
+Helping you learn the how to align behaviours - Open-source principles to align engineering and leadership teams. Build is publised onto <a href="https://principles.dev">principles.dev<a>. Contributors welcome.
+<br ><br ><br >
+<img src="https://img.shields.io/github/repo-size/PrinciplesDotDev/principles?style=flat-square" />
+<img src="https://img.shields.io/badge/License*-CC%20BY--SA%204.0-blue" />
+<img src="https://img.shields.io/badge/License*-GPLv3-blue" />
+<a href="https://twitter.com/principles_dev" ><img src="https://img.shields.io/twitter/follow/principles.dev?style=social" /></a> 
+<br >
+(*) Principle licensing may vary, read below for more info
 
-This repository is also the main data source for https://principles.dev. Any changes here will be reflected on the website.
+
+</div>
+<br><br>
+
+
+
 
 ![principle-capability-behavior-triangle](https://user-images.githubusercontent.com/610638/128890485-44f2838d-aa28-41df-be31-8b2fe5bbb2d4.jpg)
 
 
 
-## Creating your first principle
-
-You can create your principle by using the [Editor](https://principles.dev/editor/) and what you need to include by reading [how to write a principle](https://principles.dev/documentation/#how-to-write-a-principle_1).
-
 
 ## Contributing
 
-If you want to make Software Engineering better for everybody, please make a pull request. You can create a pull request and add your own principles or update others with the merge target set to **release** branch.
+We are a small group of contributors with a goal to make software engineering and leadership behaviors visible, so we can make software better for everyone. 
 
-You might want to read [why create a principle](https://principles.dev/why-create-principle/).
+You can create your principle by using the [Editor](https://principles.dev/editor/) and reading [how to write a principle](https://principles.dev/documentation/#how-to-write-a-principle_1).
 
-There are many ways to contribute to the project, from simple to most rewarding: 
-
-* **Correct mistakes** -  This could be spelling, grammar or getting the point across more clearly.
-* **Edit a principle** - enrich its content. Nearly all principles can be improved by adding in more information or better reasoning.
-* **Copy an existing principle** - Derive a principle from elsewhere. Make sure it has a permissible license (e.g., MIT, CC BY-SA).
-* **Create a principle** - Have a principle of your own? Please share it with the world on principles.dev. 
-
-If you're creating or copying a principle. You should at least read through the [how to write a principle](https://principles.dev/documentation/) quickstart section before you begin. Having a look at existing principles on the site will help you understand what's required.
-
-### Will my principle be accepted?
-
-One of the most significant sources of friction you will experience that will hold you back from contributing is whether you feel your principle will be rejected or not. No one wants to put in work for someone to turn around and say no. 
-
-It will generally be approved if it reaches the requirement for a [basic principle](https://principles.dev/documentation/#quickstart-writing-your-first-principle). 
-
-Reasons for lack of approval are:
-
-* Low quality - The principle is unable to change someone's behavior or capability because it's missing crucial information or context.
-* Not containing what it is and why
-* The principle is offensive, inflammatory, or is generally targetted at being hostile towards a different group (e.g., don't use X language, X technology, etc.)
-* Grammar or spelling mistakes (which are easily correctable)
-
-If you are unsure, it's ok to open an issue on this repository to discuss a principle to get some general pointers. If you create a pull request and any of the above problems exist, don't worry, the maintainers will point them out, and you'll have opportunities to correct it. 
-
-Also, try your best before reaching out to the maintainers. That means reading the documentation beforehand and understanding this project. If you've spent a lot of time on something, the maintainers will be more willing to help you.
-
-Thank you for reading and making Software Engineering better for everyone.
+If you'd let to get involved and share your own principles, read the <a href="https://github.com/PrinciplesDotDev/principles/blob/master/CONTRIBUTING.md">Contributing.md</a>
 
 
 ## Keeping in touch
 
-Sign up for an account at https://principles.dev and follow [@principles_dev](https://twitter.com/principles_dev) to learn more about principles.
+Sign up for an account at https://principles.dev and follow [@principles_dev](https://twitter.com/principles_dev) where you can assign your favourite principles to lists. There's also a mailing list on the website in which infrequent emails about principles are sent out.
 
 ## Licensing
-
 
 Principles are generally licensed under Creative Commons Attribution-ShareAlike 4.0 International. But may be licensed under other creative commons license. Refer to the individual principle meta-data for license claims.
 
