@@ -12,7 +12,7 @@ There are many ways to contribute to the project, from simple to most rewarding:
 
 If you're creating or copying an exisiting principle. Before you begin, you should at least read through the [how to write a principle](https://principles.dev/documentation/) quickstart section. Looking at existing principles on the site will help you understand what's required.
 
-## How it works
+## How it works
 
 1. This repository is the source of truth for principles.dev. Once a build is merged back to the release branch, it will appear on the live website at principles.dev
 2. To submit a principle, you must create a pull request/fork the repo with the merge target set to **release** branch.
