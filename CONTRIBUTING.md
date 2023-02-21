@@ -22,7 +22,7 @@ If you're creating or copying an exisiting principle. Before you begin, you shou
 
 ## Will my principle be accepted?
 
-Creating a principle is an intentionally high-friction process to deter low-quality principles. If you are reading this, your principle will unlikely fit into that category. Principles are generally approved if the requirement for a [basic principle](https://principles.dev/documentation/#quickstart-writing-your-first-principle) is met.
+Creating a principle is an intentionally high-friction process to deter low-quality principles. If you are reading these words, it is unlikely your principle will fall into the low quality category. Principles are generally approved if the requirement for a [basic principle](https://principles.dev/documentation/#quickstart-writing-your-first-principle) is met.
 
 The reasons for lack of approval are:
 
