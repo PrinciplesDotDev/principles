@@ -8,6 +8,7 @@ Helping you learn the how to align behaviours - Open-source principles to align 
 <br ><br ><br >
 <img src="https://img.shields.io/badge/License*-CC%20BY--SA%204.0-blue" />
 <img src="https://img.shields.io/badge/License*-GPLv3-blue" />
+<img src="https://img.shields.io/badge/Since-2019-blue" />
 <a href="https://twitter.com/principles_dev" ><img src="https://img.shields.io/twitter/follow/principles.dev?style=social" /></a> 
 <br >
   <sub><sup>(*) Principle licensing may vary, read below for more info</sup></sub>
@@ -25,7 +26,7 @@ Helping you learn the how to align behaviours - Open-source principles to align 
 
 ## Contributing
 
-We are a small group of contributors with a goal to make software engineering and leadership behaviors visible, so we can make software better for everyone. 
+We are a small group of contributors with a goal to make software engineering and leadership behaviors visible, to make software better for everyone. 
 
 You can create your principle by using the [Editor](https://principles.dev/editor/) and reading [how to write a principle](https://principles.dev/documentation/#how-to-write-a-principle_1).
 
@@ -40,10 +41,12 @@ If you'd let to get involved and share your own principles, read the <a href="ht
 
 ## Licensing
 
-Principles are generally licensed under Creative Commons Attribution-ShareAlike 4.0 International. But may be licensed under other creative commons license. Refer to the individual principle meta-data for license claims.
+Principles are generally licensed under Creative Commons Attribution-ShareAlike 4.0 International. But may be licensed under other creative commons license. Refer to the individual principle meta-data file for license claims - you can find this at the top of every principles file.
 
 e.g. ```license = "CC BY-SA 4.0"```
 
-Principles may also be licensed under a dual GPLv3.0 license to allow software distribution under the same terms. Refer to the individual principle meta data for license claims.
+Principles may also be licensed under a dual GPLv3.0 license to allow software distribution under the same terms. Refer to the individual principle meta data for license claims  - you can find this at the top of every principles file.
 
 e.g. ```allow_dual_licensing_to_GPLv3 = true```
+  
+For more information on licensing, read here: https://principles.dev/license/
