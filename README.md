@@ -1,7 +1,7 @@
 
 
 <div align="center">
-<h3>Principles</h3>
+<h3>Open-source Principles</h3>
 
 <img src="https://user-images.githubusercontent.com/610638/124029515-2370be80-d9ed-11eb-97e4-d20e54b51423.png" height="96" /><br><br >
 Helping you learn the how to align behaviours - Open-source principles to align engineering and leadership teams. Build is publised onto <a href="https://principles.dev">principles.dev<a>. Contributors welcome.
