@@ -1,8 +1,8 @@
 
 
 <div align="center">
-<h1>Principles</h1>
-<br ><br >
+<h3>Principles</h3>
+
 <img src="https://user-images.githubusercontent.com/610638/124029515-2370be80-d9ed-11eb-97e4-d20e54b51423.png" height="96" /><br><br >
 Helping you learn the how to align behaviours - Open-source principles to align engineering and leadership teams. Build is publised onto <a href="https://principles.dev">principles.dev<a>. Contributors welcome.
 <br ><br ><br >
@@ -11,7 +11,7 @@ Helping you learn the how to align behaviours - Open-source principles to align 
 <img src="https://img.shields.io/badge/License*-GPLv3-blue" />
 <a href="https://twitter.com/principles_dev" ><img src="https://img.shields.io/twitter/follow/principles.dev?style=social" /></a> 
 <br >
-(*) Principle licensing may vary, read below for more info
+  <sub><sup>(*) Principle licensing may vary, read below for more info</sup></sub>
 
 
 </div>
@@ -21,7 +21,6 @@ Helping you learn the how to align behaviours - Open-source principles to align 
 
 
 ![principle-capability-behavior-triangle](https://user-images.githubusercontent.com/610638/128890485-44f2838d-aa28-41df-be31-8b2fe5bbb2d4.jpg)
-
 
 
 
@@ -36,7 +35,9 @@ If you'd let to get involved and share your own principles, read the <a href="ht
 
 ## Keeping in touch
 
-Sign up for an account at https://principles.dev and follow [@principles_dev](https://twitter.com/principles_dev) where you can assign your favourite principles to lists. There's also a mailing list on the website in which infrequent emails about principles are sent out.
+1. Sign up for an account at https://principles.dev where you can assign your favourite principles to lists.
+2. Follow [@principles_dev](https://twitter.com/principles_dev) to hear more about principles.
+3. There's also a mailing list on the website in which infrequent emails about principles.
 
 ## Licensing
 
