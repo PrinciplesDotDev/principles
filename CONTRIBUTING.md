@@ -1,7 +1,7 @@
 Thank you for being interested in making Software Engineering better for everybody
 
 
-## General contributing
+# Contributing
 
 There are many ways to contribute to the project, from simple to most rewarding: 
 
@@ -20,7 +20,7 @@ If you're creating or copying an exisiting principle. Before you begin, you shou
 4. To credit your principles to your principles.dev account, you must write your github username (case-sensitive) in the authors or contributors field at the top of any created or edited principle.
 
 
-### Will my principle be accepted?
+## Will my principle be accepted?
 
 Creating a principle is an intentionally high-friction process to deter low-quality principles. If you are reading this, your principle will unlikely fit into that category. Principles are generally approved if the requirement for a [basic principle](https://principles.dev/documentation/#quickstart-writing-your-first-principle). 
 
