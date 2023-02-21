@@ -6,8 +6,8 @@
 <img src="https://user-images.githubusercontent.com/610638/124029515-2370be80-d9ed-11eb-97e4-d20e54b51423.png" height="96" /><br><br >
 Helping you learn the how to align behaviours - Open-source principles to align engineering and leadership teams. Build is publised onto <a href="https://principles.dev">principles.dev<a>. Contributors welcome.
 <br ><br ><br >
-<img src="https://img.shields.io/badge/License*-CC%20BY--SA%204.0-blue" />
-<img src="https://img.shields.io/badge/License*-GPLv3-blue" />
+<img src="https://img.shields.io/badge/License-CC%20BY--SA%204.0*-blue" />
+<img src="https://img.shields.io/badge/License-GPLv3*-blue" />
 <img src="https://img.shields.io/badge/Since-2019-blue" />
 <a href="https://twitter.com/principles_dev" ><img src="https://img.shields.io/twitter/follow/principles.dev?style=social" /></a> 
 <br >
