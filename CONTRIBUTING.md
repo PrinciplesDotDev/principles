@@ -1,4 +1,4 @@
-Thank you for being so interested in making Software Engineering better for everybody
+Thank you for being interested in making Software Engineering better for everybody
 
 
 ## General contributing
