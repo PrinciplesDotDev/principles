@@ -1,5 +1,5 @@
 +++
-principle = "Use consistent coding conventions, automatically enforced"
+principle = "testUse consistent coding conventions, automatically enforced"
 summary = "Code should be formatted the same way and enforced automatically using tools."
 tags = ["strategic", "team", "full-stack", "practices"]
 authors = ["AdamCraven"]

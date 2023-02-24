@@ -1,5 +1,5 @@
 +++
-principle = "Avoid Mental Mapping"
+principle = "testAvoid Mental Mapping"
 tags = ["variables", "code", "rule", "code review", "clean code"]
 summary = "Avoid using shorter replacement variables that aren't explicit"
 authors = []

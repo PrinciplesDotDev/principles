@@ -1,5 +1,5 @@
 +++
-principle = "Use default arguments instead of short circuiting or conditionals"
+principle = "testUse default arguments instead of short circuiting or conditionals"
 tags = ["variables", "code", "rule", "code review", "clean code", "clean code"]
 summary = ""
 authors = []

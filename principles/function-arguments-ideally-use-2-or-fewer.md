@@ -1,5 +1,5 @@
 +++
-principle = "Function arguments, ideally use 2 or fewer"
+principle = "testFunction arguments, ideally use 2 or fewer"
 tags = ["functions", "code", "rule", "code review", "javascript", "clean code"]
 summary = ""
 authors = []

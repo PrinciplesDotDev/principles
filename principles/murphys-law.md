@@ -1,5 +1,5 @@
 +++
-principle = "Murphy's law"
+principle = "testMurphy's law"
 tags = ["epic", "strategic"]
 summary = "Whatever can go wrong will go wrong. So a solution is better the fewer possibilities there are for something to go wrong."
 authors = []

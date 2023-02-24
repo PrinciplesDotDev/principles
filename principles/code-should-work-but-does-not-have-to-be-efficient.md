@@ -1,5 +1,5 @@
 +++
-principle = "Code should work, but does not have to be efficient."
+principle = "testCode should work, but does not have to be efficient."
 tags = ["code", "team", "medium", "performance", "phase", "sdlc", "mvp"]
 summary = ""
 authors = ["AdamCraven"]

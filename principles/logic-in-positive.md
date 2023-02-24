@@ -1,5 +1,5 @@
 +++
-principle = "Logic should be in the positive"
+principle = "testLogic should be in the positive"
 summary = "Logic should ask, \"Is this true?\" instead of \"Is this not true?\""
 tags = ["code", "comprehension", "cognitive", "individual", "focused","style", "practices"]
 license = "CC BY-SA 4.0"

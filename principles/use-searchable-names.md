@@ -1,5 +1,5 @@
 +++
-principle = "Use searchable names"
+principle = "testUse searchable names"
 tags = ["variables", "code", "rule", "code review", "clean code"]
 summary = ""
 authors = []

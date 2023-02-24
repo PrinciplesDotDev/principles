@@ -1,5 +1,5 @@
 +++
-principle = "Keep It Simple Stupid (KISS)"
+principle = "testKeep It Simple Stupid (KISS)"
 tags = ["epic", "code", "team"]
 summary = "A simple solution is better than a complex one."
 authors = []

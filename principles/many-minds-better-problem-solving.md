@@ -1,5 +1,5 @@
 +++
-principle = "Many minds, better problem-solving"
+principle = "testMany minds, better problem-solving"
 tags = ["practices", "team", "medium", "problem-solving"]
 summary = "The greater the number of people who can work on a problem, the higher the probability of an optimal solution."
 authors = ["AdamCraven"]

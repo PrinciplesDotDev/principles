@@ -1,5 +1,5 @@
 +++
-principle = "Understand a problem individually, then share it."
+principle = "testUnderstand a problem individually, then share it."
 tags = ["process", "comprehension", "remote-work", "team", "medium"]
 summary = "Capture your understandings separately to the team and then come together to align"
 authors = ["russmiles", "AdamCraven"]

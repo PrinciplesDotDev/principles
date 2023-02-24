@@ -1,5 +1,5 @@
 +++
-principle = "Relatedness pattern"
+principle = "testRelatedness pattern"
 tags = ["cognitive", "code", "comprehension", "individual", "focused"]
 summary = "Things that are related to one another and ordered logically do not increase cognitive complexity"
 authors = ["AdamCraven"]
@@ -44,7 +44,7 @@ To have high relatedness, it must have these properties:
 
 ## Why
 
-Humans are good with patterns [1](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4141622/). If the mind recognises a consistent pattern, we intuitively understand that it will apply elsewhere. 
+Humans are good with patterns [1](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4141622/). If the mind recognises a consistent pattern, we intuitively understand that it will apply elsewhere.
 
 ## Examples
 ### High relatedness example

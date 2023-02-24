@@ -1,5 +1,5 @@
 +++
-principle = "Try to delete the part or process."
+principle = "testTry to delete the part or process."
 tags = ["organization", "leadership", "epic", "strategic"]
 summary = "Try to delete the feature or process to build things that are required."
 authors = ["Elon Musk"]

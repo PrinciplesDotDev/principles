@@ -1,5 +1,5 @@
 +++
-principle = "Use explanatory variables"
+principle = "testUse explanatory variables"
 tags = ["variables", "code", "rule", "code review", "clean code"]
 summary = "Create variables to add meaning"
 authors = []

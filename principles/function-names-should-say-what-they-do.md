@@ -1,5 +1,5 @@
 +++
-principle = "Function names should say what they do"
+principle = "testFunction names should say what they do"
 tags = ["functions", "code", "rule", "code review", "clean code"]
 summary = ""
 authors = []

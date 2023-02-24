@@ -1,5 +1,5 @@
 +++
-principle = "Code an off-switch"
+principle = "testCode an off-switch"
 tags = ["feature flag", "feature toggle", "off switch", "practices", "team", "medium"]
 summary = "Always plan for a way to switch your work off"
 authors = ["kealanparr"]

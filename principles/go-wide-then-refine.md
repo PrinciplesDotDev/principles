@@ -1,5 +1,5 @@
 +++
-principle = "Go wide, then refine"
+principle = "testGo wide, then refine"
 tags = ["team", "domain", "ddd", "practices", "medium", "epic", "leadership"]
 summary = "When creating something, it is better to understand the picture - at a high level - instead of focusing on the thing you need to create immediately."
 authors = ["AdamCraven"]

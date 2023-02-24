@@ -1,5 +1,5 @@
 +++
-principle = "Musk requirement principle"
+principle = "testMusk requirement principle"
 tags = ["organization", "leadership", "epic", "strategic"]
 summary = "Requirements belong to individuals, not teams"
 authors = ["Elon Musk"]

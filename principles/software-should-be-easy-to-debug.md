@@ -1,5 +1,5 @@
 +++
-principle = "Software should be easy to debug"
+principle = "testSoftware should be easy to debug"
 summary = "When software behaves unexpectedly, it should be easy to understand what is causing the problem."
 tags = ["practices", "medium", "errors", "debugging", "logs", "environment setup", "language choice", "productivity"]
 license= "CC BY-SA 4.0"

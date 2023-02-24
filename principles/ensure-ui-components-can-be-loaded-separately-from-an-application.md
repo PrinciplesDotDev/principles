@@ -1,5 +1,5 @@
 +++
-principle = "Ensure UI components can be loaded separately from an application"
+principle = "testEnsure UI components can be loaded separately from an application"
 tags = ["front-end", "bug free", "practices"]
 summary = ""
 authors = ["AdamCraven"]

@@ -1,5 +1,5 @@
 +++
-principle = "Use the same vocabulary for the same type of variable"
+principle = "testUse the same vocabulary for the same type of variable"
 tags = ["variables", "code", "rule", "code review", "clean code"]
 summary = ""
 authors = []

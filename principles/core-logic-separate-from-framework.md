@@ -1,5 +1,5 @@
 +++
-principle = "Separate core logic from the framework"
+principle = "testSeparate core logic from the framework"
 summary = "Core logic that is related to solving a business or domain problem should exist outside of a framework."
 tags = ["organization", "strategic", "architecture", "full-stack", "practices"]
 authors = ["AdamCraven"]

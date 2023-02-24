@@ -1,5 +1,5 @@
 +++
-principle = "Ensure documentation is easy to amend"
+principle = "testEnsure documentation is easy to amend"
 summary = "When encountering documentation, it should be easy to make changes."
 tags = ["documentation", "code", "practices"]
 license = "CC BY-SA 4.0"

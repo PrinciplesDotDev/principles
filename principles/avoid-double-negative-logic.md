@@ -1,5 +1,5 @@
 +++
-principle = "Avoid double negative logic"
+principle = "testAvoid double negative logic"
 summary = "Conditional logic should avoid double negatives."
 tags = ["logic", "code", "practices"]
 license = "CC BY-SA 4.0"

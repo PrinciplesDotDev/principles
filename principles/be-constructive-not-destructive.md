@@ -1,5 +1,5 @@
 +++
-principle = "Be constructive, not destructive."
+principle = "testBe constructive, not destructive."
 tags = ["leadership", "medium", "practice", "team"]
 summary = ""
 authors = ["nickyhannaway"]

@@ -1,5 +1,5 @@
 +++
-principle = "Open–closed principle"
+principle = "testOpen–closed principle"
 tags = ["solid", "practices", "code", "team"]
 summary = "Software entities should be open for extension, but closed for modification."
 authors = ["Bertrand Meyer", "Robert C. Martin"]

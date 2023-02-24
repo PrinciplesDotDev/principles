@@ -1,5 +1,5 @@
 +++
-principle = "When you know you aren’t aligned, resolve early."
+principle = "testWhen you know you aren’t aligned, resolve early."
 tags = ["team", "leadership", "medium", "practices"]
 summary = "Act on unalignment rapidly to ensure happy teams"
 authors = ["AdamCraven"]

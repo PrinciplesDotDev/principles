@@ -1,5 +1,5 @@
 +++
-principle = "Test models thoroughly, test everything else less"
+principle = "testTest models thoroughly, test everything else less"
 tags = ["front-end", "bug free", "practices"]
 summary = ""
 authors = ["AdamCraven"]

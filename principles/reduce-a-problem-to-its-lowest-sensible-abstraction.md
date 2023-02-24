@@ -1,5 +1,5 @@
 +++
-principle = "Reduce a problem to its lowest sensible abstraction"
+principle = "testReduce a problem to its lowest sensible abstraction"
 tags = ["process"]
 summary = "Framing a problem in its lowest sensible abstraction helps you understand and develop accurate solutions to a problem."
 authors = ["AdamCraven"]

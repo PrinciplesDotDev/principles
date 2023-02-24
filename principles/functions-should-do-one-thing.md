@@ -1,5 +1,5 @@
 +++
-principle = "Functions should do one thing"
+principle = "testFunctions should do one thing"
 tags = ["functions", "code", "rule", "code review", "javascript", "clean code"]
 summary = ""
 authors = []

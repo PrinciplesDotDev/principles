@@ -1,5 +1,5 @@
 +++
-principle = "Explicit Dependencies Principle"
+principle = "testExplicit Dependencies Principle"
 tags = ["code", "team", "organization", "rdt"]
 summary = "Methods and classes should explicitly require any collaborating objects they need in order to function correctly"
 authors = []

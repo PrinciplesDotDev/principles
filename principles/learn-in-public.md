@@ -1,5 +1,5 @@
 +++
-principle = "Learn in Public"
+principle = "testLearn in Public"
 tags = ["learning", "knowledge management", "personal growth", "individual", "epic"]
 summary = "Instead of keeping what you learn to yourself, share it as you go, for accountability, feedback, and networking."
 authors = ["sw-yx"]

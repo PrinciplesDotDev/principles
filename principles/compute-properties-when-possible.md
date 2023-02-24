@@ -1,5 +1,5 @@
 +++
-principle = "Compute properties when possible"
+principle = "testCompute properties when possible"
 summary = ""
 tags = ["bug free", "practices"]
 authors = ["AdamCraven"]

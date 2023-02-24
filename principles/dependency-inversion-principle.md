@@ -1,5 +1,5 @@
 +++
-principle = "Dependency Inversion Principle"
+principle = "testDependency Inversion Principle"
 tags = ["solid", "practices", "code", "team", "organization", "rdt"]
 summary = "high level modules should not depend on low level modules; both should depend on abstractions."
 authors = []

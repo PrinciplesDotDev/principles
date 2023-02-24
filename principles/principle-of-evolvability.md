@@ -1,5 +1,5 @@
 +++
-principle = "Principle of evolvability"
+principle = "testPrinciple of evolvability"
 tags = ["epic", "mental model", "basic", "core"]
 summary = "Systems which can evolve quicker are better than those which cannot."
 authors = ["AdamCraven"]

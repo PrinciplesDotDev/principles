@@ -1,5 +1,5 @@
 +++
-principle = "Make the invisible, visible"
+principle = "testMake the invisible, visible"
 summary = "Make relevant information visible so things can be clearly understood"
 tags = ["epic", "leadership", "organization", "team", "individual", "strategic", "transparency", "understanding", "relevancy" ]
 license = "CC BY-SA 4.0"

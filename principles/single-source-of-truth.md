@@ -1,5 +1,5 @@
 +++
-principle = "One single source of truth"
+principle = "testOne single source of truth"
 summary = "Data should be held in one location, duplicates of that data should be by reference only."
 tags = ["data", "full-stack", "practices","medium", "team"]
 license = "CC BY-SA 4.0"

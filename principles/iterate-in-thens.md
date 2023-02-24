@@ -1,5 +1,5 @@
 +++
-principle = "Iterate in Thens"
+principle = "testIterate in Thens"
 summary = "You should iterate sequentially on a focused chunk of work at a time."
 tags = ["process", "individual", "medium", "full-stack"]
 license = "CC BY-SA 4.0"

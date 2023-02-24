@@ -1,5 +1,5 @@
 +++
-principle = "Single-Responsibility Principle"
+principle = "testSingle-Responsibility Principle"
 tags = ["solid", "practices", "code", "team", "organization"]
 summary = "Every module, class or function in a computer program should have responsibility over a single part of that program's functionality, and it should encapsulate that part"
 authors = ["Robert C. Martin"]

@@ -1,5 +1,5 @@
 +++
-principle = "Model all state in an application"
+principle = "testModel all state in an application"
 tags = ["front-end", "bug free", "practices"]
 summary = "Create a structured representation of the system's state"
 authors = ["AdamCraven"]

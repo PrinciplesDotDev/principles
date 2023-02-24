@@ -1,5 +1,5 @@
 +++
-principle = "Documentation should be close to the code"
+principle = "testDocumentation should be close to the code"
 summary = "Documentation, in all forms, should be as close as it can be to the code."
 tags = ["documentation", "code", "practices"]
 license = "CC BY-SA 4.0"
