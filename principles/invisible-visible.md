@@ -1,7 +1,7 @@
 +++
 principle = "Make the invisible, visible"
 summary = "Make relevant information visible so things can be clearly understood"
-tags = ["pde", "epic", "leadership", "organization", "team", "individual", "strategic"]
+tags = ["epic", "leadership", "organization", "team", "individual", "strategic", "transparency", "understanding", "relevancy" ]
 license = "CC BY-SA 4.0"
 allow_dual_licensing_to_GPLv3 = true
 authors= ["AdamCraven"]

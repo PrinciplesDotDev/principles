@@ -1,7 +1,7 @@
 +++
 principle = "Logic should be in the positive"
-summary = "Logic should in general be asking the question \"Is this true?\" instead of \"Is this not true?\""
-tags = ["style", "practices"]
+summary = "Logic should ask, \"Is this true?\" instead of \"Is this not true?\""
+tags = ["code", "comprehension", "cognitive", "individual", "focused","style", "practices"]
 license = "CC BY-SA 4.0"
 allow_dual_licensing_to_GPLv3 = true
 authors= []
@@ -9,18 +9,20 @@ contributors = ["AdamCraven", "streamer45"]
 uid = "amber-finch-jordain"
 +++
 
-
-Logic should be asking the question, "Is this true?" instead of "Is this not true?"
+Logic should ask, "Is this true?" instead of "Is this not true?"
 
 ## Why
 
-Logic written in the positive can be comprehended more quickly. People take longer to process negative sentences than positive ones (Clark & Chase, 1972; Just & Carpenter, 1971, 1976; Carpenter & Just, 1975). This is especially true when there are multiple negative statements.  Thus it increases clarity and reduces cognitive load.
-
+People can comprehend logic written in a positive form more quickly. It takes longer to process negative sentences than positive ones (Clark & Chase, 1972; Just & Carpenter, 1971, 1976; Carpenter & Just, 1975) and only worsens when multiple negative statements exist.
 
 ## How
 
-- Write logic that asks: Is this true?
+- [Write logic that asks: Is this true?](#write-logic-that-asks-is-this-true)
+- [Avoid the word "Not"](#avoid-the-word-not)
+- [When using negative statements, put them as a value - after the variable](#when-using-negative-statements-put-them-as-a-value-after-the-variable)
+- [Avoid double-negative logic by using additional variables](#avoid-double-negative-logic-by-using-additional-variables)
 
+### Write logic that asks: Is this true?
 
 The first statement is written in the negative:
 
@@ -32,9 +34,11 @@ function isBlackOrWhite(black, white) {
     return true;
 }
 ```
-The if statement is asking if it is "not black and not white.". Adding in the and operator further increases the difficulty in understanding.
 
-Then written in the positive:
+
+The statement's logic in plain English is: "not black and not white". These are two negative statements, which further increases the difficulty in understanding.
+
+We can write this in the positive form, and the meaning becomes far clearer:
 
 ```js
 function isBlackOrWhite(black, white) {
@@ -45,49 +49,80 @@ function isBlackOrWhite(black, white) {
 }
 ```
 
-The if statement is asking the question "Is it black or white?"
+### Avoid the word "Not"
 
-### Don't be afraid to declare extra variables to satisfy this principle.
+Not creates an inversion that is harder to understand. You should avoid using not and instead use words that are more precise in their meaning.
 
 
-In the case below, there's some logic that will prevent the next part of the function from executing. However, it's quite tricky to parse the intention:
 
-```js
-var isUserAuthorised = user.isAuthenticated() && user.role.hasAccess(route) // positive
-var userAdmin = user.role.admin() // positive
+`isNotValid` -> `isInvalid`<br>
+`isDeliveryNotOnTime` -> `isDeliveryLate`<br>
+`isUserNotAdmin` -> `isUserNonAdmin` or `isUserUnprivileged`<br>
 
-if (!isUserAuthorised || !userAdmin) { // negative and negative
-    return;
-}
+
+
+
+### When using negative statements, put them as a value - after the variable
+
+You cannot avoid negative statements, as logic is often about exclusion. Variables also need to be defined in a way that meets your needs. Instead, you can move the negative logic to after the variable definition (the value):
+
+
+`variable = !value` <br>
+
+
+Do this:
+
+```python
+invalid = not self.is_valid()
+
+if invalid:
+	return
+```
+
+Or do this:
+
+```python
+valid = self.is_valid()
+invalid = not valid()
+
+if invalid:
+	return
+```
+
+But don't do this:
+
+```python
+valid = self.is_valid()
+
+if not valid:
+	return
+```
+
+### Avoid double-negative logic by using additional variables.
+
+Moving negative logic after the variable definition can create double-negative logic. You can avoid double negative logic by first writing the logic in the positive, then inverting the result to a negative with an additional variable.
+
+`variable1 = value && value` <br>
+`variable2 = !variable1` <br>
+
+
+Do this:
+
+```python
+valid = self.is_valid() and self.is_valid_in_external_validator() # two positive statements
+invalid = not valid # A single negative statement
+
+if invalid:
+	return
 
 ```
 
-It's asking the question in a negative way to see if the code can proceed.
+Don't do this:
 
-In the next example, we turn the logic into the positive. This drastically increases clarity:
+```python
+invalid = not self.is_valid() or not self.is_valid_in_external_validator()  # double-negative statement
 
-```js
-var isUserAuthorised = user.isAuthenticated() && user.role.hasAccess(route); // positive
-var isUserUnauthorised = !isUserAuthorised; // negative, but variable definition clarifies
-var userAdmin = user.role.admin(); //positive
-var userNotAdmin = !userAdmin; // negative,  but variable definition clarifies
-
-if (isUserUnauthorised && userNotAdmin) { // positive && positive
-    return;
-}
+if invalid:
+	return
 
 ```
-
-We've added the variables `isUserAuthorized` and `userNotAdmin` for the sake of clarity. Many engineers would be tempted to take out the second `isUserUnauthorised` and `userNotAdmin` because it can be argued that there's "less code", but fewer lines of code isn't a benefit because it reduces clarity.
-
-In this second example, we're asking if this statement is true, even though the language indicates `isUserUnauthorised`, a negative statement (e.g. is the user not authorised). We are literally asking, "is it true that the user is unauthorised" versus "is it false that the user is authorized". It's a subtle difference, but comprehension is better as people take longer to process negative sentences than positive ones (Clark & Chase, 1972; Just & Carpenter, 1971, 1976; Carpenter & Just, 1975).
-
-You may wonder if you could skip the `isUserAuthorized` variable and create the variable as `isNotUserAuthorised` from the beginning?
-
-You could, but then you would complicate the variable definition as logic would not be in the positive:
-
-```js
-var isUserUnauthorized = !user.isAuthenticated() && !user.role.hasAccess(route); // negative and negative
-```
-
-Which again is harder to comprehend, as it asks, "Is it false the user is authenticated and is it false the user role doesn't have access to this route?"
