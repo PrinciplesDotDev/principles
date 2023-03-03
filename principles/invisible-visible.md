@@ -9,31 +9,34 @@ contributors = []
 uid = "plum-swordfish-binni"
 +++
 
-"Make the invisible, visible" means: make *relevant* information visible so we can understand things clearly. This principle is at the root of understanding of all things.
+"Make the invisible, visible" means revealing the hidden but relevant information so we can understand things clearly. This principle is, in fact, at the root of understanding all things.
 
-Making relevant information visible increases understanding, allowing you to do more: Better problem-solving, behaviours, and code bases. Without making relevant information visible, it creates a deficit in understanding. How can you understand anything correctly - whether it be a team, organization or code base - if there is a knowledge gap due to invisible relevant information?
+Having access to the relevant details helps us to understand a task and therefore to work more effectively. It means better behaviours, problem-solving, and results. When the relevant information is invisible, there’s naturally a deficit in understanding. How can you understand anything properly — whether it’s a team, an organization or a code base — if there’s a knowledge gap due to invisible relevant information?
 
 
 ## How to determine relevancy
 
-Determining what is relevant is crucial, as in any system *there are always more irrelevant details than relevant ones*. Let's take a coin as an example of this phenomenon. A coin has printed faces, often with a production date on one side and the currency value on another. It also has many other properties: weight, mass, electrical conductivity, melting point, metallic composition, etc. Focusing on just one of those properties, such as the metallic composition, reveals an even more significant number of possible attributes, such as a mixture of numerous elements. Within those elements are an arrangement of atoms and within the atoms; quarks. Deeper still are further complexities at the quantum level. Most of those properties are irrelevant and invisible, but depending on your perspective, some are *relevant but unfortunately invisible*. To make the invisible, visible - we need to find what is relevant and make that visible.
+Determining what is relevant is crucial. In any system you’ll always find more details that are irrelevant than relevant. Let's take a coin as an example of this phenomenon. A coin has two sides, often with the date it was minted on one side and the currency value on the other. Its many other properties include: weight, mass, electrical conductivity, melting point, metallic composition, etc. Focusing on just one of those properties, such as the metallic composition, reveals an even higher number of possible attributes, such as a mixture of numerous elements. Within those elements are various atoms and within the atoms; quarks. Most of those properties are invisible and usually irrelevant, but depending on your perspective, some are relevant but - unfortunately - invisible. To make the invisible visible, we first need to find what information is relevant and then make it visible.
 
 You can determine relevancy by asking two related questions:
 
-1. **"What information would be useful in helping me understand this better?"**  - This will generate many answers while ignoring your existing limitations.
+1. **What information would be useful in helping me understand this better?**  - This will generate many answers while ignoring your existing limitations.
 2. **What information would be helpful for others to understand this better?** - This will help you think about your users and other perspectives.
 
-Going back to the coin example, you and I probably only care what the printed value of a coin. But if you were a precious metal dealer instead, what is relevant to you about coins is now different - it is based upon the underlying metals' worth. To know its worth, we need to know the type of precious metal, its quantity, and its purity.
+Going back to the coin example, you and I probably only care about the monetary value of a coin. But from the perspective of a precious metal dealer we care about what the coin is worth. The relevant features of a coin are: the type of metal used, the quantity and purity.
 
 <img width="75%" class="mx-auto d-block" src="/static/images/principles-content/invisible-visible/2022-christmas-gold-proof-sixpence-reverse.jpg" />
 
-The "sixpence" is a precious coin made from gold, but it wouldn't make a good coin for precious metal dealing as its relevant properties are invisible. We need to find out what it's made from, the weight of that material, and its purity. To make those properties visible, you would need to test the metal to determine its properties or rely on documentation elsewhere.
+This sixpence is a precious coin, but it wouldn't make a good coin for precious metal dealing as its relevant properties are invisible. We need to find out what it's made from, the weight of that material, and its purity. To make those properties visible, you would need to test the metal to determine its properties or rely on documentation elsewhere.
+
 
 <img width="80%" class="mx-auto d-block" src="/static/images/principles-content/invisible-visible/2021-britannia-gold-1oz.jpg" />
 
-The "Britannia" on the other hand, has all its relevant properties visible: It is made of gold, 1oz of it, with a 999.9 purity (24 carats). If we were to make the sixpence into a coin for trading precious metals, we would "make the invisible, visible" by updating the coin design to be closer to that of the Brittania.
 
-Unfortunately, in most systems, hidden relevant information is obscured, reducing our understanding. Behaviours are a widespread example of relevant information being invisible. Hidden behaviours cause unaligned teams, dysfunctional organizations and complex code bases. Because those behaviours are in our minds, they often aren't visible. From a leadership perspective, people don't know how to act. From a code perspective, engineers don't know why the code is written like it is. Hidden behaviours are solved by using principles, which create visible, sharable behaviour that others can interrogate and align to. "Make the invisible, visible" is the reason why any principles exist at all.
+The relevant properties of the Britannia on the other hand, are visible. The coin is made of gold, 1oz of it, with a purity of 999.9 (24 carats). If the sixpence was going to be used in the trading of precious metals, we’d need to make the invisible visible and display its properties in a new design similar to the Britannia.
+
+
+Unfortunately, relevant information is obscured in most systems, limiting our understanding. Behaviours are a widespread example of relevant information being invisible. Hidden behaviours result in teams that are not properly aligned, as well as dysfunctional organizations, and overly complex code bases. Because those behaviours are known in our minds (consciously or not), they’re often not made visible. From a leadership perspective, it means that people don't know how to act. From a coding perspective, engineers don't know why the code is written in the form it is. Problematic hidden behaviours can be addressed by establishing principles that create visible, sharable behaviour which others can interrogate and align to. Making the invisible visible is why we even define principles in the first place.
 
 
 ## Examples
@@ -42,24 +45,28 @@ Further examples of making relevant information visible.
 
 Data
 
-* Create visualizations that create insight.
+* Create visualizations that provide insight..
 * Convert data into visualizations that are easier to understand. (e.g., grafana, splunk)
 * Run calculations on the data to understand the content (e.g., average price, top sales)
 * Use analytics within a system to increase feedback cycles.
-* Data mining a dataset to reveal hidden patterns.
+* Reveal hidden patterns through data mining.
 
 Code
 
-* Use diagrams. Represent code in less abstract ways, such as drawing diagrams of a system using pen and paper or graphics design programs.
-* Log and visualize the results of a system.
-* Use debuggers to peer inside a system to see changes over time rather than an input-output black box.
-* Use performance tools like flame graphs to visualize where the program spends its time.
+* Use diagrams. Represent code in less abstract, more concrete ways, such as drawing diagrams of a system using pen and paper or graphics design programs.
+* Log and visualize the results of a running application or process.
+* Utilize debuggers to peer inside a system and view changes over time rather than the black-box method, which views results from only the input and outputs of the system.
+* Use performance tools like flame graphs to visualize the stages of a program.
 
 Teams
 
-* Use principles to communicate and build mental models everyone can share in the team.
+* Use principles to communicate and build mental models that everyone in the team can share.
 * Ask questions that seek to understand and illuminate.
+* Ensure all members are able to access information in a coordinated way e.g., what gaps could exist between the technical customer service team and engineers?
+* Use personality assessment tools to build alignments within the team of how members prefer to process information, which can be used to create tailored best practices
+
 
 Individuals
 
-* Understand and share your knowledge, codifying your habits into understood actions and principles.
+* Identify and share your knowledge, codifying your approach into clear actions and principles.
+* Query your assumptions and blind spots to find new ways of identifying relevant information
