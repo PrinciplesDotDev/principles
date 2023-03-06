@@ -16,14 +16,14 @@ Having access to the relevant details helps us to understand a task and therefor
 
 ## How to determine relevancy
 
-Determining what is relevant is crucial. In any system you’ll always find more details that are irrelevant than relevant. Let's take a coin as an example of this phenomenon. A coin has two sides, often with the date it was minted on one side and the currency value on the other. Its many other properties include: weight, mass, electrical conductivity, melting point, metallic composition, etc. Focusing on just one of those properties, such as the metallic composition, reveals an even higher number of possible attributes, such as a mixture of numerous elements. Within those elements are various atoms and within the atoms; quarks. Most of those properties are invisible and usually irrelevant, but depending on your perspective, some are relevant but - unfortunately - invisible. To make the invisible visible, we first need to find what information is relevant and then make it visible.
+In any system you’ll always find more details that are irrelevant than relevant, so it is crucial to be able to determine what is relevant. Let's take a coin as an example of this phenomenon. A coin has two sides, often with the date it was minted on one side and the currency value on the other. Its many other properties include: weight, mass, electrical conductivity, melting point, metallic composition, etc. Focusing on just one of those properties, such as the metallic composition, reveals an even higher number of possible attributes, such as a mixture of numerous elements. Within those elements are various atoms and within the atoms; quarks. Most of those properties are invisible and usually irrelevant, but depending on your perspective, some are relevant but - unfortunately - invisible. To make the invisible visible, we first need to find what information is relevant and then make it visible.
 
-You can determine relevancy by asking two related questions:
+Two related questions can help you determine relevancy:
 
-1. **What information would be useful in helping me understand this better?**  - This will generate many answers while ignoring your existing limitations.
-2. **What information would be helpful for others to understand this better?** - This will help you think about your users and other perspectives.
+1. **What information would be helpful for me to understand that I currently don't have?** - This will generate many answers while ignoring your existing limitations.
+2. **What information would be helpful for others to understand that they currently don't have?** - This will help you think about your users and other perspectives.
 
-Going back to the coin example, you and I probably only care about the monetary value of a coin. But from the perspective of a precious metal dealer we care about what the coin is worth. The relevant features of a coin are: the type of metal used, the quantity and purity.
+Going back to our coin example, you and I probably only care about the monetary value of a coin. But what if you were a precious metal dealer? Now, what is relevant to you about coins is different - we care about what the coin is worth. To know its worth, we need to know the type of precious metal, its quantity, and its purity.
 
 <img width="75%" class="mx-auto d-block" src="/static/images/principles-content/invisible-visible/2022-christmas-gold-proof-sixpence-reverse.jpg" />
 
