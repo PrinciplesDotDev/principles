@@ -11,7 +11,7 @@ uid = "plum-swordfish-binni"
 
 "Make the invisible, visible" means revealing the hidden but relevant information so we can understand things clearly. This principle is, in fact, at the root of understanding all things.
 
-Having access to the relevant details helps us to understand a task and therefore to work more effectively. It means better behaviours, problem-solving, and results. When the relevant information is invisible, there’s naturally a deficit in understanding. How can you understand anything properly — whether it’s a team, an organization or a code base — if there’s a knowledge gap due to invisible relevant information?
+Having access to the relevant details helps us to understand things better so we can work more effectively. It means better behaviours, problem-solving, and results. When the relevant information is invisible, there’s naturally a deficit in understanding. How can you understand anything properly — whether it’s a team, an organization or a code base — if there’s a knowledge gap due to invisible relevant information?
 
 
 ## How to determine relevancy
