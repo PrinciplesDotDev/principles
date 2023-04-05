@@ -17,8 +17,6 @@ Open-source principles to align engineering and leadership teams. Build is publi
 
 
 </div>
-<br><br>
-
 
 
 
@@ -45,7 +43,7 @@ You can create your principle by using the [Editor](https://principles.dev/edito
 
 ## Keeping in touch
 
-1. Sign up for an account at https://principles.dev where you can assign your favourite principles to lists.
+1. Sign up for an account at https://principles.dev where you can save your principles drafts (for submitting to this repo) and organising your favourite principles in your profile.
 2. Follow [@principles_dev](https://twitter.com/principles_dev) to hear more about principles.
 3. There's also a mailing list on the website in which infrequent emails about principles.
 
