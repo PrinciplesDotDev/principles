@@ -1,8 +1,9 @@
 
 
 <div align="center">
-  
-![github mainpage-3](https://user-images.githubusercontent.com/610638/230158216-60ed8344-df2f-49f9-a247-f0f6cfffb27a.png)
+
+![open-source-principles](https://user-images.githubusercontent.com/610638/230180036-35fed7c7-6655-4b2a-ab68-4fcb8f924bcd.png)
+
 <br><br>
 
   
