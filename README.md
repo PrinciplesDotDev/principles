@@ -4,11 +4,11 @@
 
 ![open-source-principles](https://user-images.githubusercontent.com/610638/230180036-35fed7c7-6655-4b2a-ab68-4fcb8f924bcd.png)
 
-<br>
+
 
   
 Open-source principles to align engineering and leadership teams. Build is published onto <a href="https://principles.dev">principles.dev<a>. Contributors welcome.
-<br ><br ><br >
+<br ><br >
 <img src="https://img.shields.io/badge/License-CC%20BY--SA%204.0*-blue" />
 <img src="https://img.shields.io/badge/License-GPLv3*-blue" />
 <img src="https://img.shields.io/badge/Since-2019-blue" />
