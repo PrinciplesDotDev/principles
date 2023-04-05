@@ -1,10 +1,12 @@
 
 
 <div align="center">
-<h3>Open-source Principles</h3>
+  
+![github mainpage-3](https://user-images.githubusercontent.com/610638/230158216-60ed8344-df2f-49f9-a247-f0f6cfffb27a.png)
+<br><br>
 
-<img src="https://user-images.githubusercontent.com/610638/124029515-2370be80-d9ed-11eb-97e4-d20e54b51423.png" height="96" /><br><br >
-Helping you learn the how to align behaviours - Open-source principles to align engineering and leadership teams. Build is published onto <a href="https://principles.dev">principles.dev<a>. Contributors welcome.
+  
+Open-source principles to align engineering and leadership teams. Build is published onto <a href="https://principles.dev">principles.dev<a>. Contributors welcome.
 <br ><br ><br >
 <img src="https://img.shields.io/badge/License-CC%20BY--SA%204.0*-blue" />
 <img src="https://img.shields.io/badge/License-GPLv3*-blue" />
@@ -20,17 +22,25 @@ Helping you learn the how to align behaviours - Open-source principles to align 
 
 
 
-![principle-capability-behavior-triangle](https://user-images.githubusercontent.com/610638/128890485-44f2838d-aa28-41df-be31-8b2fe5bbb2d4.jpg)
-
-
-
 ## Contributing
+  
+We are a group of contributors with a goal to make software engineering and leadership behaviors visible, to make software better for everyone. 
 
-We are a small group of contributors with a goal to make software engineering and leadership behaviors visible, to make software better for everyone. 
+You can create your principle by using the [Editor](https://principles.dev/editor/), reading the [how to write a principle](https://principles.dev/documentation/#how-to-write-a-principle_1) and the <a href="https://github.com/PrinciplesDotDev/principles/blob/master/CONTRIBUTING.md">Contributing.md</a>
 
-You can create your principle by using the [Editor](https://principles.dev/editor/) and reading [how to write a principle](https://principles.dev/documentation/#how-to-write-a-principle_1).
+  <br><br>
+  <a href="https://principles.dev/editor/">
+ 
 
-If you'd let to get involved and share your own principles, read the <a href="https://github.com/PrinciplesDotDev/principles/blob/master/CONTRIBUTING.md">Contributing.md</a>
+![editor3](https://user-images.githubusercontent.com/610638/230163658-ec553cb4-ad91-42d2-8021-5b33ffe1441e.png)
+
+    
+    
+  </a>
+
+  
+
+
 
 
 ## Keeping in touch
@@ -50,3 +60,13 @@ Principles may also be licensed under a dual GPLv3.0 license to allow software d
 e.g. ```allow_dual_licensing_to_GPLv3 = true```
   
 For more information on licensing, read here: https://principles.dev/license/
+
+ 
+<div align="center">
+<br><br>
+  <a href="https://principles.dev">
+  <img src="https://user-images.githubusercontent.com/610638/124029515-2370be80-d9ed-11eb-97e4-d20e54b51423.png" height="96" />
+  </a>
+ <br><br>
+</div>
+
