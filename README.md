@@ -4,7 +4,7 @@
 
 ![open-source-principles](https://user-images.githubusercontent.com/610638/230180036-35fed7c7-6655-4b2a-ab68-4fcb8f924bcd.png)
 
-<br><br>
+<br>
 
   
 Open-source principles to align engineering and leadership teams. Build is published onto <a href="https://principles.dev">principles.dev<a>. Contributors welcome.
