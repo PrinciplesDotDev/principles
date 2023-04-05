@@ -25,7 +25,7 @@ Open-source principles to align engineering and leadership teams. Build is publi
   
 We are a group of contributors with a goal to make software engineering and leadership behaviors visible, to make software better for everyone. 
 
-You can create your principle by using the [Editor](https://principles.dev/editor/), reading the [how to write a principle](https://principles.dev/documentation/#how-to-write-a-principle_1) and, of course, the <a href="https://github.com/PrinciplesDotDev/principles/blob/master/CONTRIBUTING.md">Contributing.md</a>
+You can create your principle by using the [Editor](https://principles.dev/editor/), reading the [how to write a principle](https://principles.dev/documentation/#how-to-write-a-principle_1) and, of course, the <a href="https://github.com/PrinciplesDotDev/principles/blob/master/CONTRIBUTING.md">Contributing.md</a>. Once done you can submit a pull request back to this repo. 
 
   <br><br>
   <a href="https://principles.dev/editor/">
