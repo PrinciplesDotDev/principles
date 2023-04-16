@@ -5,7 +5,7 @@ tags = ["code", "comprehension", "cognitive", "individual", "focused","style", "
 license = "CC BY-SA 4.0"
 allow_dual_licensing_to_GPLv3 = true
 authors= []
-contributors = ["AdamCraven", "streamer45"]
+contributors = ["AdamCraven", "streamer45", "AndrewCraven"]
 uid = "amber-finch-jordain"
 +++
 
