@@ -83,7 +83,7 @@ Or do this:
 
 ```python
 valid = self.is_valid()
-invalid = not valid()
+invalid = not valid
 
 if invalid:
 	return
