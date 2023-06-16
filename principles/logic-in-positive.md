@@ -4,8 +4,8 @@ summary = "Logic should ask, \"Is this true?\" instead of \"Is this not true?\""
 tags = ["code", "comprehension", "cognitive", "individual", "focused","style", "practices"]
 license = "CC BY-SA 4.0"
 allow_dual_licensing_to_GPLv3 = true
-authors= []
-contributors = ["AdamCraven", "streamer45", "AndrewCraven"]
+authors= ["AdamCraven"]
+contributors = ["streamer45", "AndrewCraven"]
 uid = "amber-finch-jordain"
 +++
 
@@ -28,13 +28,12 @@ The first statement is written in the negative:
 
 ```js
 function isBlackOrWhite(black, white) {
-    if (!black && !white) {
-        return false;
-    }
-    return true;
+  if (!black && !white) {
+    return false;
+  }
+  return true;
 }
 ```
-
 
 The statement's logic in plain English is: "not black and not white". These are two negative statements, which further increases the difficulty in understanding.
 
@@ -42,10 +41,10 @@ We can write this in the positive form, and the meaning becomes far clearer:
 
 ```js
 function isBlackOrWhite(black, white) {
-    if (black || white) {
-        return true;
-    }
-    return false;
+  if (black || white) {
+    return true;
+  }
+  return false;
 }
 ```
 
@@ -53,22 +52,15 @@ function isBlackOrWhite(black, white) {
 
 Not creates an inversion that is harder to understand. You should avoid using not and instead use words that are more precise in their meaning.
 
-
-
 `isNotValid` -> `isInvalid`<br>
 `isDeliveryNotOnTime` -> `isDeliveryLate`<br>
 `isUserNotAdmin` -> `isUserNonAdmin` or `isUserUnprivileged`<br>
-
-
-
 
 ### When using negative statements, put them as a value - after the variable
 
 You cannot avoid negative statements, as logic is often about exclusion. Variables also need to be defined in a way that meets your needs. Instead, you can move the negative logic to after the variable definition (the value):
 
-
 `variable = !value` <br>
-
 
 Do this:
 
@@ -104,7 +96,6 @@ Moving negative logic after the variable definition can create double-negative l
 
 `variable1 = value && value` <br>
 `variable2 = !variable1` <br>
-
 
 Do this:
 
